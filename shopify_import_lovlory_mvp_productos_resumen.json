@@ -1,0 +1,21 @@
+{
+  "input": "E:\\Projectes web\\Globals\\sexshoplorena\\wc-product-export-29-6-2026-marcas-mvp_shopify_taxonomia.csv",
+  "output": "E:\\Projectes web\\Globals\\sexshoplorena\\shopify_import_lovlory_mvp_productos.csv",
+  "source_products": 189,
+  "csv_rows": 668,
+  "product_rows": 189,
+  "additional_image_rows": 479,
+  "columns": 42,
+  "products_by_status": {
+    "active": 186,
+    "draft": 3
+  },
+  "draft_reasons": {
+    "sin precio": 3,
+    "sin imagen": 2
+  },
+  "unique_handles": 189,
+  "duplicate_handles": 0,
+  "products_without_price": 3,
+  "products_without_images": 2
+}

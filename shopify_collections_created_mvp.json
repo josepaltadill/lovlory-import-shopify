@@ -1,0 +1,90 @@
+{
+  "created_at": "2026-06-29T14:27:58Z",
+  "note": "Colecciones creadas en Shopify para el MVP LovLory. Estan vacias hasta importar productos con los tags/vendor correspondientes.",
+  "collections": [
+    {
+      "title": "Juguetes Eróticos",
+      "handle": "juguetes-eroticos",
+      "id": "gid://shopify/Collection/686721663319",
+      "rule": "TAG EQUALS juguetes-eroticos"
+    },
+    {
+      "title": "Para Él",
+      "handle": "para-el",
+      "id": "gid://shopify/Collection/686721696087",
+      "rule": "TAG EQUALS publico-el"
+    },
+    {
+      "title": "Cosmética Íntima",
+      "handle": "cosmetica-intima",
+      "id": "gid://shopify/Collection/686721761623",
+      "rule": "TAG EQUALS cosmetica-intima"
+    },
+    {
+      "title": "Para Parejas / Todes",
+      "handle": "para-parejas-todes",
+      "id": "gid://shopify/Collection/686721794391",
+      "rule": "TAG EQUALS publico-parejas-todes"
+    },
+    {
+      "title": "Lubricantes",
+      "handle": "lubricantes",
+      "id": "gid://shopify/Collection/686721827159",
+      "rule": "TAG EQUALS subtipo-lubricante"
+    },
+    {
+      "title": "Vibradores y Succionadores",
+      "handle": "vibradores-y-succionadores",
+      "id": "gid://shopify/Collection/686721859927",
+      "rule": "TAG EQUALS tipo-vibrador OR TAG EQUALS tipo-succionador"
+    },
+    {
+      "title": "Para Ella",
+      "handle": "para-ella",
+      "id": "gid://shopify/Collection/686721892695",
+      "rule": "TAG EQUALS publico-ella"
+    },
+    {
+      "title": "Cuidado del suelo pélvico",
+      "handle": "cuidado-del-suelo-pelvico",
+      "id": "gid://shopify/Collection/686721958231",
+      "rule": "TAG EQUALS suelo-pelvico"
+    },
+    {
+      "title": "Novedades",
+      "handle": "novedades",
+      "id": "gid://shopify/Collection/686722023767",
+      "rule": "TAG EQUALS novedad"
+    },
+    {
+      "title": "Ofertas",
+      "handle": "ofertas",
+      "id": "gid://shopify/Collection/686722056535",
+      "rule": "TAG EQUALS oferta"
+    },
+    {
+      "title": "ORGIE",
+      "handle": "orgie",
+      "id": "gid://shopify/Collection/686722089303",
+      "rule": "VENDOR EQUALS ORGIE"
+    },
+    {
+      "title": "SVAKOM",
+      "handle": "svakom",
+      "id": "gid://shopify/Collection/686722154839",
+      "rule": "VENDOR EQUALS SVAKOM"
+    },
+    {
+      "title": "TENGA",
+      "handle": "tenga",
+      "id": "gid://shopify/Collection/686722187607",
+      "rule": "VENDOR EQUALS TENGA"
+    },
+    {
+      "title": "MISTRESS",
+      "handle": "mistress",
+      "id": "gid://shopify/Collection/686722220375",
+      "rule": "VENDOR EQUALS MISTRESS"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "input": "E:\\Projectes web\\Globals\\sexshoplorena\\wc-product-export-29-6-2026-marcas-mvp_limpio.csv",
+  "output": "E:\\Projectes web\\Globals\\sexshoplorena\\wc-product-export-29-6-2026-marcas-mvp_shopify_taxonomia.csv",
+  "rows": 189,
+  "columns": 38,
+  "new_columns": [
+    "Vendor Shopify",
+    "Colecciones comerciales Shopify",
+    "Colección marca Shopify",
+    "Product type Shopify",
+    "Tags Shopify",
+    "custom.publico",
+    "custom.subtipo_cosmetica",
+    "custom.uso",
+    "custom.efecto",
+    "custom.estilo_lovlory",
+    "custom.nivel_iniciacion",
+    "custom.ocasion",
+    "Revisar manualmente",
+    "Motivo revisión"
+  ],
+  "by_vendor": {
+    "TENGA": 22,
+    "MISTRESS": 18,
+    "ORGIE": 85,
+    "SVAKOM": 64
+  },
+  "by_collection": {
+    "Juguetes Eróticos": 104,
+    "Para Él": 22,
+    "Cosmética Íntima": 87,
+    "Para Parejas / Todes": 85,
+    "Lubricantes": 25,
+    "Vibradores y Succionadores": 37,
+    "Para Ella": 2,
+    "Cuidado del suelo pélvico": 2
+  },
+  "by_product_type": {
+    "Masturbador masculino": 22,
+    "Muñeca realista": 18,
+    "Cosmética íntima": 85,
+    "Juguete erótico": 25,
+    "Vibrador": 37,
+    "Ejercitador suelo pélvico": 2
+  },
+  "manual_review_rows": 60,
+  "manual_review_reasons": {
+    "Confirmar si las muñecas realistas deben tener colección propia o quedar solo dentro de Juguetes Eróticos/Para Él.": 18,
+    "ORGIE sin subtipo cosmético claro; revisar si es lubricante, gel con efecto, oral, masaje u otro.": 17,
+    "SVAKOM sin subtipo claro por categoría/título; revisar si es vibrador, pareja, kegel u otro juguete. | Sin precio normal.": 1,
+    "SVAKOM sin subtipo claro por categoría/título; revisar si es vibrador, pareja, kegel u otro juguete.": 22,
+    "SVAKOM sin subtipo claro por categoría/título; revisar si es vibrador, pareja, kegel u otro juguete. | Categoría original Sin categorizar. | Sin precio normal. | Sin imágenes.": 2
+  },
+  "top_tags": {
+    "novedad": 145,
+    "juguetes-eroticos": 104,
+    "vendor-orgie": 85,
+    "cosmetica-intima": 85,
+    "publico-parejas-todes": 85,
+    "vendor-svakom": 64,
+    "premium": 64,
+    "publico-el": 40,
+    "publico-ella": 39,
+    "tipo-vibrador": 37,
+    "punto-g": 37,
+    "showroom": 36,
+    "subtipo-gel-efecto": 26,
+    "subtipo-lubricante": 25,
+    "vendor-tenga": 22,
+    "tipo-masturbador": 22,
+    "vendor-mistress": 18,
+    "tipo-muneca-realista": 18,
+    "tamano-real": 18,
+    "efecto-frio": 18,
+    "subtipo-gel-oral": 17,
+    "sin-vibracion": 16,
+    "efecto-calor": 11,
+    "suelo-pelvico": 2
+  }
+}

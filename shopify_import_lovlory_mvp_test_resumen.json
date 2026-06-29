@@ -1,0 +1,76 @@
+{
+  "source": "E:\\Projectes web\\Globals\\sexshoplorena\\shopify_import_lovlory_mvp_productos.csv",
+  "output": "E:\\Projectes web\\Globals\\sexshoplorena\\shopify_import_lovlory_mvp_test.csv",
+  "selected_handles": [
+    "tenga-crysta-masturbador-masculino-ball",
+    "acqua-crocante-monoi",
+    "alex-neo-2",
+    "barbara-love-doll",
+    "acrylic-display"
+  ],
+  "csv_rows": 26,
+  "product_rows": 5,
+  "image_rows_total": 26,
+  "products": [
+    {
+      "handle": "tenga-crysta-masturbador-masculino-ball",
+      "title": "TENGA CRYSTA MASTURBADOR MASCULINO BALL",
+      "vendor": "TENGA",
+      "type": "Masturbador masculino",
+      "status": "active",
+      "price": "59.94",
+      "images": 5,
+      "tags": "vendor-tenga, publico-el, tipo-masturbador, juguetes-eroticos, sin-vibracion"
+    },
+    {
+      "handle": "barbara-love-doll",
+      "title": "Barbara Love Doll",
+      "vendor": "MISTRESS",
+      "type": "Muñeca realista",
+      "status": "active",
+      "price": "1397.95",
+      "images": 14,
+      "tags": "vendor-mistress, publico-el, tipo-muneca-realista, juguetes-eroticos, tamano-real"
+    },
+    {
+      "handle": "acqua-crocante-monoi",
+      "title": "Acqua Crocante Monoi",
+      "vendor": "ORGIE",
+      "type": "Cosmética íntima",
+      "status": "active",
+      "price": "24.99",
+      "images": 1,
+      "tags": "vendor-orgie, novedad, showroom, cosmetica-intima, publico-parejas-todes"
+    },
+    {
+      "handle": "acrylic-display",
+      "title": "ACRYLIC DISPLAY",
+      "vendor": "SVAKOM",
+      "type": "Juguete erótico",
+      "status": "draft",
+      "price": "0.00",
+      "images": 1,
+      "tags": "vendor-svakom, novedad, juguetes-eroticos, premium"
+    },
+    {
+      "handle": "alex-neo-2",
+      "title": "ALEX NEO 2",
+      "vendor": "SVAKOM",
+      "type": "Juguete erótico",
+      "status": "active",
+      "price": "164.95",
+      "images": 5,
+      "tags": "vendor-svakom, novedad, juguetes-eroticos, premium"
+    }
+  ],
+  "status_counts": {
+    "active": 4,
+    "draft": 1
+  },
+  "vendor_counts": {
+    "TENGA": 1,
+    "MISTRESS": 1,
+    "ORGIE": 1,
+    "SVAKOM": 2
+  }
+}

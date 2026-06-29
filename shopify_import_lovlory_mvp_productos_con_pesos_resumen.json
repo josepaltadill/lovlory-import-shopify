@@ -1,0 +1,168 @@
+{
+  "source_import": "shopify_import_lovlory_mvp_productos.csv",
+  "output_import": "shopify_import_lovlory_mvp_productos_con_pesos.csv",
+  "products_already_had_weight": 106,
+  "products_updated_from_description": 12,
+  "products_still_zero_weight": 71,
+  "updated": [
+    {
+      "handle": "barbara-love-doll",
+      "title": "Barbara Love Doll",
+      "sku": "MSTRS00053",
+      "grams": 33000
+    },
+    {
+      "handle": "nora-love-doll",
+      "title": "Nora Love Doll",
+      "sku": "MSTRS00009",
+      "grams": 40000
+    },
+    {
+      "handle": "scarlett-love-doll",
+      "title": "Scarlett Love Doll",
+      "sku": "MSTRS00001",
+      "grams": 48000
+    },
+    {
+      "handle": "busty-lady-half-body-sex-doll",
+      "title": "Busty Lady Half Body Sex Doll",
+      "sku": "MSTRS00013",
+      "grams": 5900
+    },
+    {
+      "handle": "zoey-love-doll",
+      "title": "Zoey Love Doll",
+      "sku": "MSTRS00003",
+      "grams": 49000
+    },
+    {
+      "handle": "isabella-love-doll",
+      "title": "Isabella Love Doll",
+      "sku": "MSTRS00041",
+      "grams": 37000
+    },
+    {
+      "handle": "audrey-love-doll",
+      "title": "Audrey Love Doll",
+      "sku": "MSTRS00006",
+      "grams": 39000
+    },
+    {
+      "handle": "kevin-love-doll",
+      "title": "Kevin Love Doll",
+      "sku": "MSTRS00007",
+      "grams": 52000
+    },
+    {
+      "handle": "daniel-love-doll",
+      "title": "Daniel Love Doll",
+      "sku": "MSTRS00002",
+      "grams": 45000
+    },
+    {
+      "handle": "sebastian-love-doll",
+      "title": "Sebastian Love Doll",
+      "sku": "MSTRS00056",
+      "grams": 45000
+    },
+    {
+      "handle": "aurora-love-doll",
+      "title": "Aurora Love Doll",
+      "sku": "MSTRS00005",
+      "grams": 59000
+    },
+    {
+      "handle": "emily-love-doll",
+      "title": "Emily Love Doll",
+      "sku": "MSTRS00110",
+      "grams": 55000
+    }
+  ],
+  "extraction_examples": [
+    {
+      "sku": "D-226945",
+      "nombre": "TENGA - MASTURBADOR GEO AQUA",
+      "grams": 200
+    },
+    {
+      "sku": "D-226947",
+      "nombre": "TENGA - MASTURBATOR GEO GLACIER",
+      "grams": 200
+    },
+    {
+      "sku": "D-226986",
+      "nombre": "TENGA - FLIP 0 ZERO ELECTRONIC VIBRATION",
+      "grams": 720
+    },
+    {
+      "sku": "D-228897",
+      "nombre": "TENGA - FLIP 0 ZERO ROJO CON CALENTADOR",
+      "grams": 482
+    },
+    {
+      "sku": "D-232974",
+      "nombre": "TENGA - FLEX FIZZY GREEN MASTURBADOR",
+      "grams": 365
+    },
+    {
+      "sku": "MSTRS00053",
+      "nombre": "Barbara Love Doll",
+      "grams": 33000
+    },
+    {
+      "sku": "MSTRS00009",
+      "nombre": "Nora Love Doll",
+      "grams": 40000
+    },
+    {
+      "sku": "MSTRS00001",
+      "nombre": "Scarlett Love Doll",
+      "grams": 48000
+    },
+    {
+      "sku": "MSTRS00013",
+      "nombre": "Busty Lady Half Body Sex Doll",
+      "grams": 5900
+    },
+    {
+      "sku": "MSTRS00003",
+      "nombre": "Zoey Love Doll",
+      "grams": 49000
+    },
+    {
+      "sku": "MSTRS00041",
+      "nombre": "Isabella Love Doll",
+      "grams": 37000
+    },
+    {
+      "sku": "MSTRS00006",
+      "nombre": "Audrey Love Doll",
+      "grams": 39000
+    },
+    {
+      "sku": "MSTRS00007",
+      "nombre": "Kevin Love Doll",
+      "grams": 52000
+    },
+    {
+      "sku": "MSTRS00002",
+      "nombre": "Daniel Love Doll",
+      "grams": 45000
+    },
+    {
+      "sku": "MSTRS00056",
+      "nombre": "Sebastian Love Doll",
+      "grams": 45000
+    },
+    {
+      "sku": "MSTRS00005",
+      "nombre": "Aurora Love Doll",
+      "grams": 59000
+    },
+    {
+      "sku": "MSTRS00110",
+      "nombre": "Emily Love Doll",
+      "grams": 55000
+    }
+  ]
+}

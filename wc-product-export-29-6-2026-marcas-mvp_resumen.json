@@ -1,0 +1,26 @@
+{
+  "source": "E:\\Projectes web\\Globals\\sexshoplorena\\wc-product-export-29-6-2026-1782741544086.csv",
+  "output": "E:\\Projectes web\\Globals\\sexshoplorena\\wc-product-export-29-6-2026-marcas-mvp.csv",
+  "total_rows": 3875,
+  "kept_rows_written": 189,
+  "kept_rows_reopened": 189,
+  "removed_rows": 3686,
+  "target_brands": [
+    "MISTRESS",
+    "ORGIE",
+    "SVAKOM",
+    "TENGA"
+  ],
+  "kept_by_brand": {
+    "TENGA": 22,
+    "MISTRESS": 18,
+    "ORGIE": 85,
+    "SVAKOM": 64
+  },
+  "kept_by_type": {
+    "simple": 189
+  },
+  "outside_brands_after_filter": [],
+  "field_count": 98,
+  "output_size": 513575
+}

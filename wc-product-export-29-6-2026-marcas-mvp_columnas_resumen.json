@@ -1,0 +1,976 @@
+{
+  "input": "E:\\Projectes web\\Globals\\sexshoplorena\\wc-product-export-29-6-2026-marcas-mvp.csv",
+  "rows": 189,
+  "columns": 98,
+  "empty_columns": [
+    "Clase de impuesto",
+    "Nota de compra",
+    "Precio rebajado",
+    "Clase de envío",
+    "Límite de descargas",
+    "Días de caducidad de la descarga",
+    "Superior",
+    "Productos agrupados",
+    "URL externa",
+    "Texto del botón",
+    "Meta: _yoast_wpseo_primary_product_brand",
+    "Meta: _yoast_wpseo_primary_yith_product_brand",
+    "Meta: _yoast_wpseo_wordproof_timestamp",
+    "Meta: _yoast_wpseo_primary_fb_product_set",
+    "Meta: __is_newly_created_product",
+    "Meta: _is_new",
+    "Meta: hide_related",
+    "Nombre del atributo 1",
+    "Valor(es) del atributo 1",
+    "Atributo visible 1",
+    "Atributo global 1",
+    "Nombre del atributo 2",
+    "Valor(es) del atributo 2",
+    "Atributo visible 2",
+    "Atributo global 2",
+    "Nombre del atributo 3",
+    "Valor(es) del atributo 3",
+    "Atributo visible 3",
+    "Atributo global 3",
+    "Nombre del atributo 4",
+    "Valor(es) del atributo 4",
+    "Atributo visible 4",
+    "Atributo global 4",
+    "Nombre del atributo 5",
+    "Valor(es) del atributo 5",
+    "Atributo visible 5",
+    "Atributo global 5"
+  ],
+  "non_empty_columns": [
+    "ID",
+    "Tipo",
+    "SKU",
+    "GTIN, UPC, EAN o ISBN",
+    "Nombre",
+    "Publicado",
+    "¿Está destacado?",
+    "Visibilidad en el catálogo",
+    "Descripción corta",
+    "Descripción",
+    "Día en que empieza el precio rebajado",
+    "Día en que termina el precio rebajado",
+    "Estado del impuesto",
+    "¿Existencias?",
+    "Inventario",
+    "Cantidad de bajo inventario",
+    "¿Permitir reservas de productos agotados?",
+    "¿Vendido individualmente?",
+    "Peso (g)",
+    "Longitud (cm)",
+    "Anchura (cm)",
+    "Altura (cm)",
+    "¿Permitir valoraciones de clientes?",
+    "Precio normal",
+    "Categorías",
+    "Etiquetas",
+    "Imágenes",
+    "Ventas dirigidas",
+    "Ventas cruzadas",
+    "Posición",
+    "Marcas",
+    "Meta: _barcode",
+    "Meta: _wpm_gtin_code",
+    "Meta: _costprice",
+    "Meta: _dlid",
+    "Meta: _wp_old_date",
+    "Meta: rs_page_bg_color",
+    "Meta: _yoast_wpseo_focuskw",
+    "Meta: _yoast_wpseo_metadesc",
+    "Meta: attribute_pa_talla",
+    "Meta: attribute_pa_color",
+    "Meta: attribute_pa_size",
+    "Meta: _wc_gla_sync_status",
+    "Meta: _last_editor_used_jetpack",
+    "Meta: video_position",
+    "Meta: _yoast_wpseo_primary_product_cat",
+    "Meta: _yoast_wpseo_content_score",
+    "Meta: _yoast_wpseo_estimated-reading-time-minutes",
+    "Meta: _wp_page_template",
+    "Meta: _wc_gla_visibility",
+    "Meta: _int_id",
+    "Meta: _wcct_goaldeal_sold_98164",
+    "Meta: _yoast_wpseo_linkdex",
+    "Meta: _woo_st_enable_unit_pricing",
+    "Meta: _woo_st_show_total_volume",
+    "Meta: _oembed_d20eb005277c7c3854b309c0ce4a23b7",
+    "Meta: _oembed_time_d20eb005277c7c3854b309c0ce4a23b7",
+    "Meta: _yoast_wpseo_is_cornerstone",
+    "Meta: __first_variation_id",
+    "Meta: _wp_desired_post_slug",
+    "Meta: mute_video"
+  ],
+  "stats": [
+    {
+      "field": "ID",
+      "non_empty": 189,
+      "empty": 0,
+      "unique": 189,
+      "samples": [
+        "32702",
+        "185323",
+        "185492"
+      ]
+    },
+    {
+      "field": "Tipo",
+      "non_empty": 189,
+      "empty": 0,
+      "unique": 1,
+      "samples": [
+        "simple"
+      ]
+    },
+    {
+      "field": "SKU",
+      "non_empty": 189,
+      "empty": 0,
+      "unique": 189,
+      "samples": [
+        "D-226949",
+        "D-216577",
+        "D-226945"
+      ]
+    },
+    {
+      "field": "GTIN, UPC, EAN o ISBN",
+      "non_empty": 163,
+      "empty": 26,
+      "unique": 163,
+      "samples": [
+        "5999560511178",
+        "5999560515053",
+        "5999560514971"
+      ]
+    },
+    {
+      "field": "Nombre",
+      "non_empty": 189,
+      "empty": 0,
+      "unique": 189,
+      "samples": [
+        "TENGA CRYSTA MASTURBADOR MASCULINO BALL",
+        "TENGA - FLEX MASTUBADOR MASCULINO BLANCO",
+        "TENGA - MASTURBADOR GEO AQUA"
+      ]
+    },
+    {
+      "field": "Publicado",
+      "non_empty": 189,
+      "empty": 0,
+      "unique": 2,
+      "samples": [
+        "1",
+        "-1"
+      ]
+    },
+    {
+      "field": "¿Está destacado?",
+      "non_empty": 189,
+      "empty": 0,
+      "unique": 2,
+      "samples": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "field": "Visibilidad en el catálogo",
+      "non_empty": 189,
+      "empty": 0,
+      "unique": 1,
+      "samples": [
+        "visible"
+      ]
+    },
+    {
+      "field": "Descripción corta",
+      "non_empty": 189,
+      "empty": 0,
+      "unique": 189,
+      "samples": [
+        "TENGA CRYSTA STROKER BALL",
+        "REF:  D-216577",
+        "REF:  D-226945"
+      ]
+    },
+    {
+      "field": "Descripción",
+      "non_empty": 189,
+      "empty": 0,
+      "unique": 188,
+      "samples": [
+        "Con una novedosa técnica en los métodos de fabricación, las partes flotantes integradas en el suave elastómero de crysta crean una experiencia totalmente nueva. Adapta las sensaciones con solo ajustar la fuerza y los puntos de agarre. ¡Descubre una forma de placer que cambia continuamente!\r\\n\r\\nBall\r\\n<ul>\r\\n \t<li>Dinámicas bolas flotantes para disfrutar del placer en movimiento.</li>\r\\n \t<li>Tamaño del producto57×57×90mm / (An.)×(L.)×(Al.)</li>\r\\n \t<li>Peso del producto220gInformación adicional</li>\r\\n \t<li>Reutilizable</li>\r\\n \t<li>Lubricante incluido</li>\r\\n</ul>",
+        "<p>El Flex blanco de Tenga se trata de un masturbador &uacute;nico dise&ntilde;ado para obtener un placer sin igual cuando tu quieras. Este juguete tiene un dise&ntilde;o texturado y en espiral para que puedas sujetarlo y apretarlo sin problemas&nbsp;</p><p>Este juguete incorpora&nbsp;un satisfactorio efecto succi&oacute;n&nbsp;interno que puede puedes controlar simplemente poniendo el dedo sobre el agujero para hacer la masturbaci&oacute;n mas satisfactoria y al gusto. Se recomienda el uso de lubricante base agua para un m&aacute;ximo placer.&nbsp;</p><p>El Flex es un masturbador flexible con una textura hecha para disfrutar del placer. Adem&aacute;s es muy f&aacute;cil de limpiar y mantener.&nbsp;</p><ul>\t<li>Texturado interior y efecto succi&oacute;n din&aacute;mico.&nbsp;</li>\t<li>Longitud total: 17 cm&nbsp;</li>\t<li>&#8203;Color. Blanco</li></ul>",
+        "<p>Impresionantes detalles dimensionales.</p><p>Destacadas sensaciones geom&eacute;tricas.</p><p>Detalles intrincados, inspirados en las matem&aacute;ticas y la naturaleza, adornan el exterior del TENGA GEO.</p><p>Dale la vuelta al GEO y estas formas geom&eacute;tricas se transformar&aacute;n en detalles internos densamente empaquetados.</p><p>Hecho de un material personalizado grueso y suave, disfrute de las sensaciones que se encuentran en estos intrincados detalles.</p><ul>\t<li>Invertir el producto para su uso</li>\t<li>Art&iacute;culo reutilizable y f&aacute;cil de lavar (se incluye una bolsa de muestra de loci&oacute;n)</li>\t<li>Incluye soporte para secado higi&eacute;nico</li></ul><p>Aqua: Cantos fluidos para un placer directo y ondulado.</p><p>Especificaciones:</p><p>Tama&ntilde;o del producto: 87x87x86 mm</p><p>Peso del producto: 200 g</p><p>Otra informaci&oacute;n: lubricante de muestra reutilizable incluido</p>"
+      ]
+    },
+    {
+      "field": "Día en que empieza el precio rebajado",
+      "non_empty": 167,
+      "empty": 22,
+      "unique": 18,
+      "samples": [
+        "2025-04-25 13:08:03",
+        "2025-04-25 13:06:14",
+        "2025-04-25 13:08:02"
+      ]
+    },
+    {
+      "field": "Día en que termina el precio rebajado",
+      "non_empty": 167,
+      "empty": 22,
+      "unique": 3,
+      "samples": [
+        "2024-10-09 0:00:00",
+        "2024-10-09 23:59:59",
+        "2025-07-03 23:59:59"
+      ]
+    },
+    {
+      "field": "Estado del impuesto",
+      "non_empty": 189,
+      "empty": 0,
+      "unique": 2,
+      "samples": [
+        "taxable",
+        "none"
+      ]
+    },
+    {
+      "field": "Clase de impuesto",
+      "non_empty": 0,
+      "empty": 189,
+      "unique": 0,
+      "samples": []
+    },
+    {
+      "field": "¿Existencias?",
+      "non_empty": 189,
+      "empty": 0,
+      "unique": 3,
+      "samples": [
+        "1",
+        "0",
+        "backorder"
+      ]
+    },
+    {
+      "field": "Inventario",
+      "non_empty": 189,
+      "empty": 0,
+      "unique": 41,
+      "samples": [
+        "1",
+        "4",
+        "20"
+      ]
+    },
+    {
+      "field": "Cantidad de bajo inventario",
+      "non_empty": 189,
+      "empty": 0,
+      "unique": 1,
+      "samples": [
+        "1"
+      ]
+    },
+    {
+      "field": "¿Permitir reservas de productos agotados?",
+      "non_empty": 189,
+      "empty": 0,
+      "unique": 2,
+      "samples": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "field": "¿Vendido individualmente?",
+      "non_empty": 189,
+      "empty": 0,
+      "unique": 2,
+      "samples": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "field": "Peso (g)",
+      "non_empty": 106,
+      "empty": 83,
+      "unique": 70,
+      "samples": [
+        "380",
+        "360",
+        "354"
+      ]
+    },
+    {
+      "field": "Longitud (cm)",
+      "non_empty": 22,
+      "empty": 167,
+      "unique": 12,
+      "samples": [
+        "75",
+        "90",
+        "105"
+      ]
+    },
+    {
+      "field": "Anchura (cm)",
+      "non_empty": 22,
+      "empty": 167,
+      "unique": 15,
+      "samples": [
+        "75",
+        "170",
+        "105"
+      ]
+    },
+    {
+      "field": "Altura (cm)",
+      "non_empty": 22,
+      "empty": 167,
+      "unique": 11,
+      "samples": [
+        "115",
+        "100",
+        "110"
+      ]
+    },
+    {
+      "field": "¿Permitir valoraciones de clientes?",
+      "non_empty": 189,
+      "empty": 0,
+      "unique": 1,
+      "samples": [
+        "0"
+      ]
+    },
+    {
+      "field": "Nota de compra",
+      "non_empty": 0,
+      "empty": 189,
+      "unique": 0,
+      "samples": []
+    },
+    {
+      "field": "Precio rebajado",
+      "non_empty": 0,
+      "empty": 189,
+      "unique": 0,
+      "samples": []
+    },
+    {
+      "field": "Precio normal",
+      "non_empty": 186,
+      "empty": 3,
+      "unique": 74,
+      "samples": [
+        "59,94",
+        "39,99",
+        "44,95"
+      ]
+    },
+    {
+      "field": "Categorías",
+      "non_empty": 189,
+      "empty": 0,
+      "unique": 21,
+      "samples": [
+        "JUGUETES BIENESTAR > Juguetes para Hombres, JUGUETES BIENESTAR > Juguetes para Hombres > Masturbador sin vibración",
+        "JUGUETES BIENESTAR, JUGUETES BIENESTAR > Juguetes para Hombres, JUGUETES BIENESTAR > Juguetes para Hombres > Masturbador sin vibración",
+        "JUGUETES BIENESTAR, JUGUETES BIENESTAR > Juguetes para Hombres, JUGUETES BIENESTAR > Juguetes para Hombres > Masturbador sin vibración, SHOWROOM"
+      ]
+    },
+    {
+      "field": "Etiquetas",
+      "non_empty": 166,
+      "empty": 23,
+      "unique": 3,
+      "samples": [
+        "Real Dolls",
+        "DROGUERIA",
+        "JUGUETES BIENESTAR"
+      ]
+    },
+    {
+      "field": "Clase de envío",
+      "non_empty": 0,
+      "empty": 189,
+      "unique": 0,
+      "samples": []
+    },
+    {
+      "field": "Imágenes",
+      "non_empty": 187,
+      "empty": 2,
+      "unique": 187,
+      "samples": [
+        "https://sexshoplorena.com/wp-content/uploads/dl/img/img_94723_ce5e2dbecd77d4d971f0d50e9f307591_1.jpg, https://sexshoplorena.com/wp-content/uploads/dl/img/img_94720_5e2d73a18558602a83cc09a2c52e3aaf_1.jpg, https://sexshoplorena.com/wp-content/uploads/dl/img/img_94721_7a7d8ee24a7be3146acd478e21649c9f_1.jpg, https://sexshoplorena.com/wp-content/uploads/dl/img/img_94722_a3df9e5460a43fe55e707c6df59dd655_1.jpg, https://sexshoplorena.com/wp-content/uploads/dl/img/img_94724_ba21421ec0c086ed701d83c0911b14dc_1.jpg",
+        "https://sexshoplorena.com/wp-content/uploads/2024/05/img_64190_0f9ea8ea04d26ece03955311ab431ce5_1.jpg, https://sexshoplorena.com/wp-content/uploads/2024/05/img_64188_af334b7cea122567623e86513ad1dc9a_1.jpg, https://sexshoplorena.com/wp-content/uploads/2024/05/img_64187_ada9801d3b666eee374ebba9489fdfbc_1.jpg, https://sexshoplorena.com/wp-content/uploads/2024/05/img_64189_ff84bab102177fc427fc0e32b386aaac_1.jpg, https://sexshoplorena.com/wp-content/uploads/2024/05/img_64556_ffbf83e772d2aabf9287627857ce74c2_1.jpg",
+        "https://sexshoplorena.com/wp-content/uploads/2024/05/img_94698_0bb0562c18bbc1913e0b5c5f9ef545d2_1.jpg, https://sexshoplorena.com/wp-content/uploads/2024/05/img_94699_0657553b34111d6d36b64e89ad91f897_1.jpg, https://sexshoplorena.com/wp-content/uploads/2024/05/img_94700_322b3dbcbfa66576d7c06093d2d90e3c_1.jpg, https://sexshoplorena.com/wp-content/uploads/2024/05/img_94701_82a6a1e4bc3a42d808bbb0e1df0ec5d8_1.jpg, https://sexshoplorena.com/wp-content/uploads/2024/05/img_94702_b2ae867a66e6d45ec75c2344927ea77e_1.jpg"
+      ]
+    },
+    {
+      "field": "Límite de descargas",
+      "non_empty": 0,
+      "empty": 189,
+      "unique": 0,
+      "samples": []
+    },
+    {
+      "field": "Días de caducidad de la descarga",
+      "non_empty": 0,
+      "empty": 189,
+      "unique": 0,
+      "samples": []
+    },
+    {
+      "field": "Superior",
+      "non_empty": 0,
+      "empty": 189,
+      "unique": 0,
+      "samples": []
+    },
+    {
+      "field": "Productos agrupados",
+      "non_empty": 0,
+      "empty": 189,
+      "unique": 0,
+      "samples": []
+    },
+    {
+      "field": "Ventas dirigidas",
+      "non_empty": 1,
+      "empty": 188,
+      "unique": 1,
+      "samples": [
+        "1421416, 1421515, 1421340, 1421210, 1421227"
+      ]
+    },
+    {
+      "field": "Ventas cruzadas",
+      "non_empty": 1,
+      "empty": 188,
+      "unique": 1,
+      "samples": [
+        "1421319, 1421333, 1421326, 1421357, 1421539"
+      ]
+    },
+    {
+      "field": "URL externa",
+      "non_empty": 0,
+      "empty": 189,
+      "unique": 0,
+      "samples": []
+    },
+    {
+      "field": "Texto del botón",
+      "non_empty": 0,
+      "empty": 189,
+      "unique": 0,
+      "samples": []
+    },
+    {
+      "field": "Posición",
+      "non_empty": 189,
+      "empty": 0,
+      "unique": 1,
+      "samples": [
+        "0"
+      ]
+    },
+    {
+      "field": "Marcas",
+      "non_empty": 189,
+      "empty": 0,
+      "unique": 4,
+      "samples": [
+        "TENGA",
+        "MISTRESS",
+        "ORGIE"
+      ]
+    },
+    {
+      "field": "Meta: _barcode",
+      "non_empty": 189,
+      "empty": 0,
+      "unique": 1,
+      "samples": [
+        "3760221492288"
+      ]
+    },
+    {
+      "field": "Meta: _wpm_gtin_code",
+      "non_empty": 189,
+      "empty": 0,
+      "unique": 1,
+      "samples": [
+        "3760221492288"
+      ]
+    },
+    {
+      "field": "Meta: _costprice",
+      "non_empty": 189,
+      "empty": 0,
+      "unique": 1,
+      "samples": [
+        "11.76"
+      ]
+    },
+    {
+      "field": "Meta: _dlid",
+      "non_empty": 189,
+      "empty": 0,
+      "unique": 1,
+      "samples": [
+        "36563"
+      ]
+    },
+    {
+      "field": "Meta: _wp_old_date",
+      "non_empty": 189,
+      "empty": 0,
+      "unique": 5,
+      "samples": [
+        "2016-10-12",
+        "2025-07-07",
+        "2025-07-01"
+      ]
+    },
+    {
+      "field": "Meta: rs_page_bg_color",
+      "non_empty": 102,
+      "empty": 87,
+      "unique": 1,
+      "samples": [
+        "#ffffff"
+      ]
+    },
+    {
+      "field": "Meta: _yoast_wpseo_focuskw",
+      "non_empty": 189,
+      "empty": 0,
+      "unique": 161,
+      "samples": [
+        "TENGA CRYSTA MASTURBADOR MASCULINO BALL",
+        "TENGA - FLEX MASTUBADOR MASCULINO BLANCO",
+        "TENGA - MASTURBADOR GEO AQUA"
+      ]
+    },
+    {
+      "field": "Meta: _yoast_wpseo_metadesc",
+      "non_empty": 189,
+      "empty": 0,
+      "unique": 142,
+      "samples": [
+        "Con una novedosa técnica en los métodos de fabricación, las partes flotantes integradas en el suave elastómero de ... Paquete discreto en 24 h",
+        "El Flex blanco de Tenga se trata de un masturbador &uacute;nico dise&ntilde;ado para obtener un placer sin igual cuando ... Paquete discreto en 24 h",
+        "Impresionantes detalles dimensionales.Destacadas sensaciones geom&eacute;tricas.Detalles intrincados, inspirados en las ... Paquete discreto en 24 h"
+      ]
+    },
+    {
+      "field": "Meta: attribute_pa_talla",
+      "non_empty": 189,
+      "empty": 0,
+      "unique": 1,
+      "samples": [
+        "xxl-xxxl"
+      ]
+    },
+    {
+      "field": "Meta: attribute_pa_color",
+      "non_empty": 189,
+      "empty": 0,
+      "unique": 1,
+      "samples": [
+        "rojo"
+      ]
+    },
+    {
+      "field": "Meta: attribute_pa_size",
+      "non_empty": 189,
+      "empty": 0,
+      "unique": 1,
+      "samples": [
+        "s-m"
+      ]
+    },
+    {
+      "field": "Meta: _wc_gla_sync_status",
+      "non_empty": 174,
+      "empty": 15,
+      "unique": 2,
+      "samples": [
+        "pending",
+        "has-errors"
+      ]
+    },
+    {
+      "field": "Meta: _last_editor_used_jetpack",
+      "non_empty": 189,
+      "empty": 0,
+      "unique": 1,
+      "samples": [
+        "classic-editor"
+      ]
+    },
+    {
+      "field": "Meta: video_position",
+      "non_empty": 189,
+      "empty": 0,
+      "unique": 1,
+      "samples": [
+        "last"
+      ]
+    },
+    {
+      "field": "Meta: _yoast_wpseo_primary_product_cat",
+      "non_empty": 176,
+      "empty": 13,
+      "unique": 4,
+      "samples": [
+        "893",
+        "1548",
+        "1587"
+      ]
+    },
+    {
+      "field": "Meta: _yoast_wpseo_content_score",
+      "non_empty": 189,
+      "empty": 0,
+      "unique": 2,
+      "samples": [
+        "90",
+        "60"
+      ]
+    },
+    {
+      "field": "Meta: _yoast_wpseo_estimated-reading-time-minutes",
+      "non_empty": 189,
+      "empty": 0,
+      "unique": 5,
+      "samples": [
+        "2",
+        "4",
+        "1"
+      ]
+    },
+    {
+      "field": "Meta: _wp_page_template",
+      "non_empty": 189,
+      "empty": 0,
+      "unique": 1,
+      "samples": [
+        "default"
+      ]
+    },
+    {
+      "field": "Meta: _wc_gla_visibility",
+      "non_empty": 189,
+      "empty": 0,
+      "unique": 1,
+      "samples": [
+        "sync-and-show"
+      ]
+    },
+    {
+      "field": "Meta: _int_id",
+      "non_empty": 189,
+      "empty": 0,
+      "unique": 1,
+      "samples": [
+        "35069"
+      ]
+    },
+    {
+      "field": "Meta: _wcct_goaldeal_sold_98164",
+      "non_empty": 189,
+      "empty": 0,
+      "unique": 1,
+      "samples": [
+        "1"
+      ]
+    },
+    {
+      "field": "Meta: _yoast_wpseo_linkdex",
+      "non_empty": 189,
+      "empty": 0,
+      "unique": 13,
+      "samples": [
+        "49",
+        "62",
+        "52"
+      ]
+    },
+    {
+      "field": "Meta: _woo_st_enable_unit_pricing",
+      "non_empty": 21,
+      "empty": 168,
+      "unique": 1,
+      "samples": [
+        "no"
+      ]
+    },
+    {
+      "field": "Meta: _woo_st_show_total_volume",
+      "non_empty": 21,
+      "empty": 168,
+      "unique": 1,
+      "samples": [
+        "no"
+      ]
+    },
+    {
+      "field": "Meta: _yoast_wpseo_primary_product_brand",
+      "non_empty": 0,
+      "empty": 189,
+      "unique": 0,
+      "samples": []
+    },
+    {
+      "field": "Meta: _oembed_d20eb005277c7c3854b309c0ce4a23b7",
+      "non_empty": 12,
+      "empty": 177,
+      "unique": 1,
+      "samples": [
+        "<blockquote class=\"tiktok-embed\" cite=\"https://www.tiktok.com/@sexshoplorena\" data-unique-id=\"sexshoplorena\" data-embed-from=\"oembed\" data-embed-type=\"creator\" style=\"max-width:780px; min-width:288px;\"> <section> <a target=\"_blank\" href=\"https://www.tiktok.com/@sexshoplorena?refer=creator_embed\">@sexshoplorena</a> </section> </blockquote> <script async src=\"https://www.tiktok.com/embed.js\"></script>"
+      ]
+    },
+    {
+      "field": "Meta: _oembed_time_d20eb005277c7c3854b309c0ce4a23b7",
+      "non_empty": 12,
+      "empty": 177,
+      "unique": 12,
+      "samples": [
+        "1752421399",
+        "1752432116",
+        "1752438032"
+      ]
+    },
+    {
+      "field": "Meta: _yoast_wpseo_primary_yith_product_brand",
+      "non_empty": 0,
+      "empty": 189,
+      "unique": 0,
+      "samples": []
+    },
+    {
+      "field": "Meta: _yoast_wpseo_wordproof_timestamp",
+      "non_empty": 0,
+      "empty": 189,
+      "unique": 0,
+      "samples": []
+    },
+    {
+      "field": "Meta: _yoast_wpseo_primary_fb_product_set",
+      "non_empty": 0,
+      "empty": 189,
+      "unique": 0,
+      "samples": []
+    },
+    {
+      "field": "Meta: __is_newly_created_product",
+      "non_empty": 0,
+      "empty": 189,
+      "unique": 0,
+      "samples": []
+    },
+    {
+      "field": "Meta: _is_new",
+      "non_empty": 0,
+      "empty": 189,
+      "unique": 0,
+      "samples": []
+    },
+    {
+      "field": "Meta: _yoast_wpseo_is_cornerstone",
+      "non_empty": 1,
+      "empty": 188,
+      "unique": 1,
+      "samples": [
+        "1"
+      ]
+    },
+    {
+      "field": "Meta: hide_related",
+      "non_empty": 0,
+      "empty": 189,
+      "unique": 0,
+      "samples": []
+    },
+    {
+      "field": "Meta: __first_variation_id",
+      "non_empty": 1,
+      "empty": 188,
+      "unique": 1,
+      "samples": [
+        "118787"
+      ]
+    },
+    {
+      "field": "Meta: _wp_desired_post_slug",
+      "non_empty": 1,
+      "empty": 188,
+      "unique": 1,
+      "samples": [
+        "nina-kiki-lubricante-sabor-a-chicle-125ml"
+      ]
+    },
+    {
+      "field": "Meta: mute_video",
+      "non_empty": 1,
+      "empty": 188,
+      "unique": 1,
+      "samples": [
+        "unmute"
+      ]
+    },
+    {
+      "field": "Nombre del atributo 1",
+      "non_empty": 0,
+      "empty": 189,
+      "unique": 0,
+      "samples": []
+    },
+    {
+      "field": "Valor(es) del atributo 1",
+      "non_empty": 0,
+      "empty": 189,
+      "unique": 0,
+      "samples": []
+    },
+    {
+      "field": "Atributo visible 1",
+      "non_empty": 0,
+      "empty": 189,
+      "unique": 0,
+      "samples": []
+    },
+    {
+      "field": "Atributo global 1",
+      "non_empty": 0,
+      "empty": 189,
+      "unique": 0,
+      "samples": []
+    },
+    {
+      "field": "Nombre del atributo 2",
+      "non_empty": 0,
+      "empty": 189,
+      "unique": 0,
+      "samples": []
+    },
+    {
+      "field": "Valor(es) del atributo 2",
+      "non_empty": 0,
+      "empty": 189,
+      "unique": 0,
+      "samples": []
+    },
+    {
+      "field": "Atributo visible 2",
+      "non_empty": 0,
+      "empty": 189,
+      "unique": 0,
+      "samples": []
+    },
+    {
+      "field": "Atributo global 2",
+      "non_empty": 0,
+      "empty": 189,
+      "unique": 0,
+      "samples": []
+    },
+    {
+      "field": "Nombre del atributo 3",
+      "non_empty": 0,
+      "empty": 189,
+      "unique": 0,
+      "samples": []
+    },
+    {
+      "field": "Valor(es) del atributo 3",
+      "non_empty": 0,
+      "empty": 189,
+      "unique": 0,
+      "samples": []
+    },
+    {
+      "field": "Atributo visible 3",
+      "non_empty": 0,
+      "empty": 189,
+      "unique": 0,
+      "samples": []
+    },
+    {
+      "field": "Atributo global 3",
+      "non_empty": 0,
+      "empty": 189,
+      "unique": 0,
+      "samples": []
+    },
+    {
+      "field": "Nombre del atributo 4",
+      "non_empty": 0,
+      "empty": 189,
+      "unique": 0,
+      "samples": []
+    },
+    {
+      "field": "Valor(es) del atributo 4",
+      "non_empty": 0,
+      "empty": 189,
+      "unique": 0,
+      "samples": []
+    },
+    {
+      "field": "Atributo visible 4",
+      "non_empty": 0,
+      "empty": 189,
+      "unique": 0,
+      "samples": []
+    },
+    {
+      "field": "Atributo global 4",
+      "non_empty": 0,
+      "empty": 189,
+      "unique": 0,
+      "samples": []
+    },
+    {
+      "field": "Nombre del atributo 5",
+      "non_empty": 0,
+      "empty": 189,
+      "unique": 0,
+      "samples": []
+    },
+    {
+      "field": "Valor(es) del atributo 5",
+      "non_empty": 0,
+      "empty": 189,
+      "unique": 0,
+      "samples": []
+    },
+    {
+      "field": "Atributo visible 5",
+      "non_empty": 0,
+      "empty": 189,
+      "unique": 0,
+      "samples": []
+    },
+    {
+      "field": "Atributo global 5",
+      "non_empty": 0,
+      "empty": 189,
+      "unique": 0,
+      "samples": []
+    }
+  ]
+}

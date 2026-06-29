@@ -1,0 +1,47 @@
+{
+  "created_at": "2026-06-29T14:46:16Z",
+  "tag": "codex-test-direct",
+  "note": "Productos de prueba creados directamente via Shopify connector. Las imagenes quedaron alojadas en Shopify CDN.",
+  "products": [
+    {
+      "title": "TENGA CRYSTA MASTURBADOR MASCULINO BALL",
+      "id": "gid://shopify/Product/10949420384599",
+      "handle": "tenga-crysta-masturbador-masculino-ball",
+      "vendor": "TENGA",
+      "status": "ACTIVE",
+      "featured_image_cdn": "https://cdn.shopify.com/s/files/1/0956/5143/0743/files/img_94723_ce5e2dbecd77d4d971f0d50e9f307591_1.jpg?v=1782744262"
+    },
+    {
+      "title": "Acqua Crocante Monoi",
+      "id": "gid://shopify/Product/10949422285143",
+      "handle": "acqua-crocante-monoi",
+      "vendor": "ORGIE",
+      "status": "ACTIVE",
+      "featured_image_cdn": "https://cdn.shopify.com/s/files/1/0956/5143/0743/files/1451546.jpg?v=1782744318"
+    },
+    {
+      "title": "ALEX NEO 2",
+      "id": "gid://shopify/Product/10949422809431",
+      "handle": "alex-neo-2",
+      "vendor": "SVAKOM",
+      "status": "ACTIVE",
+      "featured_image_cdn": "https://cdn.shopify.com/s/files/1/0956/5143/0743/files/25338743.jpg?v=1782744336"
+    },
+    {
+      "title": "Barbara Love Doll",
+      "id": "gid://shopify/Product/10949423235415",
+      "handle": "barbara-love-doll",
+      "vendor": "MISTRESS",
+      "status": "ACTIVE",
+      "featured_image_cdn": "https://cdn.shopify.com/s/files/1/0956/5143/0743/files/41508.jpg?v=1782744348"
+    },
+    {
+      "title": "ACRYLIC DISPLAY",
+      "id": "gid://shopify/Product/10949423726935",
+      "handle": "acrylic-display",
+      "vendor": "SVAKOM",
+      "status": "DRAFT",
+      "featured_image_cdn": "https://cdn.shopify.com/s/files/1/0956/5143/0743/files/25300001.jpg?v=1782744360"
+    }
+  ]
+}
