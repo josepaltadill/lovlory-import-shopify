@@ -3,7 +3,7 @@ import json
 from pathlib import Path
 
 
-BASE = Path(r"E:\Projectes web\Globals\sexshoplorena")
+BASE = Path(__file__).resolve().parents[1]
 INPUT = BASE / "wc-product-export-29-6-2026-marcas-mvp.csv"
 OUTPUT = BASE / "wc-product-export-29-6-2026-marcas-mvp_columnas_resumen.json"
 

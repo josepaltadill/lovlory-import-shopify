@@ -4,7 +4,7 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 
-BASE = Path(r"E:\Projectes web\Globals\sexshoplorena")
+BASE = Path(__file__).resolve().parents[1]
 FULL = BASE / "shopify_import_lovlory_mvp_productos.csv"
 OUTPUT = BASE / "shopify_import_lovlory_mvp_test.csv"
 REPORT = BASE / "shopify_import_lovlory_mvp_test_resumen.json"

@@ -5,7 +5,7 @@ import openpyxl
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 
 
-BASE = Path(r"E:\Projectes web\Globals\sexshoplorena")
+BASE = Path(__file__).resolve().parents[1]
 SOURCE = BASE / "LovLory_estructura_colecciones_shopify_v4.xlsx"
 OUTPUT = BASE / "LovLory_estructura_colecciones_shopify_MVP_v1.xlsx"
 

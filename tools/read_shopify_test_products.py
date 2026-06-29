@@ -3,7 +3,7 @@ import json
 from pathlib import Path
 
 
-BASE = Path(r"E:\Projectes web\Globals\sexshoplorena")
+BASE = Path(__file__).resolve().parents[1]
 INPUT = BASE / "shopify_import_lovlory_mvp_test.csv"
 
 

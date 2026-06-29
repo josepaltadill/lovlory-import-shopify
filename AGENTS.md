@@ -5,13 +5,15 @@ Este repositorio es un workspace de migración de catálogo de WooCommerce a Sho
 
 Los scripts reutilizables están en `tools/`. Cubren filtrado de marcas, limpieza de columnas, enriquecimiento de taxonomía Shopify, generación de CSV final, extracción de payloads de prueba y verificación. Los recursos visuales y referencias de diseño están en `design/`.
 
+Los scripts calculan la raíz del repositorio desde su propia ubicación, por lo que deben funcionar igual al clonar el proyecto en otro PC.
+
 ## Flujo de Migración Planificado
 El flujo canónico es: exportación WooCommerce completa, filtrado por marcas MVP (`ORGIE`, `SVAKOM`, `TENGA`, `MISTRESS`), limpieza de columnas, asignación de taxonomía Shopify, generación de CSV final con pesos y creación/importación por lotes.
 
 No sobrescribas la categoría WooCommerce original sin dejar trazabilidad. Usa campos Shopify separados para colecciones, tipo de producto, tags, SEO, vendor, stock, peso e imágenes.
 
 ## Comandos de Trabajo
-No hay pipeline de build. Ejecuta los scripts desde la raíz del repo:
+No hay pipeline de build. Ejecuta los scripts desde la raíz del repo clonado:
 
 - `python tools\filter_wc_products_mvp_brands.py` - filtra las marcas MVP.
 - `python tools\clean_wc_products_for_shopify_staging.py` - limpia columnas para staging.
