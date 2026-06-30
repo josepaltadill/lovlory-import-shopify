@@ -1,0 +1,56 @@
+[
+  {
+    "sku": "MSTRS00080",
+    "title": "Suzanne Love Doll",
+    "productId": "gid://shopify/Product/10950272713047",
+    "status": "ACTIVE",
+    "stock": 1,
+    "grams": 45000,
+    "weight_source": "body"
+  },
+  {
+    "sku": "MSTRS00084",
+    "title": "Carmen Love Doll",
+    "productId": "gid://shopify/Product/10950273139031",
+    "status": "ACTIVE",
+    "stock": 1,
+    "grams": 48200,
+    "weight_source": "body"
+  },
+  {
+    "sku": "1421371",
+    "title": "Acqua Crocante Strawberry",
+    "productId": "gid://shopify/Product/10950273728855",
+    "status": "DRAFT",
+    "stock": 41,
+    "grams": 0,
+    "weight_source": "missing"
+  },
+  {
+    "sku": "1417274",
+    "title": "ALL-NATURAL ACQUA Water-based Intimate Gel",
+    "productId": "gid://shopify/Product/10950274023767",
+    "status": "DRAFT",
+    "stock": 16,
+    "grams": 0,
+    "weight_source": "missing"
+  },
+  {
+    "sku": "1417304",
+    "title": "ALL-NATURAL STRAWBERRY Kissable Water-based Intimate Gel",
+    "productId": "gid://shopify/Product/10950274384215",
+    "status": "ACTIVE",
+    "stock": 12,
+    "grams": 180,
+    "weight_source": "csv"
+  },
+  {
+    "sku": "1417298",
+    "title": "ALL-NATURAL ULTRA SLIDEWater-based Intimate Gel",
+    "productId": "gid://shopify/Product/10950274810199",
+    "status": "ACTIVE",
+    "stock": 14,
+    "grams": 180,
+    "weight_source": "csv"
+  }
+]

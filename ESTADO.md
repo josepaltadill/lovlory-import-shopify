@@ -100,36 +100,176 @@ Productos importados después:
 - `Daniel Love Doll` (`MSTRS00002`)
 - `Sebastian Love Doll` (`MSTRS00056`)
 - `Aurora Love Doll` (`MSTRS00005`)
+- `Muñeca sexual para el autocontrol masculino` (`MSTRS00012`)
+- `Emma Half Body Sex Doll` (`MSTRS00011`)
+- `Love Doll Roxanne` (`MSTRS00052`)
+- `Natalie Love Doll` (`MSTRS00054`)
+- `Suzanne Love Doll` (`MSTRS00080`)
+- `Carmen Love Doll` (`MSTRS00084`)
+- `Acqua Crocante Strawberry` (`1421371`) - en `DRAFT` por peso no confirmado en el CSV final.
+- `ALL-NATURAL ACQUA Water-based Intimate Gel` (`1417274`) - en `DRAFT` por peso no confirmado en el CSV final.
+- `ALL-NATURAL STRAWBERRY Kissable Water-based Intimate Gel` (`1417304`)
+- `ALL-NATURAL ULTRA SLIDEWater-based Intimate Gel` (`1417298`)
+- `DUAL VIBE! LEMON GIN & TONIC KISSABLE LIQUID VIBRATOR` (`1417557`)
+- `DUAL VIBE! PIN? COLADA KISSABLE LIQUID VIBRATOR` (`1417311`) - en `DRAFT` por peso no confirmado en el CSV final.
+- `DUAL VIBE! SEX ON THE BEACH KISSABLE LIQUID VIBRATOR` (`1417328`) - en `DRAFT` por peso no confirmado en el CSV final.
+- `DUAL VIBE! STRAWBERRY GIN & TONIC KISSABLE LIQUID VIBRATOR` (`1417540`)
+- `GLOW Shimmer Body Cream` (`1417243`)
+- `GLOW Shimmering Body Oil` (`1417236`)
+- `Greek Kiss - 50 Ml` (`1421409`) - en `DRAFT` por stock 0 y peso no confirmado en el CSV final.
+- `Hemp! - Intense Orgasm - 15 Ml` (`1421393`) - en `DRAFT` por stock 0 y peso no confirmado en el CSV final.
+- `HUMAN LUBE Water-based Intimate Gel` (`1417250`) - en `DRAFT` por stock 0.
+- `Intimus White Intimate Whitening And Stimulating` (`1421166`) - en `DRAFT` por peso no confirmado en el CSV final.
+- `SEMEN LUBE Water-based Intimate Gel` (`1417267`) - importado, stock 50, peso 180 g.
+- `SENSFEEL FOR MAN 10 ML` (`1451959`) - importado, stock 14, peso 25 g.
+- `SENSFEEL FOR MAN PHEROMOME PERFUME` (`1451744`) - importado, stock 9, en `DRAFT` por peso no confirmado.
+- `SENSFEEL FOR WOMAN 10 ML` (`1451942`) - importado, stock 23, peso 25 g.
+- `SENSFEEL FOR WOMAN PHEROMOME PERFUME` (`1451751`) - importado, stock 17, en `DRAFT` por peso no confirmado.
+- `SENSFEEL SEDUCTION ELIXIR 10 in 1 MAN 100 ML` (`1451829`) - importado, stock 19, peso 130 g.
+- `SENSFEEL SEDUCTION ELIXIR 10 in 1 WOMAN 100 ML` (`1451812`) - importado, stock 10, peso 130 g.
+- `Sexy Therapy Afrodisiac` (`1421036`) - importado, stock 4, en `DRAFT` por peso no confirmado.
+- `Sexy Therapy Amor` (`1421043`) - importado, stock 14, en `DRAFT` por peso no confirmado.
+- `SEXY THERAPY SENSUAL MASSAGE OILS 3 x 30ml Set Mini Size Collection` (`1417137`) - importado, stock 21, en `DRAFT` por peso no confirmado.
+- `TANTRIC SENSUAL MASSAGE OILS 3 x 30ml Set Mini Size Collection` (`1417090`) - importado, stock 9, en `DRAFT` por peso no confirmado.
+- `THE PLAY SET` (`1451904`) - importado, stock 0, en `DRAFT` por stock 0 y peso no confirmado.
+- `Time Lag - 25 ml` (`1421478`) - importado, stock 0, en `DRAFT` por stock 0 y peso no confirmado.
+- `TIME LAG 2 DELAY SPRAY Next Generation` (`1417052`) - importado, stock 10, peso 21 g.
+- `Touro XXXL` (`1421638`) - importado, stock 22, peso 30 g.
+- `VOL+ UP 50 ML` (`1451928`) - importado, stock 10, peso 95 g.
+- `Wow! Blowjob Spray` (`1421364`) - importado, stock 0, en `DRAFT` por stock 0 y peso no confirmado.
+- `WOW! STRAWBERRY ICE 10 ML` (`1451935`) - importado, stock 13, peso 20 g.
+- `Xtra Hardpower Gel For Him` (`1421180`) - importado, stock 10, en `DRAFT` por peso no confirmado.
+- `Xtra Time - Delay Gel` (`1421234`) - importado, stock 17, en `DRAFT` por peso no confirmado.
+- `ALEX NEO2 SLEEVE` (`25338755`) - siguiente SKU pendiente en el CSV final.
+- `ALEX NEO2 SLEEVE` (`25338755`) - importado, stock 48, peso 225 g.
+- `AMY 2 LIGHT PURPLE` (`25338753`) - importado, stock 22, peso 120 g.
+- `AMY 2 VIOLET` (`25338748`) - importado, stock 18, peso 120 g.
+- `AMY PALE PINK SVAKOM` (`25325050`) - importado, stock 18, peso 90 g.
+- `Angel Plum Red` (`25337941`) - importado, stock 2, peso 146 g.
+- `Anya Plum Red` (`25337841`) - importado, stock 0, en `DRAFT` por stock 0.
+- `AVA NEO` (`25338752`) - importado, stock 0, en `DRAFT` por stock 0.
+- `AVERY LILAC` (`25338747`) - importado, stock 18, peso 185 g.
+- `Avery Strawberry Pink` (`25338768`) - importado, stock 14, peso 183 g.
+- `AYLIN DARK BLUE` (`25338746`) - importado, stock 4, peso 180 g.
+- `BENEDICT BLACK` (`25338734`) - importado, stock 23, peso 70 g.
+- `BETTY TESTER` (`25335600`) - importado, stock 3, en `DRAFT` por precio 0 e imagen ausente.
+- `CHIKA TURQUOISE GREY` (`25338756`) - importado, stock 14, en `DRAFT` por peso no confirmado.
+- `CICI 2 PASTEL LILIAC` (`25338760`) - importado, stock 0, en `DRAFT` por stock 0.
+- `Cici 2+` (`25338769`) - importado, stock 17, peso 72 g.
+- `CICI VIOLET` (`25337020`) - importado, stock 0, en `DRAFT` por stock 0.
+- `EDENY` (`25338721`) - importado, stock 18, peso 43 g.
+- `Ella Neo` (`25338716`) - importado, stock 33, en `DRAFT` por peso no confirmado.
+- `ELVA PLUM RED` (`25336441`) - importado, stock 0, en `DRAFT` por stock 0.
+- `ELVA VIOLET` (`25336420`) - importado, stock 0, en `DRAFT` por stock 0.
 
 ## Último punto exacto de la importación
-En el último intento solo se subieron estos dos productos:
+En el último intento se completó un lote de 10 productos:
 
-- `Audrey Love Doll` (`MSTRS00006`)
-- `Emily Love Doll` (`MSTRS00110`)
+- `DUAL VIBE! LEMON GIN & TONIC KISSABLE LIQUID VIBRATOR` (`1417557`)
+- `DUAL VIBE! PIN? COLADA KISSABLE LIQUID VIBRATOR` (`1417311`)
+- `DUAL VIBE! SEX ON THE BEACH KISSABLE LIQUID VIBRATOR` (`1417328`)
+- `DUAL VIBE! STRAWBERRY GIN & TONIC KISSABLE LIQUID VIBRATOR` (`1417540`)
+- `GLOW Shimmer Body Cream` (`1417243`)
+- `GLOW Shimmering Body Oil` (`1417236`)
+- `Greek Kiss - 50 Ml` (`1421409`)
+- `Hemp! - Intense Orgasm - 15 Ml` (`1421393`)
+- `HUMAN LUBE Water-based Intimate Gel` (`1417250`)
+- `Intimus White Intimate Whitening And Stimulating` (`1421166`)
 
 Ambos se sacaron del archivo:
 
 - `shopify_import_lovlory_mvp_productos_con_pesos.csv`
+- `shopify_import_lovlory_mvp_batch8.json`
 
 Detalles:
 
-- `Audrey Love Doll`
-  - SKU: `MSTRS00006`
-  - Shopify ID: `gid://shopify/Product/10949823103319`
+- `DUAL VIBE! LEMON GIN & TONIC KISSABLE LIQUID VIBRATOR`
+  - SKU: `1417557`
+  - Shopify ID: `gid://shopify/Product/10950276219223`
+  - Estado: `ACTIVE`
+  - Stock: `10`
+  - Peso: `32 g` tomado del CSV final.
+  - Imágenes: 1, verificada en `READY`.
+
+- `DUAL VIBE! PIN? COLADA KISSABLE LIQUID VIBRATOR`
+  - SKU: `1417311`
+  - Shopify ID: `gid://shopify/Product/10950276612439`
+  - Estado: `DRAFT`
+  - Stock: `20`
+  - Peso: `0 g` porque el CSV final no trae peso verificable.
+  - Imágenes: 1, verificada en `READY`.
+
+- `DUAL VIBE! SEX ON THE BEACH KISSABLE LIQUID VIBRATOR`
+  - SKU: `1417328`
+  - Shopify ID: `gid://shopify/Product/10950277169495`
+  - Estado: `DRAFT`
+  - Stock: `46`
+  - Peso: `0 g` porque el CSV final no trae peso verificable.
+  - Imágenes: 1, verificada en `READY`.
+
+- `DUAL VIBE! STRAWBERRY GIN & TONIC KISSABLE LIQUID VIBRATOR`
+  - SKU: `1417540`
+  - Shopify ID: `gid://shopify/Product/10950278447447`
+  - Estado: `ACTIVE`
+  - Stock: `1`
+  - Peso: `32 g` tomado del CSV final.
+  - Imágenes: 1, verificada en `READY`.
+
+- `GLOW Shimmer Body Cream`
+  - SKU: `1417243`
+  - Shopify ID: `gid://shopify/Product/10950279168343`
+  - Estado: `ACTIVE`
+  - Stock: `8`
+  - Peso: `315 g` tomado del CSV final.
+  - Imágenes: 1, verificada en `READY`.
+
+- `GLOW Shimmering Body Oil`
+  - SKU: `1417236`
+  - Shopify ID: `gid://shopify/Product/10950279790935`
+  - Estado: `ACTIVE`
+  - Stock: `31`
+  - Peso: `125 g` tomado del CSV final.
+  - Imágenes: 1, verificada en `READY`.
+
+- `Greek Kiss - 50 Ml`
+  - SKU: `1421409`
+  - Shopify ID: `gid://shopify/Product/10950280937815`
   - Estado: `DRAFT`
   - Stock: `0`
-  - Peso: `39000 g`
-  - Imágenes: 7, todas verificadas en `READY`.
+  - Peso: `0 g` porque el CSV final no trae peso verificable.
+  - Imágenes: 1, verificada en `READY`.
 
-- `Emily Love Doll`
-  - SKU: `MSTRS00110`
-  - Shopify ID: `gid://shopify/Product/10949823234391`
+- `Hemp! - Intense Orgasm - 15 Ml`
+  - SKU: `1421393`
+  - Shopify ID: `gid://shopify/Product/10950281265495`
   - Estado: `DRAFT`
   - Stock: `0`
-  - Peso: `55000 g`
-  - Imágenes: 5, todas verificadas en `READY`.
+  - Peso: `0 g` porque el CSV final no trae peso verificable.
+  - Imágenes: 1, verificada en `READY`.
 
-Quedamos justo después de importar y verificar Audrey y Emily. Para continuar en una nueva sesión, buscar el siguiente producto pendiente en `shopify_import_lovlory_mvp_productos_con_pesos.csv`, comprobando antes en Shopify por SKU para evitar duplicados.
+- `HUMAN LUBE Water-based Intimate Gel`
+  - SKU: `1417250`
+  - Shopify ID: `gid://shopify/Product/10950281953623`
+  - Estado: `DRAFT`
+  - Stock: `0`
+  - Peso: `190 g` tomado del CSV final.
+  - Imágenes: 1, verificada en `READY`.
+
+- `Intimus White Intimate Whitening And Stimulating`
+  - SKU: `1421166`
+  - Shopify ID: `gid://shopify/Product/10950282477911`
+  - Estado: `DRAFT`
+  - Stock: `16`
+  - Peso: `0 g` porque el CSV final no trae peso verificable.
+  - Imágenes: 1, verificada en `READY`.
+
+Quedamos justo después de importar y verificar este lote de 10 productos. Para continuar en una nueva sesión, buscar el siguiente producto pendiente en `shopify_import_lovlory_mvp_productos_con_pesos.csv`, comprobando antes en Shopify por SKU para evitar duplicados.
+
+El siguiente SKU pendiente en el orden del CSV final es:
+
+- `25338755` - `ALEX NEO2 SLEEVE`
+- `25338734` - `BENEDICT BLACK`
+- `25338765` - `Emma Neo 2`
 
 ## Reglas para continuar
 Antes de importar un producto nuevo:
@@ -148,3 +288,22 @@ Antes de importar un producto nuevo:
    - SEO title/description
 
 Para seguir, conviene construir el siguiente lote desde el CSV final y saltar todos los SKUs listados arriba.
+
+## Ultima tanda importada
+
+Lote de 10 productos importado y verificado:
+
+- `Jordan` - SKU `25338767` - `gid://shopify/Product/10950547997015` - `ACTIVE` - stock `8` - peso `83 g`
+- `JUDY TESTER` - SKU `25337100` - `gid://shopify/Product/10950548554071` - `DRAFT` - stock `3` - peso `0 g`
+- `Mini Emma Neo` - SKU `25338766` - `gid://shopify/Product/10950548652375` - `ACTIVE` - stock `21` - peso `130 g`
+- `MORA NEO PEACH PINK` - SKU `25338758` - `gid://shopify/Product/10950548685143` - `DRAFT` - stock `25` - peso `0 g`
+- `NOVA PLUM RED` - SKU `25335941` - `gid://shopify/Product/10950548816215` - `DRAFT` - stock `0` - peso `0 g`
+- `NOVA VIOLET` - SKU `25335920` - `gid://shopify/Product/10950548881751` - `DRAFT` - stock `26` - peso `0 g`
+- `Nymph Pink` - SKU `25338250` - `gid://shopify/Product/10950552322391` - `ACTIVE` - stock `31` - peso `124 g`
+- `PHOENIX NEO 2` - SKU `25338745` - `gid://shopify/Product/10950552650071` - `ACTIVE` - stock `27` - peso `90 g`
+- `PHOENIX NEO 2 PASTEL LILIAC` - SKU `25338762` - `gid://shopify/Product/10950552715607` - `ACTIVE` - stock `25` - peso `90 g`
+- `PULSE GALAXIE BLACK` - SKU `25338750` - `gid://shopify/Product/10950552748375` - `ACTIVE` - stock `15` - peso `160 g`
+
+Siguiente SKU pendiente en el CSV final:
+
+- `25338751` - `PULSE GALAXIE LILIAC`

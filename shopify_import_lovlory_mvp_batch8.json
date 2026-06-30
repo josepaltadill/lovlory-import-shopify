@@ -1,0 +1,92 @@
+[
+  {
+    "sku": "1417557",
+    "title": "DUAL VIBE! LEMON GIN & TONIC KISSABLE LIQUID VIBRATOR",
+    "productId": "gid://shopify/Product/10950276219223",
+    "status": "ACTIVE",
+    "stock": 10,
+    "grams": 32,
+    "weight_source": "csv"
+  },
+  {
+    "sku": "1417311",
+    "title": "DUAL VIBE! PIN? COLADA KISSABLE LIQUID VIBRATOR",
+    "productId": "gid://shopify/Product/10950276612439",
+    "status": "DRAFT",
+    "stock": 20,
+    "grams": 0,
+    "weight_source": "missing"
+  },
+  {
+    "sku": "1417328",
+    "title": "DUAL VIBE! SEX ON THE BEACH KISSABLE LIQUID VIBRATOR",
+    "productId": "gid://shopify/Product/10950277169495",
+    "status": "DRAFT",
+    "stock": 46,
+    "grams": 0,
+    "weight_source": "missing"
+  },
+  {
+    "sku": "1417540",
+    "title": "DUAL VIBE! STRAWBERRY GIN & TONIC KISSABLE LIQUID VIBRATOR",
+    "productId": "gid://shopify/Product/10950278447447",
+    "status": "ACTIVE",
+    "stock": 1,
+    "grams": 32,
+    "weight_source": "csv"
+  },
+  {
+    "sku": "1417243",
+    "title": "GLOW Shimmer Body Cream",
+    "productId": "gid://shopify/Product/10950279168343",
+    "status": "ACTIVE",
+    "stock": 8,
+    "grams": 315,
+    "weight_source": "csv"
+  },
+  {
+    "sku": "1417236",
+    "title": "GLOW Shimmering Body Oil",
+    "productId": "gid://shopify/Product/10950279790935",
+    "status": "ACTIVE",
+    "stock": 31,
+    "grams": 125,
+    "weight_source": "csv"
+  },
+  {
+    "sku": "1421409",
+    "title": "Greek Kiss - 50 Ml",
+    "productId": "gid://shopify/Product/10950280937815",
+    "status": "DRAFT",
+    "stock": 0,
+    "grams": 0,
+    "weight_source": "missing"
+  },
+  {
+    "sku": "1421393",
+    "title": "Hemp! - Intense Orgasm - 15 Ml",
+    "productId": "gid://shopify/Product/10950281265495",
+    "status": "DRAFT",
+    "stock": 0,
+    "grams": 0,
+    "weight_source": "missing"
+  },
+  {
+    "sku": "1417250",
+    "title": "HUMAN LUBE Water-based Intimate Gel",
+    "productId": "gid://shopify/Product/10950281953623",
+    "status": "DRAFT",
+    "stock": 0,
+    "grams": 190,
+    "weight_source": "csv"
+  },
+  {
+    "sku": "1421166",
+    "title": "Intimus White Intimate Whitening And Stimulating",
+    "productId": "gid://shopify/Product/10950282477911",
+    "status": "DRAFT",
+    "stock": 16,
+    "grams": 0,
+    "weight_source": "missing"
+  }
+]
