@@ -307,3 +307,174 @@ Lote de 10 productos importado y verificado:
 Siguiente SKU pendiente en el CSV final:
 
 - `25338751` - `PULSE GALAXIE LILIAC`
+
+## Nueva tanda importada
+
+Se ha continuado la importación con un lote de 10 productos sacados de `shopify_import_lovlory_mvp_productos_con_pesos.csv`.
+
+Los dos primeros ya existían en Shopify y se han corregido a `DRAFT` porque tienen stock 0:
+
+- `Audrey Love Doll` (`MSTRS00006`) - `DRAFT`
+- `Emily Love Doll` (`MSTRS00110`) - `DRAFT`
+
+Después se han creado estos 8 productos nuevos, todos con sus imágenes alojadas en Shopify CDN:
+
+- `Lips Massage Kit  Cotton Candy` (`1421333`) - `ACTIVE`
+- `Lips Massage Kit  Strawberry` (`1421326`) - `ACTIVE`
+- `Lips Massage Kit Apple` (`1421319`) - `ACTIVE`
+- `Lube Tube Anal Confort` (`1421142`) - `ACTIVE`
+- `Lube Tube Anal Sensitive` (`1421159`) - `ACTIVE`
+- `Lube Tube Cannabis - 100ml` (`1421485`) - `ACTIVE`
+- `Lube Tube Chocolate` (`1421128`) - `ACTIVE`
+- `LUBE TUBE COCKTAIL CAIPIRINHA 100ml` (`1417144`) - `ACTIVE`
+
+Con este lote, quedan **82 productos pendientes** en el CSV final.
+
+Siguiente SKU pendiente en el orden del CSV:
+
+- `1417182` - `LUBE TUBE COCKTAIL CAIPIRINHA 50ml`
+
+## Nueva tanda importada
+
+Se ha continuado la importación con otro lote de 10 productos de `ORGIE`, todos creados a partir de `shopify_import_lovlory_mvp_productos_con_pesos.csv` y con imágenes subidas a Shopify CDN.
+
+Productos importados:
+
+- `LUBE TUBE COCKTAIL CAIPIRINHA 50ml` (`1417182`) - `ACTIVE`
+- `LUBE TUBE COCKTAIL PI?A COLADA 100ml` (`1417168`) - `ACTIVE`
+- `LUBE TUBE COCKTAIL PI?A COLADA 50ml` (`1417199`) - `ACTIVE`
+- `LUBE TUBE COCKTAIL SEX ON THE BEACH 100ml` (`1417175`) - `ACTIVE`
+- `LUBE TUBE COCKTAIL SEX ON THE BEACH 50ml` (`1417205`) - `ACTIVE`
+- `LUBE TUBE COCKTAIL STRAWBERRY MOJITO 100ml` (`1417151`) - `ACTIVE`
+- `LUBE TUBE COCKTAIL STRAWBERRY MOJITO 50ml` (`1417212`) - `ACTIVE`
+- `Lube Tube Cool` (`1421074`) - `ACTIVE`
+- `Lube Tube Cotton Candy` (`1421135`) - `ACTIVE`
+- `Lube Tube Hot` (`1421067`) - `ACTIVE`
+
+Con este lote quedan **72 productos pendientes** en el CSV final.
+
+Siguiente SKU pendiente en el orden del CSV:
+
+- `1421081` - `Lube Tube Nature`
+
+## Nueva tanda importada
+
+Se ha continuado la importación con otro lote de 10 productos de `ORGIE` a partir de `shopify_import_lovlory_mvp_productos_con_pesos.csv`.
+
+En este lote había 2 SKUs que ya existían en Shopify:
+
+- `Noriplay - Nuru Massage Gel` (`1421289`) - ya existía en Shopify con stock 35
+- `Noriplay - Energizing Nuru Massage Gel` (`1421296`) - se ha dejado en `DRAFT` porque el CSV final lo marca sin stock
+
+Los otros 8 productos se han creado o confirmado con imágenes en Shopify CDN:
+
+- `Lube Tube Nature` (`1421081`) - `ACTIVE`
+- `Lube Tube Strawberry` (`1421104`) - `ACTIVE`
+- `LUBE TUBE VIBE PI?A COLADA  100ml` (`1417533`) - `ACTIVE`
+- `LUBE TUBE VIBE SEX ON THE BEACH  100ml` (`1417526`) - `ACTIVE`
+- `Lube Tube Xtra Lubrication` (`1421098`) - `ACTIVE`
+- `Orgasm Drops Clitoral Arousal` (`1421357`) - `ACTIVE`
+- `ORGASM DROPS INTENSE` (`1451966`) - `DRAFT`
+- `Orgasm Drops Kissable - 30 ml` (`1421416`) - `ACTIVE`
+
+Con este lote quedan **62 productos pendientes** en el CSV final.
+
+Siguiente SKU pendiente en el orden del CSV:
+
+- `1451652` - `ORGASM DROPS VIBE!`
+
+## Nueva tanda importada
+
+Se ha continuado la importación con otro lote de 10 productos de `ORGIE` desde `shopify_import_lovlory_mvp_productos_con_pesos.csv`.
+
+En este bloque ya existían en Shopify y no ha hecho falta recrearlos:
+
+- `Pearls Lust Massage` (`1421241`)
+- `Sexy Therapy The Secret` (`1421050`)
+- `Sexy Vibe!  Intense Orgasm - Liquid Vibrator` (`1421227`)
+- `Sexy Vibe! - Eletric Fellatio Vibrating Gloss` (`1421340`)
+- `Sexy Vibe! - Liquid Vibrator` (`1421197`)
+
+Los 5 productos nuevos que sí se han creado son:
+
+- `ORGASM DROPS VIBE!` (`1451652`) - `ACTIVE`
+- `Orgie Bio Aloe Vera Intimate Gel 100ml Pump` (`1421539`) - `ACTIVE`
+- `Orgie Bio Chamomile Intimate Gel 100ml Pump` (`1421522`) - `ACTIVE`
+- `Orgie Bio Grapefruit Organic Oil 100ml Disk Top` (`1421508`) - `ACTIVE`
+- `Orgie Bio Rosemary Organic Oil 100ml Disk Top` (`1421515`) - `ACTIVE`
+
+Con este lote quedan **57 productos pendientes** en el CSV final.
+
+Siguiente SKU pendiente en el orden del CSV:
+
+- `1421241` - `Pearls Lust Massage`
+
+## Nueva tanda importada
+
+Se ha continuado la importación con un lote nuevo de 10 productos de `SVAKOM` desde `shopify_import_lovlory_mvp_productos_con_pesos.csv`.
+
+Productos creados:
+
+- `PULSE LITE NEO MINT` (`25338742`) - `ACTIVE`
+- `PULSE LITE NEO PINK` (`25338741`) - `ACTIVE`
+- `PULSE LITE NEO PURPLE` (`25338740`) - `ACTIVE`
+- `PULSE PURE PALE PINK` (`25338738`) - `ACTIVE`
+- `PULSE UNION VIOLET` (`25338737`) - `ACTIVE`
+- `ROBIN SLEEVE` (`25338733`) - `ACTIVE`
+- `ROBIN WHITE` (`25338732`) - `ACTIVE`
+- `Sam Neo` (`25338722`) - `ACTIVE`
+- `SAM NEO 2` (`25338764`) - `DRAFT`
+- `SAM NEO 2 PRO` (`25338763`) - `DRAFT`
+
+Con este lote quedan **42 productos pendientes** en el CSV final.
+
+Siguiente SKU pendiente en el orden del CSV:
+
+- `1421203` - `Sexy Vibe! High Voltage - Liquid Vibrator`
+
+## Nueva tanda importada
+
+Se ha continuado la importaciÃ³n con los dos productos que quedaban realmente pendientes en este tramo del CSV final.
+
+Productos creados y ya ajustados con stock en Shopify:
+
+- `Vick Neo` (`25338715`) - `ACTIVE`, stock `22`, imagen en CDN de Shopify
+- `WINNI 2` (`25338736`) - `ACTIVE`, stock `27`, imagen en CDN de Shopify
+
+En ambos casos se ha usado la descripciÃ³n real de `Body (HTML)` del CSV y se ha dejado el inventario rastreado en la ubicaciÃ³n `C/ Sant cristofol 117 puerta 10`.
+
+Con este cierre quedan **40 productos pendientes** en el CSV final, tomando como referencia el conteo anterior de `42` y descontando estos 2 nuevos.
+
+## Nueva tanda importada
+
+Se ha continuado la importaciÃ³n con otro lote de 10 productos nuevos de `SVAKOM` detectados m�s adelante en el CSV final.
+
+Productos creados:
+
+- `PULSE GALAXIE LILIAC` (`25338751`) - `ACTIVE`
+- `SAM NEO SLEEVE` (`25338735`) - `ACTIVE`
+- `Sleeve` (`25338713`) - `DRAFT`
+- `Tammy Violet` (`25338420`) - `ACTIVE`
+- `TRYSTA NEO ROMANTIC ROSE` (`25338761`) - `ACTIVE`
+- `Trysta Plum` (`25336241`) - `DRAFT`
+- `TULIP BLACK` (`25338730`) - `ACTIVE`
+- `TULIP VIOLET` (`25338731`) - `ACTIVE`
+- `TYLER BLACK` (`25336130`) - `ACTIVE`
+- `Vick Black` (`25338130`) - `ACTIVE`
+
+Las cantidades de stock se han fijado en Shopify para los 8 productos activos con inventario real. Los 2 sin stock se han dejado en `DRAFT`.
+
+Con este lote quedan **30 productos pendientes** en el CSV final.
+
+El siguiente tramo del CSV ya contiene varios productos que estaban repetidos o ya importados, asÃ­ que el pr�ximo hueco nuevo hay que localizarlo avanzando un poco m�s en el archivo.
+## VerificaciÃ³n final del CSV de importaciÃ³n
+
+Se ha revisado `shopify_import_lovlory_mvp_productos_con_pesos.csv` completo. El fichero contiene **189 productos** reales y termina en `WINNI 2` (`25338736`).
+
+La comprobaciÃ³n con Shopify muestra que ese Ãºltimo tramo ya estÃ¡ importado y no queda un lote nuevo de 10 productos dentro del CSV MVP final.
+
+Estado operativo actual:
+
+- CSV MVP final agotado.
+- Sin siguiente lote pendiente dentro del fichero de importaciÃ³n actual.
+- Para continuar habrÃ­a que revisar otro origen o regenerar el CSV con nuevos productos.
