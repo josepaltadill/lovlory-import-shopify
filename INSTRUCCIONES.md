@@ -25,18 +25,54 @@ Es importante escribir los tags siempre igual: en minúsculas, sin acentos, y us
 
 ## 2. Colecciones actuales y tags necesarios
 
-Estas son las colecciones principales creadas y la regla que hace que un producto entre en cada una.
+Estas son todas las colecciones previstas en la estructura de LovLory, incluidas las que todavía pueden estar vacías. Para que un producto entre en una colección automática, debe tener el tag indicado o el campo indicado en la tabla.
+
+Importante: cuando una colección depende de un tag, hay que escribirlo exactamente igual. Cuando depende de la marca, se rellena desde el campo Marca o Proveedor del producto.
 
 | Colección | Qué debe tener el producto |
 | --- | --- |
+| Cosmética Íntima | Tag `cosmetica-intima` |
+| Cosmética Íntima - Para Ella | Tag `cosmetica-ella` o público `Ella` |
+| Hidratantes vulvares | Tag `hidratante-vulvar` |
+| Elixires de placer | Tag `elixir-placer` |
+| Cuidado del suelo pélvico | Tag `suelo-pelvico` |
+| Cosmética Íntima - Para Él | Tag `cosmetica-el` o público `Él` |
+| Geles de higiene | Tag `gel-higiene-hombre` |
+| Retardantes | Tag `retardante` |
+| Vigorizantes | Tag `vigorizante` |
+| Cosmética Íntima - Para Parejas / Todes | Tag `cosmetica-parejas` o público `Parejas/Todes` |
+| Lubricantes | Tag `subtipo-lubricante` |
+| Geles con efectos | Tag `subtipo-gel-efecto` |
+| Espumas crocanti para masaje | Tag `espuma-crocanti` |
+| Masaje y Aromas | Tag `masaje-aromas` |
+| Aceites esenciales | Tag `aceite-esencial` |
+| Perfumes con feromonas | Tag `feromonas` |
+| Velas de masaje | Tag `vela-masaje` |
 | Juguetes Eróticos | Tag `juguetes-eroticos` |
 | Para Él | Tag `publico-el` |
 | Para Ella | Tag `publico-ella` |
 | Para Parejas / Todes | Tag `publico-parejas-todes` |
-| Cosmética Íntima | Tag `cosmetica-intima` |
-| Lubricantes | Tag `subtipo-lubricante` |
 | Vibradores y Succionadores | Tag `tipo-vibrador` o `tipo-succionador` |
-| Cuidado del suelo pélvico | Tag `suelo-pelvico` |
+| Estimuladores de Pareja | Tag `estimulador-pareja` |
+| Anal y Próstata | Tag `anal` o `prostata` |
+| Kits de Iniciación | Tag `kit-iniciacion` |
+| Realísticos | Tag `realistico` |
+| Muñecas tamaño real | Tag `muneca-tamano-real` o tag `tamano-real` |
+| Muñecos tamaño real | Tag `muneco-tamano-real` o tag `tamano-real` |
+| Lencería y Moda Íntima | Tag `lenceria` |
+| Sexy & Chic | Tag `sexy-chic` |
+| Dark & Fetish | Tag `dark-fetish` |
+| Conjuntos | Tag `conjunto` |
+| Bodys | Tag `body` |
+| Picardías y Babydolls | Tag `picardia` o `babydoll` |
+| Accesorios de Moda Íntima | Tag `accesorio-moda-intima` |
+| Fetiche y BDSM | Tag `fetiche-bdsm` |
+| Ataduras y Sujeción | Tag `atadura` o `sujecion` |
+| Sensaciones | Tag `sensaciones-bdsm` |
+| Mordazas y Máscaras | Tag `mordaza` o `mascara` |
+| Juegos y Experiencias | Tag `juegos-experiencias` |
+| Juegos de Mesa | Tag `juego-mesa-erotico` |
+| Packs LovLory | Tag `pack-lovlory` o marca / proveedor `LovLory` |
 | Novedades | Tag `novedad` |
 | Ofertas | Tag `oferta` |
 | ORGIE | Marca / proveedor `ORGIE` |
@@ -337,4 +373,3 @@ Antes de activar un producto, confirma:
 - Los tags necesarios están añadidos.
 - El SEO está revisado.
 - El producto aparece en las colecciones correctas.
-
