@@ -478,3 +478,71 @@ Estado operativo actual:
 - CSV MVP final agotado.
 - Sin siguiente lote pendiente dentro del fichero de importaciÃ³n actual.
 - Para continuar habrÃ­a que revisar otro origen o regenerar el CSV con nuevos productos.
+
+## Colecciones, subcategorias ficticias y filtros
+
+Se ha actualizado la estructura comercial de colecciones en Shopify para simular jerarquia sin categorias hijas nativas. Las colecciones principales funcionan como padres y las subcolecciones se representan con colecciones automaticas, reglas por tags/product type/vendor y filtros de producto.
+
+Principales trabajadas:
+
+- `Cosmetica Intima`
+- `Juguetes Eroticos`
+- `Lenceria y Moda Intima`
+- `Fetiche y BDSM`
+- `Juegos y Experiencias`
+
+Ejemplo de jerarquia simulada:
+
+- `Cosmetica Intima` contiene `Para Ella`, `Para El`, `Para Parejas / Todes` y `Masaje y Aromas`.
+- `Para El` contiene productos propios y subgrupos como `Retardantes` y `Vigorizantes`.
+- `Juguetes Eroticos` contiene subgrupos como `Vibradores y Succionadores`, `Anal y Prostata`, `Realisticos`, `Munecas tamano real`, `Munecos tamano real` y `Masturbadores`.
+
+Se han normalizado tags puente en productos ya importados para que las colecciones automaticas se rellenen correctamente, sin borrar tags existentes. Algunos ejemplos:
+
+- `cosmetica-el`, `subtipo-retardante`, `retardante`
+- `subtipo-vigorizante`, `vigorizante`
+- `cosmetica-parejas`, `lubricante`, `geles-efecto`
+- `masaje-aromas`, `aceite-esencial`, `aceite-masaje`, `feromonas`, `perfume-feromonas`
+- `tipo-succionador`, `succionador`, `anal`, `prostata`
+- `muneca-tamano-real`, `muneco-tamano-real`, `masturbador`
+
+Tambien se creo una capa inicial de tags `filtro-*`, pero Shopify Search & Discovery no los mostraba de forma fiable en la pantalla de seleccion de filtros. Para evitar depender de la indexacion de etiquetas, se creo un metafield de producto especifico para filtros:
+
+- Nombre visible: `Subcategoria`
+- Namespace/key: `custom.subcategoria`
+- Tipo: `list.single_line_text_field`
+- Owner: `PRODUCT`
+
+Valores usados en el metafield `custom.subcategoria`:
+
+- `Aceites esenciales`
+- `Anal y prostata`
+- `Cuidado del suelo pelvico`
+- `Geles con efectos`
+- `Lubricantes`
+- `Masaje y aromas`
+- `Masturbadores`
+- `Munecas tamano real`
+- `Munecos tamano real`
+- `Para el`
+- `Para ella`
+- `Perfumes con feromonas`
+- `Realisticos`
+- `Retardantes`
+- `Vibradores y succionadores`
+- `Vigorizantes`
+
+Verificaciones realizadas:
+
+- `ALL-NATURAL ACQUA Water-based Intimate Gel` tiene `custom.subcategoria = ["Lubricantes"]`.
+- `Barbara Love Doll` tiene `custom.subcategoria = ["Realisticos", "Munecas tamano real"]`.
+- `PULSE GALAXIE BLACK` tiene `custom.subcategoria = ["Vibradores y succionadores"]`.
+
+Configuracion recomendada en Shopify Search & Discovery:
+
+- Fuente del filtro: metafield `Subcategoria` / `custom.subcategoria`.
+- Etiqueta visible del filtro: `Subcategoria`.
+- Valores: marcar todos los valores disponibles del metafield.
+- Logica: `OR`, para que al seleccionar varias subcategorias se muestren productos que coincidan con cualquiera de ellas.
+
+Nota: la tienda puede seguir usando las colecciones automaticas como paginas navegables y el metafield `Subcategoria` como filtro visual dentro de cada coleccion padre.
