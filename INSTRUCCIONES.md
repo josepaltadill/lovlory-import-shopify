@@ -95,6 +95,13 @@ Pasos:
 5. Añade la condición que corresponda.
 6. Guarda la colección.
 
+En el workbook operativo `LovLory_estructura_colecciones_shopify_MVP_v1.xlsx` ahora existen dos campos opcionales para preparar mejor la cabecera visual de cada colección:
+
+- `Subtítulo superior cabecera`
+- `Descripción corta cabecera`
+
+Estos campos no sustituyen al título ni a la descripción estándar de Shopify. Sirven para guardar el texto corto que luego puede pintarse en la cabecera del tema, como en el ejemplo "PLACER Y RENDIMIENTO" y el párrafo breve bajo el título.
+
 Ejemplo: si se crea una colección llamada “Productos Premium”, se puede configurar para que entren todos los productos con el tag:
 
 ```text

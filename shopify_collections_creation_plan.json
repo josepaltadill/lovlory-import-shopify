@@ -2,287 +2,369 @@
   "principal_from_excel": [
     {
       "title": "Cosmética Íntima",
-      "level": 1,
-      "block": "Cosmética Íntima",
       "handle": "cosmetica-intima",
-      "rule": "tag = cosmetica-intima OR product_type = Cosmética íntima"
+      "header_eyebrow": null,
+      "header_short_description": null,
+      "rule": "tag = cosmetica-intima OR product_type = Cosmética íntima",
+      "level": 1,
+      "block": "Cosmética Íntima"
     },
     {
       "title": "Para Ella",
-      "level": 2,
-      "block": "Cosmética Íntima",
       "handle": "cosmetica-intima-ella",
-      "rule": "tag = cosmetica-ella OR custom.publico = Ella"
+      "header_eyebrow": null,
+      "header_short_description": null,
+      "rule": "tag = cosmetica-ella OR custom.publico = Ella",
+      "level": 2,
+      "block": "Cosmética Íntima"
     },
     {
       "title": "Hidratantes vulvares",
-      "level": 3,
-      "block": "Cosmética Íntima",
       "handle": "hidratantes-vulvares",
-      "rule": "custom.subtipo_cosmetica = Hidratante vulvar OR tag = hidratante-vulvar"
+      "header_eyebrow": null,
+      "header_short_description": null,
+      "rule": "custom.subtipo_cosmetica = Hidratante vulvar OR tag = hidratante-vulvar",
+      "level": 3,
+      "block": "Cosmética Íntima"
     },
     {
       "title": "Elixires de placer",
-      "level": 3,
-      "block": "Cosmética Íntima",
       "handle": "elixires-placer",
-      "rule": "custom.subtipo_cosmetica = Elixir de placer OR tag = elixir-placer"
+      "header_eyebrow": null,
+      "header_short_description": null,
+      "rule": "custom.subtipo_cosmetica = Elixir de placer OR tag = elixir-placer",
+      "level": 3,
+      "block": "Cosmética Íntima"
     },
     {
       "title": "Cuidado del suelo pélvico",
-      "level": 3,
-      "block": "Cosmética Íntima",
       "handle": "cuidado-suelo-pelvico",
-      "rule": "custom.subtipo_cosmetica = Suelo pélvico OR tag = suelo-pelvico"
+      "header_eyebrow": null,
+      "header_short_description": null,
+      "rule": "custom.subtipo_cosmetica = Suelo pélvico OR tag = suelo-pelvico",
+      "level": 3,
+      "block": "Cosmética Íntima"
     },
     {
       "title": "Para Él",
-      "level": 2,
-      "block": "Cosmética Íntima",
       "handle": "cosmetica-intima-el",
-      "rule": "tag = cosmetica-el OR custom.publico = Él"
+      "header_eyebrow": null,
+      "header_short_description": null,
+      "rule": "tag = cosmetica-el OR custom.publico = Él",
+      "level": 2,
+      "block": "Cosmética Íntima"
     },
     {
       "title": "Geles de higiene",
-      "level": 3,
-      "block": "Cosmética Íntima",
       "handle": "geles-higiene-hombre",
-      "rule": "custom.subtipo_cosmetica = Gel de higiene OR tag = gel-higiene-hombre"
+      "header_eyebrow": null,
+      "header_short_description": null,
+      "rule": "custom.subtipo_cosmetica = Gel de higiene OR tag = gel-higiene-hombre",
+      "level": 3,
+      "block": "Cosmética Íntima"
     },
     {
       "title": "Retardantes",
-      "level": 3,
-      "block": "Cosmética Íntima",
       "handle": "retardantes",
-      "rule": "custom.efecto = Retardante OR custom.subtipo_cosmetica = Retardante"
+      "header_eyebrow": null,
+      "header_short_description": null,
+      "rule": "custom.efecto = Retardante OR custom.subtipo_cosmetica = Retardante",
+      "level": 3,
+      "block": "Cosmética Íntima"
     },
     {
       "title": "Vigorizantes",
-      "level": 3,
-      "block": "Cosmética Íntima",
       "handle": "vigorizantes",
-      "rule": "custom.efecto = Vigorizante OR custom.subtipo_cosmetica = Vigorizante"
+      "header_eyebrow": null,
+      "header_short_description": null,
+      "rule": "custom.efecto = Vigorizante OR custom.subtipo_cosmetica = Vigorizante",
+      "level": 3,
+      "block": "Cosmética Íntima"
     },
     {
       "title": "Para Parejas / Todes",
-      "level": 2,
-      "block": "Cosmética Íntima",
       "handle": "cosmetica-parejas-todes",
-      "rule": "tag = cosmetica-parejas OR custom.publico = Parejas/Todes"
+      "header_eyebrow": null,
+      "header_short_description": null,
+      "rule": "tag = cosmetica-parejas OR custom.publico = Parejas/Todes",
+      "level": 2,
+      "block": "Cosmética Íntima"
     },
     {
       "title": "Lubricantes",
-      "level": 3,
-      "block": "Cosmética Íntima",
       "handle": "lubricantes",
-      "rule": "product_type = Lubricante OR tag = lubricante"
+      "header_eyebrow": null,
+      "header_short_description": null,
+      "rule": "product_type = Lubricante OR tag = lubricante",
+      "level": 3,
+      "block": "Cosmética Íntima"
     },
     {
       "title": "Geles con efectos",
-      "level": 3,
-      "block": "Cosmética Íntima",
       "handle": "geles-con-efectos",
-      "rule": "custom.subtipo_cosmetica = Gel con efecto OR tag = geles-efecto"
+      "header_eyebrow": null,
+      "header_short_description": null,
+      "rule": "custom.subtipo_cosmetica = Gel con efecto OR tag = geles-efecto",
+      "level": 3,
+      "block": "Cosmética Íntima"
     },
     {
       "title": "Espumas crocanti para masaje",
-      "level": 3,
-      "block": "Cosmética Íntima",
       "handle": "espumas-crocanti-masaje",
-      "rule": "custom.subtipo_cosmetica = Espuma crocanti OR tag = espuma-crocanti"
+      "header_eyebrow": null,
+      "header_short_description": null,
+      "rule": "custom.subtipo_cosmetica = Espuma crocanti OR tag = espuma-crocanti",
+      "level": 3,
+      "block": "Cosmética Íntima"
     },
     {
       "title": "Masaje y Aromas",
-      "level": 2,
-      "block": "Cosmética Íntima",
       "handle": "masaje-aromas",
-      "rule": "tag = masaje-aromas"
+      "header_eyebrow": null,
+      "header_short_description": null,
+      "rule": "tag = masaje-aromas",
+      "level": 2,
+      "block": "Cosmética Íntima"
     },
     {
       "title": "Aceites esenciales",
-      "level": 3,
-      "block": "Cosmética Íntima",
       "handle": "aceites-esenciales-masaje",
-      "rule": "custom.subtipo_cosmetica = Aceite esencial OR tag = aceite-esencial"
+      "header_eyebrow": null,
+      "header_short_description": null,
+      "rule": "custom.subtipo_cosmetica = Aceite esencial OR tag = aceite-esencial",
+      "level": 3,
+      "block": "Cosmética Íntima"
     },
     {
       "title": "Perfumes con feromonas",
-      "level": 3,
-      "block": "Cosmética Íntima",
       "handle": "perfumes-feromonas",
-      "rule": "custom.subtipo_cosmetica = Perfume con feromonas OR tag = feromonas"
+      "header_eyebrow": null,
+      "header_short_description": null,
+      "rule": "custom.subtipo_cosmetica = Perfume con feromonas OR tag = feromonas",
+      "level": 3,
+      "block": "Cosmética Íntima"
     },
     {
       "title": "Velas de masaje",
-      "level": 3,
-      "block": "Cosmética Íntima",
       "handle": "velas-masaje",
-      "rule": "custom.subtipo_cosmetica = Vela de masaje OR tag = vela-masaje"
+      "header_eyebrow": null,
+      "header_short_description": null,
+      "rule": "custom.subtipo_cosmetica = Vela de masaje OR tag = vela-masaje",
+      "level": 3,
+      "block": "Cosmética Íntima"
     },
     {
       "title": "Juguetes Eróticos",
-      "level": 1,
-      "block": "Juguetes Eróticos",
       "handle": "juguetes-eroticos",
-      "rule": "tag = juguetes-eroticos OR product_type = Juguete erótico"
+      "header_eyebrow": null,
+      "header_short_description": null,
+      "rule": "tag = juguetes-eroticos OR product_type = Juguete erótico",
+      "level": 1,
+      "block": "Juguetes Eróticos"
     },
     {
       "title": "Vibradores y Succionadores",
-      "level": 2,
-      "block": "Juguetes Eróticos",
       "handle": "vibradores-succionadores",
-      "rule": "tag = vibrador OR tag = succionador"
+      "header_eyebrow": null,
+      "header_short_description": null,
+      "rule": "tag = vibrador OR tag = succionador",
+      "level": 2,
+      "block": "Juguetes Eróticos"
     },
     {
       "title": "Estimuladores de Pareja",
-      "level": 2,
-      "block": "Juguetes Eróticos",
       "handle": "estimuladores-pareja",
-      "rule": "tag = estimulador-pareja"
+      "header_eyebrow": null,
+      "header_short_description": null,
+      "rule": "tag = estimulador-pareja",
+      "level": 2,
+      "block": "Juguetes Eróticos"
     },
     {
       "title": "Anal y Próstata",
-      "level": 2,
-      "block": "Juguetes Eróticos",
       "handle": "anal-prostata",
-      "rule": "tag = anal OR tag = prostata"
+      "header_eyebrow": null,
+      "header_short_description": null,
+      "rule": "tag = anal OR tag = prostata",
+      "level": 2,
+      "block": "Juguetes Eróticos"
     },
     {
       "title": "Kits de Iniciación",
-      "level": 2,
-      "block": "Juguetes Eróticos",
       "handle": "kits-iniciacion",
-      "rule": "tag = kit-iniciacion"
+      "header_eyebrow": null,
+      "header_short_description": null,
+      "rule": "tag = kit-iniciacion",
+      "level": 2,
+      "block": "Juguetes Eróticos"
     },
     {
       "title": "Realísticos",
-      "level": 2,
-      "block": "Juguetes Eróticos",
       "handle": "realisticos",
-      "rule": "tag = realistico OR tag = realístico"
+      "header_eyebrow": null,
+      "header_short_description": null,
+      "rule": "tag = realistico OR tag = realístico",
+      "level": 2,
+      "block": "Juguetes Eróticos"
     },
     {
       "title": "Muñecas tamaño real",
-      "level": 3,
-      "block": "Juguetes Eróticos",
       "handle": "munecas-tamano-real",
-      "rule": "tag = muneca-tamano-real"
+      "header_eyebrow": null,
+      "header_short_description": null,
+      "rule": "tag = muneca-tamano-real",
+      "level": 3,
+      "block": "Juguetes Eróticos"
     },
     {
       "title": "Muñecos tamaño real",
-      "level": 3,
-      "block": "Juguetes Eróticos",
       "handle": "munecos-tamano-real",
-      "rule": "tag = muneco-tamano-real"
+      "header_eyebrow": null,
+      "header_short_description": null,
+      "rule": "tag = muneco-tamano-real",
+      "level": 3,
+      "block": "Juguetes Eróticos"
     },
     {
       "title": "Lencería y Moda Íntima",
-      "level": 1,
-      "block": "Lencería",
       "handle": "lenceria-moda-intima",
-      "rule": "tag = lenceria OR product_type = Lencería"
+      "header_eyebrow": null,
+      "header_short_description": null,
+      "rule": "tag = lenceria OR product_type = Lencería",
+      "level": 1,
+      "block": "Lencería"
     },
     {
       "title": "Sexy & Chic",
-      "level": 2,
-      "block": "Lencería",
       "handle": "lenceria-sexy-chic",
-      "rule": "tag = sexy-chic OR custom.estilo_lenceria = Sexy & Chic"
+      "header_eyebrow": null,
+      "header_short_description": null,
+      "rule": "tag = sexy-chic OR custom.estilo_lenceria = Sexy & Chic",
+      "level": 2,
+      "block": "Lencería"
     },
     {
       "title": "Dark & Fetish",
-      "level": 2,
-      "block": "Lencería",
       "handle": "lenceria-dark-fetish",
-      "rule": "tag = dark-fetish OR custom.estilo_lenceria = Dark & Fetish"
+      "header_eyebrow": null,
+      "header_short_description": null,
+      "rule": "tag = dark-fetish OR custom.estilo_lenceria = Dark & Fetish",
+      "level": 2,
+      "block": "Lencería"
     },
     {
       "title": "Conjuntos",
-      "level": 2,
-      "block": "Lencería",
       "handle": "conjuntos-lenceria",
-      "rule": "custom.tipo_prenda = Conjunto OR tag = conjunto"
+      "header_eyebrow": null,
+      "header_short_description": null,
+      "rule": "custom.tipo_prenda = Conjunto OR tag = conjunto",
+      "level": 2,
+      "block": "Lencería"
     },
     {
       "title": "Bodys",
-      "level": 2,
-      "block": "Lencería",
       "handle": "bodys-lenceria",
-      "rule": "custom.tipo_prenda = Body OR tag = body"
+      "header_eyebrow": null,
+      "header_short_description": null,
+      "rule": "custom.tipo_prenda = Body OR tag = body",
+      "level": 2,
+      "block": "Lencería"
     },
     {
       "title": "Picardías y Babydolls",
-      "level": 2,
-      "block": "Lencería",
       "handle": "picardias-babydolls",
-      "rule": "custom.tipo_prenda IN Picardía/Babydoll"
+      "header_eyebrow": null,
+      "header_short_description": null,
+      "rule": "custom.tipo_prenda IN Picardía/Babydoll",
+      "level": 2,
+      "block": "Lencería"
     },
     {
       "title": "Accesorios de Moda Íntima",
-      "level": 2,
-      "block": "Lencería",
       "handle": "accesorios-moda-intima",
-      "rule": "tag = accesorio-moda-intima"
+      "header_eyebrow": null,
+      "header_short_description": null,
+      "rule": "tag = accesorio-moda-intima",
+      "level": 2,
+      "block": "Lencería"
     },
     {
       "title": "Fetiche y BDSM",
-      "level": 1,
-      "block": "Fetiche y BDSM",
       "handle": "fetiche-bdsm",
-      "rule": "tag = fetiche-bdsm OR product_type = BDSM"
+      "header_eyebrow": null,
+      "header_short_description": null,
+      "rule": "tag = fetiche-bdsm OR product_type = BDSM",
+      "level": 1,
+      "block": "Fetiche y BDSM"
     },
     {
       "title": "Ataduras y Sujeción",
-      "level": 2,
-      "block": "Fetiche y BDSM",
       "handle": "ataduras-sujecion",
-      "rule": "tag = atadura OR tag = sujecion"
+      "header_eyebrow": null,
+      "header_short_description": null,
+      "rule": "tag = atadura OR tag = sujecion",
+      "level": 2,
+      "block": "Fetiche y BDSM"
     },
     {
       "title": "Sensaciones",
-      "level": 2,
-      "block": "Fetiche y BDSM",
       "handle": "sensaciones-bdsm",
-      "rule": "tag = sensaciones-bdsm"
+      "header_eyebrow": null,
+      "header_short_description": null,
+      "rule": "tag = sensaciones-bdsm",
+      "level": 2,
+      "block": "Fetiche y BDSM"
     },
     {
       "title": "Mordazas y Máscaras",
-      "level": 2,
-      "block": "Fetiche y BDSM",
       "handle": "mordazas-mascaras",
-      "rule": "tag = mordaza OR tag = mascara"
+      "header_eyebrow": null,
+      "header_short_description": null,
+      "rule": "tag = mordaza OR tag = mascara",
+      "level": 2,
+      "block": "Fetiche y BDSM"
     },
     {
       "title": "Juegos y Experiencias",
-      "level": 1,
-      "block": "Juegos y Experiencias",
       "handle": "juegos-experiencias",
-      "rule": "tag = juegos-experiencias"
+      "header_eyebrow": null,
+      "header_short_description": null,
+      "rule": "tag = juegos-experiencias",
+      "level": 1,
+      "block": "Juegos y Experiencias"
     },
     {
       "title": "Juegos de Mesa",
-      "level": 2,
-      "block": "Juegos y Experiencias",
       "handle": "juegos-de-mesa-eroticos",
-      "rule": "tag = juego-mesa-erotico"
+      "header_eyebrow": null,
+      "header_short_description": null,
+      "rule": "tag = juego-mesa-erotico",
+      "level": 2,
+      "block": "Juegos y Experiencias"
     },
     {
       "title": "Packs LovLory",
-      "level": 2,
-      "block": "Juegos y Experiencias",
       "handle": "packs-lovlory",
-      "rule": "tag = pack-lovlory OR vendor = LovLory"
+      "header_eyebrow": null,
+      "header_short_description": null,
+      "rule": "tag = pack-lovlory OR vendor = LovLory",
+      "level": 2,
+      "block": "Juegos y Experiencias"
     }
   ],
   "secondary_from_excel": [
     {
       "title": "Novedades",
       "handle": "novedades",
+      "header_eyebrow": null,
+      "header_short_description": null,
       "rule": "tag = novedad; ordenar por fecha de creación descendente"
     },
     {
       "title": "Ofertas",
       "handle": "ofertas",
+      "header_eyebrow": null,
+      "header_short_description": null,
       "rule": "compare_at_price > price si está disponible; fallback tag = oferta"
     }
   ],
@@ -290,21 +372,29 @@
     {
       "title": "ORGIE",
       "handle": "orgie",
+      "header_eyebrow": null,
+      "header_short_description": null,
       "rule": "vendor = ORGIE"
     },
     {
       "title": "SVAKOM",
       "handle": "svakom",
+      "header_eyebrow": null,
+      "header_short_description": null,
       "rule": "vendor = SVAKOM"
     },
     {
       "title": "TENGA",
       "handle": "tenga",
+      "header_eyebrow": null,
+      "header_short_description": null,
       "rule": "vendor = TENGA"
     },
     {
       "title": "MISTRESS",
       "handle": "mistress",
+      "header_eyebrow": null,
+      "header_short_description": null,
       "rule": "vendor = MISTRESS"
     }
   ],

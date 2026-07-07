@@ -23,6 +23,16 @@ def sheet_rows(wb, sheet_name: str) -> list[dict[str, object]]:
     return rows
 
 
+def collection_copy(row: dict[str, object], title_field: str, handle_field: str, rule_field: str) -> dict[str, object]:
+    return {
+        "title": row.get(title_field),
+        "handle": row.get(handle_field),
+        "header_eyebrow": row.get("Subtítulo superior cabecera"),
+        "header_short_description": row.get("Descripción corta cabecera"),
+        "rule": row.get(rule_field),
+    }
+
+
 def main() -> None:
     wb = openpyxl.load_workbook(WORKBOOK, data_only=True)
     principal = sheet_rows(wb, "Colecciones principales")
@@ -47,28 +57,18 @@ def main() -> None:
     plan = {
         "principal_from_excel": [
             {
-                "title": row.get("Colección principal"),
+                **collection_copy(row, "Colección principal", "Handle sugerido", "Regla de inclusión"),
                 "level": row.get("Nivel menú"),
                 "block": row.get("Bloque menú"),
-                "handle": row.get("Handle sugerido"),
-                "rule": row.get("Regla de inclusión"),
             }
             for row in principal
         ],
         "secondary_from_excel": [
-            {
-                "title": row.get("Colección secundaria"),
-                "handle": row.get("Handle sugerido"),
-                "rule": row.get("Regla / alimentación"),
-            }
+            collection_copy(row, "Colección secundaria", "Handle sugerido", "Regla / alimentación")
             for row in secondary
         ],
         "brands_from_excel": [
-            {
-                "title": row.get("Marca / Vendor"),
-                "handle": row.get("Handle colección marca"),
-                "rule": row.get("Regla automática"),
-            }
+            collection_copy(row, "Marca / Vendor", "Handle colección marca", "Regla automática")
             for row in brands
         ],
         "product_taxonomy_counts": {

@@ -9,6 +9,11 @@ BASE = Path(__file__).resolve().parents[1]
 SOURCE = BASE / "LovLory_estructura_colecciones_shopify_v4.xlsx"
 OUTPUT = BASE / "LovLory_estructura_colecciones_shopify_MVP_v1.xlsx"
 
+HEADER_FIELDS = [
+    "Subtítulo superior cabecera",
+    "Descripción corta cabecera",
+]
+
 
 def replace_text(value: object) -> object:
     if isinstance(value, str):
@@ -70,6 +75,44 @@ def ensure_brand(ws, brand: str, handle: str, categories: str, filters: str, not
     ]
     for col, value in enumerate(values, 1):
         ws.cell(target, col).value = value
+
+
+def ensure_header_fields(ws) -> None:
+    headers = [ws.cell(3, col).value for col in range(1, ws.max_column + 1)]
+    missing_headers = [field for field in HEADER_FIELDS if field not in headers]
+    if not missing_headers:
+        return
+
+    template_col = ws.max_column
+    template_data_row = min(ws.max_row, 4)
+
+    for field in missing_headers:
+        new_col = ws.max_column + 1
+        ws.cell(3, new_col).value = field
+
+        for row in range(1, ws.max_row + 1):
+            src = ws.cell(row, template_col)
+            dst = ws.cell(row, new_col)
+            if src.has_style:
+                dst._style = copy(src._style)
+            if src.number_format:
+                dst.number_format = src.number_format
+            if src.alignment:
+                dst.alignment = copy(src.alignment)
+            if src.font:
+                dst.font = copy(src.font)
+            if src.fill:
+                dst.fill = copy(src.fill)
+            if src.border:
+                dst.border = copy(src.border)
+
+        ws.cell(3, new_col).value = field
+        ws.cell(template_data_row, new_col).value = ""
+        column_letter = ws.cell(3, new_col).column_letter
+        ws.column_dimensions[column_letter].width = max(
+            ws.column_dimensions[ws.cell(3, template_col).column_letter].width or 18,
+            24,
+        )
 
 
 def write_decision_sheet(wb) -> None:
@@ -228,6 +271,9 @@ def main() -> None:
     ]
     for col, value in enumerate(values, 1):
         revision.cell(next_row, col).value = value
+
+    for sheet_name in ("Colecciones principales", "Colecciones secundarias", "Colecciones marcas"):
+        ensure_header_fields(wb[sheet_name])
 
     write_decision_sheet(wb)
 
