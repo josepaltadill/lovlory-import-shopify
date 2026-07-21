@@ -4,9 +4,9 @@ from pathlib import Path
 
 
 BASE = Path(__file__).resolve().parents[1]
-INPUT = BASE / "wc-product-export-29-6-2026-marcas-mvp.csv"
-OUTPUT = BASE / "wc-product-export-29-6-2026-marcas-mvp_limpio.csv"
-REPORT = BASE / "wc-product-export-29-6-2026-marcas-mvp_limpieza_resumen.json"
+INPUT = BASE / "datos" / "02-datos-intermedios" / "wc-product-export-29-6-2026-marcas-mvp.csv"
+OUTPUT = BASE / "datos" / "02-datos-intermedios" / "wc-product-export-29-6-2026-marcas-mvp_limpio.csv"
+REPORT = BASE / "datos" / "05-informes-validacion" / "wc-product-export-29-6-2026-marcas-mvp_limpieza_resumen.json"
 
 KEEP_COLUMNS = [
     "ID",

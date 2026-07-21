@@ -7,9 +7,9 @@ import openpyxl
 
 
 BASE = Path(__file__).resolve().parents[1]
-WORKBOOK = BASE / "LovLory_estructura_colecciones_shopify_MVP_v1.xlsx"
-TAXONOMY = BASE / "wc-product-export-29-6-2026-marcas-mvp_shopify_taxonomia.csv"
-OUTPUT = BASE / "shopify_collections_creation_plan.json"
+WORKBOOK = BASE / "datos" / "07-colecciones" / "LovLory_estructura_colecciones_shopify_MVP_v1.xlsx"
+TAXONOMY = BASE / "datos" / "02-datos-intermedios" / "wc-product-export-29-6-2026-marcas-mvp_shopify_taxonomia.csv"
+OUTPUT = BASE / "datos" / "06-registros-shopify" / "shopify_collections_creation_plan.json"
 
 
 def sheet_rows(wb, sheet_name: str) -> list[dict[str, object]]:

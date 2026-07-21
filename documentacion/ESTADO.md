@@ -24,17 +24,17 @@ También se acordó:
 ## Archivos clave
 El archivo principal de trabajo para productos preparados es:
 
-- `shopify_import_lovlory_mvp_productos_con_pesos.csv`
+- `datos/03-archivos-importacion-shopify/shopify_import_lovlory_mvp_productos_con_pesos.csv`
 
 Este CSV es el que contiene los productos limpios, filtrados por marcas MVP, con taxonomía Shopify y pesos completados cuando ha sido posible.
 
 Otros archivos útiles:
 
-- `wc-product-export-29-6-2026-1782741544086.csv`: exportación completa original de WooCommerce.
-- `wc-product-export-29-6-2026-marcas-mvp_shopify_taxonomia.csv`: CSV intermedio con taxonomía Shopify.
-- `shopify_import_lovlory_mvp_batch3.json`: lote usado para TENGA UNI/3D y Scarlett.
-- `shopify_import_lovlory_mvp_batch4.json`: lote usado para Kevin, Daniel, Sebastian, Aurora y productos ORGIE.
-- `shopify_import_lovlory_mvp_pilot10.json`, `shopify_import_lovlory_mvp_pilot10_selected.json`, `shopify_import_lovlory_mvp_pilot_next8.json`: lotes piloto usados durante la importación inicial.
+- `datos/01-fuentes-originales/wc-product-export-29-6-2026-1782741544086.csv`: exportación completa original de WooCommerce.
+- `datos/02-datos-intermedios/wc-product-export-29-6-2026-marcas-mvp_shopify_taxonomia.csv`: CSV intermedio con taxonomía Shopify.
+- `datos/04-lotes-importacion/shopify_import_lovlory_mvp_batch3.json`: lote usado para TENGA UNI/3D y Scarlett.
+- `datos/04-lotes-importacion/shopify_import_lovlory_mvp_batch4.json`: lote usado para Kevin, Daniel, Sebastian, Aurora y productos ORGIE.
+- `datos/04-lotes-importacion/shopify_import_lovlory_mvp_pilot10.json`, `datos/04-lotes-importacion/shopify_import_lovlory_mvp_pilot10_selected.json`, `datos/04-lotes-importacion/shopify_import_lovlory_mvp_pilot_next8.json`: lotes piloto usados durante la importación inicial.
 - `AGENTS.md`: guía actualizada del repositorio y flujo de trabajo.
 
 Los scripts de `tools/` se actualizaron para ser portables entre PCs. Ahora calculan la raíz del repo con:
@@ -178,8 +178,8 @@ En el último intento se completó un lote de 10 productos:
 
 Ambos se sacaron del archivo:
 
-- `shopify_import_lovlory_mvp_productos_con_pesos.csv`
-- `shopify_import_lovlory_mvp_batch8.json`
+- `datos/03-archivos-importacion-shopify/shopify_import_lovlory_mvp_productos_con_pesos.csv`
+- `datos/04-lotes-importacion/shopify_import_lovlory_mvp_batch8.json`
 
 Detalles:
 
@@ -263,7 +263,7 @@ Detalles:
   - Peso: `0 g` porque el CSV final no trae peso verificable.
   - Imágenes: 1, verificada en `READY`.
 
-Quedamos justo después de importar y verificar este lote de 10 productos. Para continuar en una nueva sesión, buscar el siguiente producto pendiente en `shopify_import_lovlory_mvp_productos_con_pesos.csv`, comprobando antes en Shopify por SKU para evitar duplicados.
+Quedamos justo después de importar y verificar este lote de 10 productos. Para continuar en una nueva sesión, buscar el siguiente producto pendiente en `datos/03-archivos-importacion-shopify/shopify_import_lovlory_mvp_productos_con_pesos.csv`, comprobando antes en Shopify por SKU para evitar duplicados.
 
 El siguiente SKU pendiente en el orden del CSV final es:
 
@@ -310,7 +310,7 @@ Siguiente SKU pendiente en el CSV final:
 
 ## Nueva tanda importada
 
-Se ha continuado la importación con un lote de 10 productos sacados de `shopify_import_lovlory_mvp_productos_con_pesos.csv`.
+Se ha continuado la importación con un lote de 10 productos sacados de `datos/03-archivos-importacion-shopify/shopify_import_lovlory_mvp_productos_con_pesos.csv`.
 
 Los dos primeros ya existían en Shopify y se han corregido a `DRAFT` porque tienen stock 0:
 
@@ -336,7 +336,7 @@ Siguiente SKU pendiente en el orden del CSV:
 
 ## Nueva tanda importada
 
-Se ha continuado la importación con otro lote de 10 productos de `ORGIE`, todos creados a partir de `shopify_import_lovlory_mvp_productos_con_pesos.csv` y con imágenes subidas a Shopify CDN.
+Se ha continuado la importación con otro lote de 10 productos de `ORGIE`, todos creados a partir de `datos/03-archivos-importacion-shopify/shopify_import_lovlory_mvp_productos_con_pesos.csv` y con imágenes subidas a Shopify CDN.
 
 Productos importados:
 
@@ -359,7 +359,7 @@ Siguiente SKU pendiente en el orden del CSV:
 
 ## Nueva tanda importada
 
-Se ha continuado la importación con otro lote de 10 productos de `ORGIE` a partir de `shopify_import_lovlory_mvp_productos_con_pesos.csv`.
+Se ha continuado la importación con otro lote de 10 productos de `ORGIE` a partir de `datos/03-archivos-importacion-shopify/shopify_import_lovlory_mvp_productos_con_pesos.csv`.
 
 En este lote había 2 SKUs que ya existían en Shopify:
 
@@ -385,7 +385,7 @@ Siguiente SKU pendiente en el orden del CSV:
 
 ## Nueva tanda importada
 
-Se ha continuado la importación con otro lote de 10 productos de `ORGIE` desde `shopify_import_lovlory_mvp_productos_con_pesos.csv`.
+Se ha continuado la importación con otro lote de 10 productos de `ORGIE` desde `datos/03-archivos-importacion-shopify/shopify_import_lovlory_mvp_productos_con_pesos.csv`.
 
 En este bloque ya existían en Shopify y no ha hecho falta recrearlos:
 
@@ -411,7 +411,7 @@ Siguiente SKU pendiente en el orden del CSV:
 
 ## Nueva tanda importada
 
-Se ha continuado la importación con un lote nuevo de 10 productos de `SVAKOM` desde `shopify_import_lovlory_mvp_productos_con_pesos.csv`.
+Se ha continuado la importación con un lote nuevo de 10 productos de `SVAKOM` desde `datos/03-archivos-importacion-shopify/shopify_import_lovlory_mvp_productos_con_pesos.csv`.
 
 Productos creados:
 
@@ -469,7 +469,7 @@ Con este lote quedan **30 productos pendientes** en el CSV final.
 El siguiente tramo del CSV ya contiene varios productos que estaban repetidos o ya importados, asÃ­ que el pr�ximo hueco nuevo hay que localizarlo avanzando un poco m�s en el archivo.
 ## VerificaciÃ³n final del CSV de importaciÃ³n
 
-Se ha revisado `shopify_import_lovlory_mvp_productos_con_pesos.csv` completo. El fichero contiene **189 productos** reales y termina en `WINNI 2` (`25338736`).
+Se ha revisado `datos/03-archivos-importacion-shopify/shopify_import_lovlory_mvp_productos_con_pesos.csv` completo. El fichero contiene **189 productos** reales y termina en `WINNI 2` (`25338736`).
 
 La comprobaciÃ³n con Shopify muestra que ese Ãºltimo tramo ya estÃ¡ importado y no queda un lote nuevo de 10 productos dentro del CSV MVP final.
 

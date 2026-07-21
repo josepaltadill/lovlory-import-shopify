@@ -6,7 +6,7 @@ from pathlib import Path
 
 
 BASE = Path(__file__).resolve().parents[1]
-INPUT = BASE / "wc-product-export-29-6-2026-marcas-mvp_limpio.csv"
+INPUT = BASE / "datos" / "02-datos-intermedios" / "wc-product-export-29-6-2026-marcas-mvp_limpio.csv"
 TARGETS = {"ORGIE", "SVAKOM", "TENGA", "MISTRESS"}
 
 

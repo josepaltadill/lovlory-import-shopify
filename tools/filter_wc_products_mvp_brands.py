@@ -6,9 +6,9 @@ from pathlib import Path
 
 
 BASE = Path(__file__).resolve().parents[1]
-SOURCE = BASE / "wc-product-export-29-6-2026-1782741544086.csv"
-OUTPUT = BASE / "wc-product-export-29-6-2026-marcas-mvp.csv"
-REPORT = BASE / "wc-product-export-29-6-2026-marcas-mvp_resumen.json"
+SOURCE = BASE / "datos" / "01-fuentes-originales" / "wc-product-export-29-6-2026-1782741544086.csv"
+OUTPUT = BASE / "datos" / "02-datos-intermedios" / "wc-product-export-29-6-2026-marcas-mvp.csv"
+REPORT = BASE / "datos" / "05-informes-validacion" / "wc-product-export-29-6-2026-marcas-mvp_resumen.json"
 TARGETS = {"ORGIE", "SVAKOM", "TENGA", "MISTRESS"}
 
 

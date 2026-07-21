@@ -95,7 +95,7 @@ Pasos:
 5. Añade la condición que corresponda.
 6. Guarda la colección.
 
-En el workbook operativo `LovLory_estructura_colecciones_shopify_MVP_v1.xlsx` ahora existen dos campos opcionales para preparar mejor la cabecera visual de cada colección:
+En el workbook operativo `datos/07-colecciones/LovLory_estructura_colecciones_shopify_MVP_v1.xlsx` ahora existen dos campos opcionales para preparar mejor la cabecera visual de cada colección:
 
 - `Subtítulo superior cabecera`
 - `Descripción corta cabecera`

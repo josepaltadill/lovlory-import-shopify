@@ -6,8 +6,8 @@ from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 
 
 BASE = Path(__file__).resolve().parents[1]
-SOURCE = BASE / "LovLory_estructura_colecciones_shopify_v4.xlsx"
-OUTPUT = BASE / "LovLory_estructura_colecciones_shopify_MVP_v1.xlsx"
+SOURCE = BASE / "datos" / "07-colecciones" / "LovLory_estructura_colecciones_shopify_v4.xlsx"
+OUTPUT = BASE / "datos" / "07-colecciones" / "LovLory_estructura_colecciones_shopify_MVP_v1.xlsx"
 
 HEADER_FIELDS = [
     "Subtítulo superior cabecera",
