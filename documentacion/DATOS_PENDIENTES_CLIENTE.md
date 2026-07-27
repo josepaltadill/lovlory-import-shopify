@@ -4,34 +4,60 @@ Este documento registra únicamente la información que falta por solicitar o co
 
 ## Información comercial y del titular
 
-- [ ] Confirmar que el titular desarrolla la actividad como autónomo individual y no mediante una sociedad (por ejemplo, SL o SLU).
+- [x] Confirmado que la titular desarrolla la actividad como autónoma individual y no mediante una sociedad (por ejemplo, SL o SLU).
   - **Pantalla:** `Configuración > General > Información comercial > Editar información comercial > Tipo de empresa`.
-- [ ] Solicitar el segundo apellido del titular, exactamente como aparece en su documentación oficial.
+- [x] Segundo apellido recibido y cumplimentado según la información facilitada por la clienta.
   - **Pantalla:** `Configuración > General > Información comercial > Editar información comercial > Nombre y apellidos`.
-- [ ] Solicitar la fecha de nacimiento del titular, exactamente como aparece en su documentación oficial.
+- [x] Fecha de nacimiento recibida y cumplimentada. No se registra el valor en el repositorio.
   - **Pantalla:** `Configuración > General > Información comercial > Editar información comercial > Fecha de nacimiento`.
-- [ ] Confirmar que la dirección actual es: **Sant Cristòfol, 117, Despacho n.º 10, 43870 Amposta (Tarragona)**.
+- [x] Confirmado el domicilio profesional: **Sant Cristòfol, 117, Despacho/puerta n.º 10, 43870 Amposta (Tarragona)**.
   - **Pantalla:** `Configuración > General > Información comercial > Editar información comercial > Dirección residencial`.
-- [ ] Aclarar si esa dirección es también la dirección residencial acreditable del titular o solamente el domicilio profesional/fiscal, ya que el formulario de persona física de Shopify solicita la dirección residencial.
+- [ ] Solicitar la dirección residencial particular de la titular, coincidente con su documentación o comprobante de domicilio. Lorena ha confirmado que Sant Cristòfol es únicamente el domicilio profesional, por lo que no debe darse por válida en este campo.
+  - **Seguridad:** recibirla y cumplimentarla por un canal seguro; no guardar la dirección residencial en el repositorio.
   - **Pantalla:** `Configuración > General > Información comercial > Editar información comercial > Dirección residencial`.
 
 ## Información fiscal
 
-- [ ] Solicitar o confirmar el NIF de la autónoma (normalmente coincide con su DNI/NIE) y pedir a la gestoría el **número de IVA exacto que debe introducirse en Shopify**, incluido si debe usarse el formato `ES` + NIF. Confirmar también si está dada de alta en el ROI y aparece en VIES. No guardar el número completo en el repositorio.
+- [~] Confirmar el NIF de la autónoma y pedir a la gestoría el **número de IVA exacto que debe introducirse en Shopify**, incluido si debe usarse el formato `ES` + NIF. No guardar el número completo en el repositorio.
+  - **Respuesta de Lorena (27/07/2026):** confirma que el NIF de la actividad corresponde a su DNI y que está dada de alta en el ROI y consta en VIES. No se registra el valor del documento.
+  - **Pendiente:** la gestoría debe confirmar el formato exacto del número de IVA y si debe incluir el prefijo `ES`.
   - **Pantalla:** `Configuración > Impuestos y aranceles > Unión Europea > Recauda el IVA en un país de la UE > España > Recaudar IVA > Número de IVA`.
-- [ ] Confirmar con la gestoría si los precios de venta deben mostrarse con IVA incluido y el tipo de IVA aplicable al catálogo.
+  - **Estado revisado (27/07/2026):** en la pantalla general de `Unión Europea`, España muestra el aviso `Umbral excedido` y el botón `Recaudar IVA`; todavía no consta un registro español de IVA configurado. No se realizó ningún cambio.
+  - **Formulario revisado (27/07/2026):** el cuadro `Recaudar el IVA` tiene seleccionado `España` como país de registro y solicita un único campo `Número de IVA`, actualmente vacío. Shopify muestra un ejemplo con prefijo `ES`, pero no debe interpretarse como confirmación del formato aplicable a la titular. El formulario se dejó sin completar y no se pulsó `Recaudar el IVA`.
+  - **Pantallas revisadas:** `Configuración > Impuestos y aranceles > Unión Europea` y `Unión Europea > Recauda el IVA en un país de la UE > España > Recaudar IVA`.
+- [~] Confirmar con la gestoría si los precios de venta deben mostrarse con IVA incluido y el tipo de IVA aplicable al catálogo.
+  - **Respuesta de Lorena (27/07/2026):** confirma que los precios se muestran con IVA incluido y que la mayoría de los productos tributan al 21 %. Indica que puede haber productos de los tres tipos y que confirmará la clasificación definitiva tras revisar el catálogo.
+  - **Pendiente:** recibir la confirmación final del tipo aplicable a cada producto o grupo de productos. No aplicar anulaciones ni asumir tipos distintos del 21 % sin esa revisión.
   - **Pantalla:** `Configuración > Impuestos y aranceles > Configuración adicional > Incluir impuesto sobre las ventas en el precio del producto y la tarifa de envío` y `Mercados > España > Impuestos y aranceles > Visualización de impuestos`.
-- [ ] Confirmar si la autónoma está inscrita en el régimen OSS o si inicialmente solo declarará ventas en España.
+  - **Estado revisado (27/07/2026):** `Incluir impuesto sobre las ventas en el precio del producto y la tarifa de envío` ya está activado, coherente con la confirmación de precios con IVA incluido. Shopify muestra que aplica provisionalmente una tasa del 0 % porque todavía no hay identificación fiscal configurada en la región. No se realizó ningún cambio.
+  - **Otras opciones observadas:** `Cobrar impuesto sobre las ventas en el envío` está desactivado y Shopify indica que lo calcula automáticamente para la Unión Europea; `Cobrar IVA sobre contenidos digitales` también está desactivado. Mantener ambas sin cambios hasta validar la tributación del envío y confirmar que el catálogo del lanzamiento es exclusivamente físico.
+  - **Mercado España revisado (27/07/2026):** el mercado está activo, el impuesto sobre las ventas figura `Sin recaudación` y la visualización seleccionada es `Visualización dinámica de impuestos`. No se cambió el desplegable ni se guardó el cuadro. Mantener esta selección y validar el resultado en escaparate y checkout después de completar el registro fiscal.
+  - **Pantallas revisadas:** `Configuración > Impuestos y aranceles > Configuración adicional` y `Mercados > España > Impuestos y aranceles`.
+- [~] Confirmar si la autónoma está inscrita en el régimen OSS.
+  - **Respuesta de Lorena (27/07/2026):** prevé vender en España peninsular y Baleares, excluyendo Canarias, Ceuta y Melilla, y también en el resto de Europa excepto Reino Unido.
+  - **Pendiente:** Lorena desconoce el estado de OSS y lo ha consultado con la gestoría; si no está inscrita, ha solicitado que se tramite. La inscripción en ROI/VIES no se utilizará como confirmación de OSS.
   - **Pantalla:** `Configuración > Impuestos y aranceles > Unión Europea > Recauda el IVA en ventas transfronterizas > Recaudar IVA`.
-- [ ] Confirmar si utiliza un programa externo para emitir facturas o si desea activar las facturas con IVA automáticas de Shopify.
+  - **Formulario revisado (27/07/2026):** `Recauda en toda la UE` permite escoger entre recaudar mediante un registro en Ventanilla Única (OSS) o utilizar el registro del país de origen para microempresas que cumplan las condiciones mostradas por Shopify. Ambas opciones solicitan país de registro y número de IVA; no había ninguna seleccionada y los campos estaban vacíos.
+  - **Decisión:** no seleccionar ninguna modalidad ni pulsar `Recaudar IVA` hasta que la gestoría confirme expresamente si corresponde OSS o el régimen del país de origen y facilite el formato fiscal exacto.
+  - **Pantalla revisada:** `Configuración > Impuestos y aranceles > Unión Europea > Recauda el IVA en ventas transfronterizas > Recaudar IVA`.
+- [~] Confirmar si se utilizarán las facturas con IVA automáticas de Shopify y cómo se integrarán con Odoo.
+  - **Respuesta de Lorena (27/07/2026):** prefiere generar las facturas directamente en Shopify si después puede volcarlas a Odoo.
+  - **Pendiente:** acordar el flujo y comprobar la exportación o integración con Odoo antes de activar la generación automática.
   - **Pantalla:** `Configuración > Impuestos y aranceles > Unión Europea > Facturas con IVA > Generar y mostrar facturas cuando se realicen pedidos`.
-- [ ] Confirmar si la tienda venderá también a empresas y necesitará gestionar números de IVA de clientes, o si el lanzamiento será exclusivamente B2C.
-  - **Pantalla:** `Configuración > Impuestos y aranceles > Unión Europea > Número de IVA de la empresa > Gestionar`.
+  - **Estado revisado (27/07/2026):** `Generar y mostrar facturas cuando se realicen pedidos` está desactivado. Shopify indica que la función no está disponible para pedidos con envío a Portugal.
+  - **Decisión:** mantenerla desactivada hasta definir cómo se trasladarán las facturas a Odoo, probar el flujo y decidir el tratamiento de Portugal dentro del alcance europeo.
+  - **Pantalla revisada:** `Configuración > Impuestos y aranceles > Unión Europea > Facturas con IVA`.
+- [~] Confirmar el alcance B2C/B2B y si deben gestionarse números de IVA de clientes.
+  - **Respuesta de Lorena (27/07/2026):** la actividad será mayoritariamente B2C, aunque también prevé vender a asociaciones con NIF.
+  - **Pendiente:** concretar si esas asociaciones deberán introducir nombre de empresa y número fiscal durante el checkout y qué tratamiento de factura e IVA corresponderá.
+  - **Estado revisado (27/07/2026):** la tarjeta `Número de IVA de la empresa` aparece activada en la configuración de la UE, pero su botón `Gestionar` dirige a `Configuración > Pago > Información del cliente`. En esa pantalla, tanto `Nombre de la empresa` como `Número de IVA de la empresa` están configurados como `No incluir`, por lo que actualmente no se muestran en el checkout.
+  - **Decisión:** mantener ambos campos en `No incluir` hasta cerrar con Lorena y la gestoría el flujo de venta y facturación para asociaciones. No se realizó ningún cambio.
+  - **Pantallas revisadas:** `Configuración > Impuestos y aranceles > Unión Europea > Número de IVA de la empresa > Gestionar` y `Configuración > Pago > Información del cliente`.
 
 ## Preparación del correo
 
 - [x] Solicitudes incorporadas al correo conjunto y enviadas a Lorena el 21 de julio de 2026.
-- [ ] Registrar las respuestas de Lorena y actualizar cada bloque pendiente cuando las recibamos.
+- [x] Respuestas de Lorena sobre envío y preparación recibidas y registradas el 27 de julio de 2026. Cada valor queda pendiente de comprobar en su pantalla de Shopify antes de considerarlo configurado.
 
 ## Decisiones operativas por confirmar
 
@@ -40,104 +66,188 @@ Este documento registra únicamente la información que falta por solicitar o co
 
 ## Envío y preparación
 
-> Toda la configuración encontrada en este apartado se considera **existente pero no validada**. El cliente debe confirmar expresamente cada valor, aunque ya aparezca configurado en Shopify.
+> Lorena confirmó el 27 de julio de 2026 que configuró personalmente las opciones actuales. Sus respuestas se consideran **validación comercial**, pero cada valor debe comprobarse todavía en Shopify antes de marcarlo como configurado.
 
-> **Decisión de revisión:** no se abrirán ni modificarán más tarifas individualmente, ya que comparten los mismos campos de configuración. Se solicitará al cliente una validación conjunta de todas las modalidades, importes, condiciones y plazos actuales.
+> **Decisión de revisión:** se revisará y documentará una pantalla cada vez. No se activará la UE hasta cerrar países, tarifas y fiscalidad/OSS, ni se aplicarán opciones fiscales sin confirmación de Lorena o de su gestoría.
 
-- [ ] Confirmar si el cliente configuró personalmente las zonas, tarifas, plazos y modalidades de envío que aparecen actualmente en Shopify, y si siguen siendo las condiciones comerciales que desea aplicar.
-  - **Si la respuesta es sí:** pedirle que valide expresamente los valores actuales y aclare las incidencias señaladas debajo.
-  - **Si la respuesta es no o no está seguro:** solicitar toda la información de este apartado antes de cambiar nada: origen de los pedidos, destinos, transportista, tabla de precios, umbral gratuito, modalidades, plazos, preparación, embalajes, recogida, devoluciones y condiciones especiales.
-  - **Criterio de trabajo:** no modificar, eliminar ni activar ninguna tarifa o zona hasta recibir esta confirmación.
+- [x] Lorena confirma que configuró personalmente las zonas, tarifas, plazos y modalidades actuales y ha facilitado correcciones y condiciones comerciales.
+  - **Respuesta de Lorena (27/07/2026):** solicita revisar las opciones actuales, corregir el solapamiento de la tarifa estándar, completar plazos y preparar la futura activación de la UE.
+  - **Criterio de trabajo:** comprobar cada valor en su pantalla antes de cambiarlo. La autorización general no permite activar la UE mientras sigan pendientes OSS, países exactos y tarifas finales con IVA.
   - **Pantalla:** `Configuración > Envío y entrega` y `Configuración > Envío y entrega > Perfiles de envío > Perfil general`.
+  - **Estado revisado (27/07/2026):** `Configuración > Envío y entrega` muestra un único `Perfil general` que contiene todos los productos, una sucursal y tres zonas. También muestra `Fechas manuales`, una caja y ninguna cuenta de empresa de transporte conectada. `Entrega local`, `Retiro en tienda` y `Puntos de retiro` están desactivados. No se abrió ningún elemento ni se realizó ningún cambio.
+  - **Siguiente comprobación:** `Configuración > Envío y entrega > Perfiles de envío > Perfil general`.
 
 ### Origen, sucursal y preparación
 
-- [ ] Confirmar si la ubicación actual es realmente el lugar desde el que se almacenan, preparan y entregan los paquetes al transportista.
+- [x] Ubicación profesional de Amposta desde la que Lorena prepara los pedidos propios confirmada y validada.
   - **Valor actual:** `C/ Sant Cristofol 117 puerta 10, 43870 Amposta, Tarragona, España`.
   - **Diferencia detectada:** en la información facilitada anteriormente figura `Sant Cristòfol, 117, Despacho n.º 10`.
+  - **Respuesta de Lorena (27/07/2026):** confirma que se trata de un entresuelo con varios despachos y autoriza usar la forma que Shopify acepte mejor. También confirma que otros pedidos salen directamente de almacenes de proveedores mediante dropshipping.
+  - **Decisión:** se acepta como correcta la forma almacenada por Shopify, con `puerta 10`, para identificar el despacho profesional de Amposta.
   - **Pantalla:** `Configuración > Envío y entrega > Perfil general > Ubicación de procesamiento` y `Configuración > Sucursales`.
-- [ ] Confirmar el nombre interno que debe tener la sucursal y si existe alguna otra ubicación con stock o desde la que se preparen pedidos.
-  - **Pantalla:** `Configuración > Sucursales` y `Configuración > Envío y entrega > Perfil general > Ubicación de procesamiento`.
-- [ ] Confirmar el plazo habitual de preparación antes de entregar el paquete al transportista.
+  - **Estado validado (27/07/2026):** el `Perfil general` muestra una única ubicación de procesamiento con la dirección profesional de Sant Cristòfol 117, puerta 10, Amposta. La dirección se confirma como correcta y no requiere cambios.
+  - **Seguimiento independiente:** decidir si los almacenes de proveedores deben representarse como ubicaciones, una aplicación de dropshipping o únicamente como operativa externa. No registrar sus direcciones hasta determinar que sean necesarias.
+- [x] Nombre interno de la sucursal de Amposta confirmado y configurado como `LovLory — Amposta`.
+  - **Estado final (27/07/2026):** la sucursal es la predeterminada y tiene activado el uso de su inventario para preparar pedidos online. El envío está activado; entrega local, retiro en tienda y envío a puntos de retiro están desactivados.
+  - **Cambio aplicado:** el nombre anterior, basado en la dirección completa, se sustituyó por `LovLory — Amposta`. La dirección no se modificó.
+  - **Pantalla:** `Configuración > Sucursales > LovLory — Amposta > Información de la sucursal > Nombre`.
+- [~] Definir el modelo de ubicaciones para los almacenes de proveedores.
+  - **Respuesta de Lorena (27/07/2026):** existen varios almacenes de proveedores desde los que se envía directamente al cliente.
+  - **Decisión (27/07/2026):** no solicitar ni crear por ahora una sucursal física para cada proveedor. En Shopify, una aplicación de dropshipping puede crear su propia ubicación; si el proveedor trabaja sin aplicación pero acepta pedidos por correo, puede configurarse posteriormente como servicio de logística personalizado.
+  - **Datos mínimos que deben recopilarse primero por proveedor:** nombre comercial o identificador interno; productos/SKU que prepara; método de transmisión del pedido (aplicación, API, correo o gestión manual); sincronización de stock; países atendidos; costes y plazos; transportistas; seguimiento; seguro; devoluciones y tratamiento de pedidos con productos de varios orígenes.
+  - **Dirección completa:** pedirla únicamente si resulta necesaria para comprar etiquetas desde Shopify, calcular tarifas desde el origen, gestionar una devolución o cumplir una obligación operativa/legal confirmada. No guardarla en el repositorio si corresponde a una dirección personal.
+  - **Pendiente:** inventariar proveedores y flujo de stock/preparación antes de crear aplicaciones, servicios de logística o ubicaciones. Mantener mientras tanto `LovLory — Amposta` como única sucursal física configurada.
+  - **Pantalla relacionada:** `Configuración > Sucursales` y `Configuración > Envío y entrega > Perfil general > Ubicación de procesamiento`.
+  - **Fiscalidad:** Shopify muestra un aviso para revisar si existe obligación de recaudar impuestos en Tarragona. No se abrió `Gestionar obligación tributaria` ni se realizó ningún cambio; cualquier actuación queda bloqueada hasta confirmación de Lorena o de su gestoría.
+- [x] Trasladar a Shopify los plazos operativos facilitados como plazos totales por tarifa.
+  - **Respuesta de Lorena (27/07/2026):** 24/48 horas laborables para pedidos nacionales realizados antes de las 16:00 y 2–5 días laborables para pedidos europeos realizados antes de las 14:00.
+  - **Estado revisado (27/07/2026):** `Fechas de entrega estimadas` está configurado en modo `Manual` con un tiempo global de preparación de `Siguiente día hábil`. Shopify indica expresamente que calcula el rango mostrado sumando este tiempo de preparación al tiempo de tránsito definido en cada tarifa. No se realizó ningún cambio.
+  - **Incidencia:** la respuesta de Lorena se dio al preguntar por preparación, pero 24/48 horas también coincide con el plazo solicitado para la tarifa urgente y 2–5 días con el plazo de la tarifa estándar nacional. Si fueran plazos totales y se introdujeran como tránsito, Shopify añadiría además el día de preparación.
+  - **Decisión resuelta (27/07/2026):** interpretar estándar nacional `2–5 días hábiles`, urgente `1–2 días hábiles` y UE `3–7 días hábiles` como plazos totales visibles al cliente.
   - **Pantalla:** `Configuración > Envío y entrega > Fechas de entrega estimadas`.
-- [ ] Confirmar días laborables, festivos, hora límite diaria y qué ocurre con los pedidos realizados después de esa hora.
+  - **Decisión aplicada (27/07/2026):** los intervalos se tratarán como plazos totales visibles y se configurarán en cada tarifa. Se desactivó la suma global de preparación para evitar incrementarlos automáticamente.
+- [x] Días de expedición, festivos y tratamiento de pedidos posteriores a la hora límite definidos.
+  - **Respuesta de Lorena (27/07/2026):** no se realizan envíos en domingos ni festivos nacionales; indica corte a las 16:00 para nacional y a las 14:00 para Europa.
+  - **Criterio operativo (27/07/2026):** interpretar la respuesta literalmente como expediciones de lunes a sábado, excepto festivos nacionales. Los pedidos nacionales recibidos después de las 16:00 y los europeos recibidos después de las 14:00 pasan al siguiente día de expedición disponible.
+  - **Aplicación en Shopify:** `Fechas de entrega estimadas` permanece `Desactivado` porque el tiempo de preparación mostrado por Shopify es global y no permite representar en esta pantalla dos cortes diferentes por destino. Los márgenes derivados del corte, domingos, festivos y disponibilidad de las agencias se absorben en el plazo total de cada tarifa.
+  - **Comunicación al cliente:** indicar en la política de envíos que las expediciones se realizan en horario laboral, sujetas a disponibilidad de las agencias y posibles incidencias técnicas, y que no se realizan en domingos ni festivos nacionales.
+  - **Revisión:** este criterio se incluirá en la única validación final conjunta de Lorena; no queda como solicitud independiente.
   - **Pantalla:** `Configuración > Envío y entrega > Fechas de entrega estimadas`.
-- [ ] Confirmar si el plazo mostrado al cliente debe expresar solo el tránsito o la suma de preparación y tránsito.
+- [x] Mostrar al cliente el plazo configurado en cada tarifa, sin sumar automáticamente un tiempo global de preparación.
+  - **Funcionamiento comprobado (27/07/2026):** el modo `Manual` actual muestra la suma del tiempo global de preparación y el tiempo de tránsito de cada tarifa. La alternativa `Desactivado` mostraría únicamente el tránsito o la descripción personalizada de la tarifa.
+  - **Configuración aprobada:** estándar nacional y gratuito `2–5 días hábiles`; urgente `1–2 días hábiles`; UE `3–7 días hábiles`. Para la recogida en el despacho, usar una descripción como `Disponible para recoger en 2–5 días hábiles`, ya que no existe tránsito de transportista.
+  - **Estado final (27/07/2026):** `Fechas de entrega estimadas` se cambió de `Manual` a `Desactivado`. Shopify confirmó la actualización y el resumen muestra `Desactivado`. Los plazos individuales todavía deben configurarse y verificarse tarifa por tarifa.
   - **Pantalla:** `Configuración > Envío y entrega > Fechas de entrega estimadas` y `Perfil general > Editar opción de envío > Tiempo de tránsito`.
 
 ### Destinos y zonas
 
-- [ ] Confirmar los destinos del lanzamiento por separado: España peninsular, Baleares, Canarias, Ceuta y Melilla.
-  - **Valor actual:** existe una única zona llamada `España`, por lo que debemos verificar qué provincias incluye realmente.
+- [x] Destinos nacionales del lanzamiento confirmados: España peninsular y Baleares.
+  - **Valor inicial:** existía una única zona llamada `España` con las 52 provincias.
+  - **Respuesta de Lorena (27/07/2026):** no incluye Canarias, Ceuta ni Melilla.
   - **Pantalla:** `Configuración > Envío y entrega > Perfil general > Zona España > Editar zona`.
-- [ ] Confirmar si Baleares tendrá precios o plazos diferentes de la Península.
+  - **Estado revisado (27/07/2026):** `Editar zona de envío` confirma que `España` tiene seleccionadas las 52 provincias. Por tanto, la zona actual incluye Península, Baleares, Canarias, Ceuta y Melilla, y no cumple todavía el alcance confirmado. Se cerró con `Cancelar` y no se realizó ningún cambio.
+  - **Configuración guardada (27/07/2026):** la zona se renombró `España peninsular` y quedó limitada a `España (47 de 52 provincias)`. Se excluyeron Islas Baleares, Las Palmas, Santa Cruz de Tenerife, Ceuta y Melilla. Shopify guardó el perfil y ya no muestra cambios pendientes.
+  - **Estructura pendiente:** crear la zona no solapada `Baleares`; mantener Canarias, Ceuta y Melilla sin zona de envío. Shopify solo permite que una provincia pertenezca a una zona del mismo grupo de sucursales.
+- [x] Baleares dispone de una zona diferenciada de Península.
+  - **Respuesta de Lorena (27/07/2026):** facilita costes orientativos de Baleares sin IVA distintos de Península. Las capturas muestran SEUR a domicilio desde 7,74 € y Correos Express en oficina o domicilio desde 8,62 €, con plazo de 48–72 horas.
+  - **Configuración guardada (27/07/2026):** se creó la zona `Baleares` seleccionando exclusivamente `España (Islas Baleares)`. Shopify confirmó `Perfil actualizado`.
+  - **Tarifa estándar guardada (27/07/2026):** `Estándar Baleares`, tipo `Importe del pedido`, mínimo 0,00 €, máximo 49,99 €, precio 8,62 € y plazo personalizado de 2–3 días hábiles. Shopify confirmó `Perfil actualizado`.
+  - **Tarifa gratuita guardada (27/07/2026):** `Estándar Baleares`, tipo `Importe del pedido`, mínimo 50,00 €, sin máximo, precio 0,00 € y plazo personalizado de 2–3 días hábiles. El resumen confirma ambos tramos sin huecos ni solapamiento.
+  - **Estado:** configuración operativa completada; queda incluida en la validación final conjunta de Lorena.
   - **Pantalla:** `Configuración > Envío y entrega > Perfil general > Zonas de envío`.
-- [ ] Confirmar si Canarias, Ceuta y Melilla deben quedar bloqueadas inicialmente o si se ofrecerán tarifas específicas con gestión aduanera.
+- [x] Mantener bloqueadas inicialmente Canarias, Ceuta y Melilla.
+  - **Respuesta de Lorena (27/07/2026):** el lanzamiento nacional se limita a Península y Baleares.
   - **Pantalla:** `Configuración > Envío y entrega > Perfil general > Zonas de envío` y `Mercados > España`.
-- [ ] Confirmar si se venderá próximamente a otros países de la Unión Europea y qué países concretos se aprobarán.
+- [~] Lorena solicita vender en la Unión Europea y activar la zona cuando esté preparada.
   - **Valor actual:** existe una zona `UE (Unión Europea)` con 26 países/regiones y una tarifa de 8,99 €, pero no está habilitada porque esos países no pertenecen a un mercado activo.
+  - **Respuesta de Lorena (27/07/2026):** solicita un plazo de 3–7 días laborables y envío gratuito desde 150 €, y ha facilitado costes orientativos por grupos de países sin IVA.
+  - **Pendiente:** concretar países, convertir los costes en precios finales con IVA y cerrar OSS con la gestoría. No activar todavía.
   - **Pantalla:** `Configuración > Envío y entrega > Perfil general > UE (Unión Europea)` y `Mercados`.
-- [ ] Confirmar si se venderá fuera de la Unión Europea y qué países concretos se aprobarán.
+  - **Estado revisado (27/07/2026):** la zona contiene 26 países/regiones y una tarifa `Estándar Internacional` de 8,99 € por importe del pedido. Shopify indica que la zona no puede vender hasta incluir esos países en un mercado. Se mantuvo inactiva y no se abrió la tarifa.
+- [~] Confirmar si habrá destinos europeos no pertenecientes a la UE.
   - **Valor actual:** existe una zona `Internacional` con 14 países/regiones y una tarifa de 12,99 €, pero no está habilitada porque esos países no pertenecen a un mercado activo.
+  - **Incidencia:** Lorena limita verbalmente el alcance a Península, Baleares y UE, pero la tabla recibida incluye Andorra, Liechtenstein, Islandia, Moldavia, Noruega, San Marino, Suiza y Ucrania. No activar ni eliminar la zona hasta aclararlo.
+  - **Aclaración (27/07/2026):** Andorra es un destino europeo, pero no pertenece a la Unión Europea. No debe incorporarse a la zona `UE`; si se aprueba vender allí, se configurará como destino internacional no comunitario y se validarán por separado transporte, aduanas y tratamiento fiscal.
   - **Pantalla:** `Configuración > Envío y entrega > Perfil general > Internacional` y `Mercados`.
+  - **Estado revisado (27/07/2026):** la zona contiene 14 países/regiones y una tarifa `Estándar` de 12,99 € por importe del pedido. Shopify indica que esos países no pertenecen a un mercado activo. No se realizó ningún cambio.
 
 ### Tarifas nacionales encontradas
 
-- [ ] Confirmar si el envío gratis debe aplicarse a pedidos de **50,00 € o más**.
+- [x] Envío gratuito en España peninsular configurado para pedidos de **50,00 € o más**.
   - **Valor actual:** `Estándar`, tarifa por importe del pedido, mínimo 50,00 €, sin máximo y precio 0,00 €.
-  - **Plazo actual:** no tiene tiempo de tránsito configurado; Shopify avisa de que no mostrarlo puede afectar a la conversión. Confirmar qué plazo de entrega debe ver el cliente.
+  - **Respuesta de Lorena (27/07/2026):** mantener el umbral y añadir 2–5 días laborables.
   - **Pantalla:** `Configuración > Envío y entrega > Perfil general > España > Estándar gratis > Editar opción de envío`.
-- [ ] Confirmar el precio y las condiciones del envío estándar para pedidos inferiores al umbral gratuito.
-  - **Valor actual:** `Estándar`, tarifa fija de 4,95 €, sin condiciones por importe y con tiempo de tránsito de 2 a 5 días hábiles.
-  - **Incidencia a confirmar:** al no tener límite máximo, esta tarifa puede mostrarse también en pedidos de 50 € o más junto con la opción gratuita. Preguntar si ese comportamiento fue configurado de forma intencionada.
-  - **Si no fue intencionado:** pedir que confirme si la tarifa de 4,95 € debe aplicarse únicamente a pedidos inferiores a 50 €, sin hacer el cambio hasta recibir su aprobación.
+  - **Resumen revisado (27/07/2026):** el perfil muestra `Estándar`, pedidos desde 50,00 €, gratis, pero no muestra un plazo. Falta abrir la tarifa para completarlo.
+  - **Estado final (27/07/2026):** se mantuvo el tipo `Importe del pedido`, mínimo 50,00 €, sin máximo y precio 0,00 €. Se añadió un tránsito personalizado de 2–5 días hábiles, se guardó el perfil y Shopify confirmó `Perfil actualizado`. Tras separar la zona, esta gratuidad se aplica a `España peninsular`; su aplicación a Baleares sigue pendiente.
+- [x] Tarifa estándar de España peninsular configurada en 5,20 € para pedidos de 0,00 € a 49,99 €.
+  - **Valor inicial:** `Estándar`, tarifa fija de 4,95 €, sin condiciones por importe y con tiempo de tránsito de 2 a 5 días hábiles.
+  - **Respuesta de Lorena (27/07/2026):** confirma que el solapamiento es un error y autoriza configurar correctamente el límite máximo.
   - **Pantalla:** `Configuración > Envío y entrega > Perfil general > España > Estándar 4,95 € > Editar opción de envío`.
-- [ ] Aclarar qué significa exactamente `Recogida en Lovlory`, quién presta el servicio, dónde recoge el cliente y por qué cuesta 3,95 €.
+  - **Resumen revisado (27/07/2026):** el perfil muestra 2–5 días hábiles y 4,95 €, pero el resumen no permite confirmar el límite máximo. Falta abrir la tarifa.
+  - **Formulario revisado (27/07/2026):** nombre `Estándar`, tipo `Fija`, precio 4,95 €, tránsito de 2–5 días hábiles y envío gratis desactivado. Al ser una tarifa fija, el formulario no muestra condiciones por importe; se confirma que todavía no termina en 49,99 €. No se realizó ningún cambio.
+  - **Estado final (27/07/2026):** se cambió el tipo a `Importe del pedido`, con mínimo 0,00 €, máximo 49,99 €, precio 4,95 € y tránsito de 2–5 días hábiles. Se guardó el perfil y el resumen confirma los valores. El solapamiento con el envío gratuito desde 50 € queda corregido.
+  - **Actualización guardada (27/07/2026):** por decisión del proyecto se sustituyó el precio de 4,95 € por 5,20 €. El resumen del perfil confirma `Estándar`, pedidos de 0,00 € a 49,99 €, 2–5 días hábiles y 5,20 € dentro de `España peninsular`.
+- [~] `Recogida en Lovlory` corresponde a la recogida por el cliente en el despacho de Amposta.
   - **Valor actual:** tarifa fija de 3,95 €, sin condiciones visibles por importe y sin tiempo de tránsito configurado. Aparece como tarifa de envío disponible para toda la zona España, mientras que `Retiro en tienda` y `Puntos de retiro` están desactivados.
-  - **Incidencia a confirmar:** Shopify advierte de que no mostrar el tiempo de tránsito puede afectar a la conversión. Preguntar qué modalidad representa realmente y qué plazo debe mostrarse.
+  - **Respuesta de Lorena (27/07/2026):** confirma que el cliente recoge el pedido en el despacho y que se cobra un coste de organización de 3,95 € para pedidos inferiores a 100 €; desde 100 € la recogida es gratuita. Solicita 2–5 días laborables y valora cambiar el nombre.
+  - **Limitación comprobada:** la función nativa `Retiro en tienda` de Shopify presenta correctamente la recogida en el checkout, pero su tarifa es gratuita y no permite configurar el cobro de 3,95 €. Mantener la regla comercial confirmada requeriría una solución adicional; la tarifa de envío actual no debe darse por válida como recogida porque se ofrece para toda la zona España.
+  - **Opción propuesta (27/07/2026):** `Zapiet – Pickup + Delivery` permite mostrar una modalidad de recogida diferenciada y aplicar precios condicionados por el importe del pedido. Configuración prevista: `Recogida en Lovlory`, 3,95 € entre 0,00 € y 99,99 €, gratis desde 100,00 € y preparación estimada de 2–5 días laborables. El plan inicial anunciado es de 29,99 USD/mes, con prueba de 14 días.
+  - **Decisión del proyecto (27/07/2026):** se descarta utilizar una aplicación de pago. Se acepta probar la alternativa sin coste mediante tarifas por importe dentro de la zona España, dejando claro en el nombre que no es un envío.
+  - **Configuración guardada (27/07/2026):** nombre `Recogida en Lovlory — Amposta (no se envía)`; 3,95 € entre 0,00 € y 99,99 €; gratis desde 100,00 €; plazo de 2–5 días hábiles en ambos tramos. Shopify actualizó el perfil y el resumen muestra la modalidad por importe, el plazo y un rango de precios de 0,00 € a 3,95 €.
+  - **Pendiente:** probar ambos importes en el checkout. Shopify seguirá tratando administrativamente los pedidos como envíos y mostrará la opción a clientes con dirección de España peninsular; esta limitación deberá explicarse y verificarse durante el QA. La disponibilidad para Baleares deberá decidirse al crear esa zona.
   - **Pantalla:** `Configuración > Envío y entrega > Perfil general > España > Recogida en Lovlory` y `Formas de entrega adicionales`.
-- [ ] Confirmar si se ofrece realmente un servicio urgente, su transportista, precio, plazo, hora límite y destinos cubiertos.
+  - **Resumen revisado (27/07/2026):** se pulsó `Listo`, se guardó el perfil y Shopify conservó el nuevo nombre, los dos tramos y el plazo. No se instaló ninguna aplicación ni se inició ninguna suscripción.
+- [~] Servicio urgente confirmado para España, con especial interés en la zona local.
   - **Valor actual:** `Urgente`, 9,50 €, sin plazo visible en el resumen.
+  - **Respuesta de Lorena (27/07/2026):** solicita mostrar 24/48 horas e indica entregas en sábado.
+  - **Pendiente:** confirmar si 9,50 € es el precio final para toda España, qué códigos postales cubre y cómo encaja con las tarifas urgentes orientativas recibidas.
   - **Pantalla:** `Configuración > Envío y entrega > Perfil general > España > Urgente > Editar opción de envío`.
-- [ ] Confirmar si los precios de transporte comunicados incluyen IVA y si coinciden con la política comercial y la facturación.
+  - **Resumen revisado (27/07/2026):** aparece por 9,50 € sin plazo visible. No se abrió ni se modificó.
+- [~] Lorena confirma que los precios cobrados al cliente deben incluir IVA; la tabla de costes de almacén recibida está expresada sin IVA.
+  - **Aclaración revisada (27/07/2026):** la tabla recibida refleja costes orientativos de compra que los transportistas o almacenes cobran a Lovlory; las tarifas fijas de Shopify son precios comerciales de venta que paga el cliente. No es necesario crear en el checkout una tarifa por cada transportista si el cliente verá un único servicio estándar.
+  - **Decisión aplicada (27/07/2026):** se fija provisionalmente en Shopify un precio comercial de 5,20 € para el servicio estándar peninsular de pedidos inferiores a 50 €. La cifra coincide con la referencia más alta de entrega a domicilio mostrada en las capturas, pero esa referencia es `Desde` y está expresada sin IVA.
+  - **Riesgo pendiente:** los 5,20 € guardados pueden no cubrir el coste real según peso, volumen, origen, código postal y recargos. Falta validar margen y composición fiscal con Lorena o su gestoría; no se abrió ni se modificó ninguna opción fiscal.
   - **Pantalla:** `Configuración > Envío y entrega > Perfil general > Zonas y tarifas` y `Configuración > Impuestos y aranceles`.
-- [ ] Confirmar si existen límites por peso, volumen, importe máximo, productos excluidos o recargos que deban reflejarse en las tarifas.
+- [~] Existen condiciones especiales que requieren perfiles o tarifas específicas.
+  - **Respuesta de Lorena (27/07/2026):** los envíos habituales pesan aproximadamente entre 1 y 5 kg; los productos Mistress de tamaño real tienen un coste fijo de envío de 45 €.
+  - **Pendiente:** identificar exactamente productos/variantes Mistress afectados y decidir el mecanismo de exclusión o perfil específico.
   - **Pantalla:** `Configuración > Envío y entrega > Perfil general > Editar opción de envío > Condiciones`.
 
 ### Transportista y condiciones del servicio
 
-- [ ] Confirmar el transportista o transportistas contratados y facilitar la tabla vigente de precios por destino, peso y modalidad.
+- [~] Transportistas y costes orientativos recibidos; contratación y asignación por origen pendientes.
+  - **Respuesta de Lorena (27/07/2026):** GLS para envíos propios nacionales y europeos desde Amposta; NACEX, SEUR y Correos Express desde almacenes de proveedores en España; DHL, DPD y UPS para UE. La agencia depende del almacén de origen.
+  - **Criterio de configuración:** no trasladar cada fila de coste ni cada agencia como una tarifa visible. Usar la tabla como base para validar los precios de venta por zona y servicio; crear tarifas diferenciadas solo cuando cambien el precio o la promesa mostrada al cliente, como Península, urgente, Baleares, grupos europeos o productos Mistress.
+  - **Capturas nacionales revisadas (27/07/2026):**
+    - Península 24/48 h: NACEX desde 4,06 € en oficina y 5,20 € a domicilio; Correos Express desde 4,93 € en ambas modalidades; SEUR desde 4,44 € a domicilio.
+    - Península urgente: NACEX desde 15,01 € con entrega antes de las 12:00; SEUR desde 7,79 € antes de las 13:30; Correos Express desde 7,68 € antes de las 14:00. La opción SEUR antes de las 10:00 figura sin precio disponible.
+    - Baleares 48–72 h: SEUR desde 7,74 € a domicilio; Correos Express desde 8,62 € en oficina o domicilio.
+  - **Distinción operativa:** `En oficina` en estas capturas significa oficina o punto del transportista; no equivale a `Recogida en Lovlory` en el despacho de Amposta.
+  - **Indicación adicional de Lorena (27/07/2026):** solicita crear todos los transportistas de la tabla para cubrir todas las necesidades.
+  - **Decisión confirmada (27/07/2026):** aplicar la opción 1: el cliente verá servicios genéricos y el almacén elegirá internamente NACEX, SEUR o Correos Express según disponibilidad y origen. No se crearán tarifas visibles separadas por agencia.
+  - **Criterio para importes `Desde`:** no copiar el mínimo anunciado como tarifa fija. Para fijar un precio seguro se necesita, por agencia y servicio, la tabla completa para el intervalo habitual de 1–5 kg, reglas de peso volumétrico, destino/código postal, combustible, zonas remotas y demás recargos. El precio comercial se calculará sobre el coste aplicable máximo o representativo aprobado, más los conceptos que correspondan y menos la parte que Lovlory decida subvencionar; el tratamiento fiscal sigue pendiente de gestoría.
+  - **Decisión para Península estándar (27/07/2026):** ofrecer entrega a domicilio y fijar provisionalmente el precio comercial en 5,20 €, tomando como referencia el coste más alto de las capturas para esa modalidad, NACEX desde 5,20 € sin IVA. No ofrecer por ahora `En oficina` del transportista.
+  - **Aplicación en Shopify:** se editó la tarifa estándar existente, sin crear otra opción solapada. Quedó guardada en `España peninsular` por 5,20 €, de 0,00 € a 49,99 € y con 2–5 días hábiles.
+  - **Modelo confirmado sin aplicaciones:** mostrar al cliente nombres genéricos por promesa (`Estándar`, `Urgente`, `Baleares`) y elegir internamente la agencia disponible.
   - **Pantalla:** `Configuración > Envío y entrega > Perfil general > Zonas y tarifas` y `Cuentas de empresas de transporte`.
-- [ ] Confirmar si las tarifas deben ser planas, calculadas en tiempo real por el transportista o gestionadas mediante una aplicación.
+- [x] Confirmar si las tarifas deben ser planas, calculadas en tiempo real por el transportista o gestionadas mediante una aplicación.
   - **Valor actual:** no hay ninguna cuenta de empresa de transporte conectada.
+  - **Decisión (27/07/2026):** usar tarifas comerciales planas y genéricas en Shopify; la elección de agencia será operativa por almacén. No instalar una aplicación de pago ni conectar tarifas calculadas en esta fase.
   - **Pantalla:** `Configuración > Envío y entrega > Cuentas de empresas de transporte`.
-- [ ] Confirmar si el envío incluye seguimiento, seguro o firma y desde qué valor de pedido deben ser obligatorios.
+- [ ] **Validación final conjunta del cliente:** cuando termine la configuración de envío, Lorena revisará en una única comprobación las zonas, servicios visibles, importes, umbrales gratuitos y plazos. Esta validación sustituye a las solicitudes de confirmación parciales ya resueltas durante la revisión.
+- [~] Seguimiento y seguro confirmados; firma o modalidad exacta del justificante de entrega pendiente.
+  - **Respuesta de Lorena (27/07/2026):** todos los envíos deben incluir seguimiento y seguro; espera justificante de entrega.
   - **Pantalla:** `Configuración > Envío y entrega > Perfil general > Editar opción de envío > Detalles de entrega`.
 - [ ] Confirmar los costes y el procedimiento para dirección incorrecta, ausencia, reexpedición, paquete rechazado, pérdida o daño.
   - **Pantalla relacionada:** `Configuración > Políticas` y `Configuración > Envío y entrega > Plantillas`.
 
 ### Paquetes y pesos
 
-- [ ] Confirmar las dimensiones y el peso en vacío de la caja configurada actualmente.
+- [~] Recibidas dos referencias de embalaje, pendientes de distinguir peso total medio y tara.
   - **Valor actual:** existe una caja, pero todavía no se han revisado sus medidas ni su tara.
+  - **Respuesta de Lorena (27/07/2026):** caja grande de 40 × 30 × 15 cm con unos 3 kg de media y caja pequeña de 20 × 10 × 10 cm con 1 kg.
+  - **Pendiente:** confirmar el peso en vacío de cada embalaje, ya que los pesos indicados parecen corresponder al paquete medio.
   - **Pantalla:** `Configuración > Envío y entrega > Paquetes`.
 - [ ] Confirmar si se utilizan sobres, cajas adicionales o embalajes especiales y cuándo debe aplicarse cada uno.
   - **Pantalla:** `Configuración > Envío y entrega > Paquetes`.
-- [ ] Confirmar que el embalaje será discreto y que no mostrará referencias al contenido del pedido.
+- [x] Embalaje discreto confirmado: sin logotipos ni referencias al contenido.
   - **Pantalla relacionada:** `Configuración > Envío y entrega > Documentos > Nombre del remitente en las etiquetas de envío` y configuración de plantillas/etiquetas.
 - [ ] Confirmar que los pesos de los productos corresponden al artículo preparado para el envío y si deben incluir embalaje individual adicional.
   - **Pantalla:** `Productos > Variante > Envío > Peso` y `Configuración > Envío y entrega > Paquetes`.
 
 ### Entrega, recogida y documentación
 
-- [ ] Confirmar si se ofrecerá entrega local, retiro en tienda o puntos de retiro.
+- [~] Lorena solicita recogida en el despacho y entrega local en Terres de l’Ebre.
   - **Valor actual:** las tres opciones están desactivadas.
+  - **Respuesta de Lorena (27/07/2026):** para Terres de l’Ebre quiere entrega urgente, entrega normal y una modalidad de “momentos especiales”; esta última requiere definir el servicio y su contenido antes de configurarla como forma de entrega.
   - **Pantalla:** `Configuración > Envío y entrega > Formas de entrega adicionales`.
-- [ ] Confirmar el nombre discreto que debe aparecer como remitente en las etiquetas de envío.
+- [~] Lorena confirma que el remitente debe ser discreto, pero falta aprobar el texto exacto.
   - **Pantalla:** `Configuración > Envío y entrega > Documentos > Nombre del remitente en las etiquetas de envío`.
 - [ ] Confirmar qué datos deben aparecer en la nota de entrega, factura y lista de picking, evitando contenido sensible innecesario.
   - **Pantalla:** `Configuración > Envío y entrega > Documentos > Plantillas`.
-- [ ] Confirmar la dirección de devolución, quién asume el coste y las condiciones especiales para productos precintados por higiene.
+- [~] Criterio operativo de devoluciones recibido, pendiente de validación legal y de aclarar quién asume el coste.
+  - **Respuesta de Lorena (27/07/2026):** solo contempla devoluciones en casos específicos de defecto o tara y señala que “el remitente” asume el coste en devoluciones puntuales.
+  - **Pendiente:** pedir a la asesoría el texto definitivo, concretar el sujeto que paga el porte y no configurar reglas automáticas hasta aprobarlo.
   - **Pantalla:** `Configuración > Políticas > Política de devoluciones` y configuración operativa de devoluciones.
 
 ## Pagos
@@ -300,4 +410,4 @@ Este documento registra únicamente la información que falta por solicitar o co
 
 ## Estado
 
-Última actualización: 21 de julio de 2026.
+Última actualización: 27 de julio de 2026.
