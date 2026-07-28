@@ -66,9 +66,11 @@ Este documento registra únicamente la información que falta por solicitar o co
 
 ## Envío y preparación
 
-> Lorena confirmó el 27 de julio de 2026 que configuró personalmente las opciones actuales. Sus respuestas se consideran **validación comercial**, pero cada valor debe comprobarse todavía en Shopify antes de marcarlo como configurado.
+> Lorena confirmó el 27 de julio de 2026 que configuró personalmente las opciones existentes. Sus respuestas se utilizaron como base comercial y cada pantalla del bloque se revisó posteriormente en Shopify.
 
 > **Decisión de revisión:** se revisará y documentará una pantalla cada vez. No se activará la UE hasta cerrar países, tarifas y fiscalidad/OSS, ni se aplicarán opciones fiscales sin confirmación de Lorena o de su gestoría.
+
+> **Estado del bloque (28/07/2026): revisión funcional completada.** Se han revisado las pantallas de origen, sucursal, perfiles, zonas, tarifas, plazos, paquetes, transportistas, entrega, recogida y documentos. El bloque queda pendiente de una única validación comercial final de Lorena. Las comprobaciones de IVA/OSS, aduanas, pesos del catálogo y textos legales continúan en sus bloques técnicos correspondientes y no se consideran parte de esta aprobación funcional.
 
 - [x] Lorena confirma que configuró personalmente las zonas, tarifas, plazos y modalidades actuales y ha facilitado correcciones y condiciones comerciales.
   - **Respuesta de Lorena (27/07/2026):** solicita revisar las opciones actuales, corregir el solapamiento de la tarifa estándar, completar plazos y preparar la futura activación de la UE.
@@ -225,7 +227,7 @@ Este documento registra únicamente la información que falta por solicitar o co
   - **Formulario revisado (27/07/2026):** nombre `Estándar`, tipo `Fija`, precio 4,95 €, tránsito de 2–5 días hábiles y envío gratis desactivado. Al ser una tarifa fija, el formulario no muestra condiciones por importe; se confirma que todavía no termina en 49,99 €. No se realizó ningún cambio.
   - **Estado final (27/07/2026):** se cambió el tipo a `Importe del pedido`, con mínimo 0,00 €, máximo 49,99 €, precio 4,95 € y tránsito de 2–5 días hábiles. Se guardó el perfil y el resumen confirma los valores. El solapamiento con el envío gratuito desde 50 € queda corregido.
   - **Actualización guardada (27/07/2026):** por decisión del proyecto se sustituyó el precio de 4,95 € por 5,20 €. El resumen del perfil confirma `Estándar`, pedidos de 0,00 € a 49,99 €, 2–5 días hábiles y 5,20 € dentro de `España peninsular`.
-- [~] `Recogida en Lovlory` corresponde a la recogida por el cliente en el despacho de Amposta.
+- [x] `Recogida en Lovlory` corresponde a la recogida por el cliente en el despacho de Amposta.
   - **Valor actual:** tarifa fija de 3,95 €, sin condiciones visibles por importe y sin tiempo de tránsito configurado. Aparece como tarifa de envío disponible para toda la zona España, mientras que `Retiro en tienda` y `Puntos de retiro` están desactivados.
   - **Respuesta de Lorena (27/07/2026):** confirma que el cliente recoge el pedido en el despacho y que se cobra un coste de organización de 3,95 € para pedidos inferiores a 100 €; desde 100 € la recogida es gratuita. Solicita 2–5 días laborables y valora cambiar el nombre.
   - **Limitación comprobada:** la función nativa `Retiro en tienda` de Shopify presenta correctamente la recogida en el checkout, pero su tarifa es gratuita y no permite configurar el cobro de 3,95 €. Mantener la regla comercial confirmada requeriría una solución adicional; la tarifa de envío actual no debe darse por válida como recogida porque se ofrece para toda la zona España.
@@ -261,7 +263,7 @@ Este documento registra únicamente la información que falta por solicitar o co
 
 ### Transportista y condiciones del servicio
 
-- [~] Transportistas y costes orientativos recibidos; contratación y asignación por origen pendientes.
+- [x] Transportistas y costes orientativos recibidos, contrastados y trasladados al modelo genérico por zona.
   - **Respuesta de Lorena (27/07/2026):** GLS para envíos propios nacionales y europeos desde Amposta; NACEX, SEUR y Correos Express desde almacenes de proveedores en España; DHL, DPD y UPS para UE. La agencia depende del almacén de origen.
   - **Criterio de configuración:** no trasladar cada fila de coste ni cada agencia como una tarifa visible. Usar la tabla como base para validar los precios de venta por zona y servicio; crear tarifas diferenciadas solo cuando cambien el precio o la promesa mostrada al cliente, como Península, urgente, Baleares, grupos europeos o productos Mistress.
   - **Capturas nacionales revisadas (27/07/2026):**
@@ -271,7 +273,7 @@ Este documento registra únicamente la información que falta por solicitar o co
   - **Distinción operativa:** `En oficina` en estas capturas significa oficina o punto del transportista; no equivale a `Recogida en Lovlory` en el despacho de Amposta.
   - **Indicación adicional de Lorena (27/07/2026):** solicita crear todos los transportistas de la tabla para cubrir todas las necesidades.
   - **Hipótesis provisional aplicada (27/07/2026):** el cliente ve servicios genéricos y el almacén elige internamente NACEX, SEUR o Correos Express según disponibilidad y origen. Las tarifas actuales se han configurado siguiendo esta hipótesis.
-  - **Nota crítica pendiente (28/07/2026):** Lorena debe explicar quién elige realmente el transportista cuando intervienen varios proveedores y almacenes: si lo asigna automáticamente el proveedor o su sistema después del pedido, si lo decide Lovlory durante la preparación, o si el cliente debe poder elegir agencia/servicio en el checkout.
+- [ ] **Pendiente crítico independiente:** Lorena debe explicar quién elige realmente el transportista cuando intervienen varios proveedores y almacenes: si lo asigna automáticamente el proveedor o su sistema después del pedido, si lo decide Lovlory durante la preparación, o si el cliente debe poder elegir agencia/servicio en el checkout.
   - **Preguntas necesarias:** confirmar qué ocurre cuando un pedido contiene productos de distintos proveedores, si se divide en varios envíos, si se cobran o combinan varios portes, qué agencia y plazo se muestran al cliente y quién asume las diferencias de coste.
   - **Consecuencia de la respuesta:** si la elección es interna o automática, el modelo genérico actual por zona y promesa es válido. Si el cliente elige transportista, habrá que desglosar cada zona por agencia y servicio, con sus precios, plazos y condiciones. Si la selección depende del producto, proveedor o ubicación de origen, habrá que revisar perfiles de envío, ubicaciones y posible combinación de tarifas antes de considerar la configuración terminada.
   - **Estado:** no desglosar todavía las zonas ni eliminar las tarifas genéricas. Esta aclaración es bloqueante para la validación final del envío.
@@ -280,16 +282,17 @@ Este documento registra únicamente la información que falta por solicitar o co
   - **Aplicación en Shopify:** se editó la tarifa estándar existente, sin crear otra opción solapada. Quedó guardada en `España peninsular` por 5,20 €, de 0,00 € a 49,99 € y con 2–5 días hábiles.
   - **Modelo provisional sin aplicaciones:** mostrar al cliente nombres genéricos por promesa (`Estándar`, `Urgente`, `Baleares`) y elegir internamente la agencia disponible, sujeto a la aclaración crítica anterior.
   - **Pantalla:** `Configuración > Envío y entrega > Perfil general > Zonas y tarifas` y `Cuentas de empresas de transporte`.
-- [~] Confirmar si las tarifas deben ser planas, calculadas en tiempo real por el transportista o gestionadas mediante una aplicación.
+- [x] Modelo de tarifas definido: tarifas comerciales planas y genéricas, sin aplicación de pago ni cálculo en tiempo real.
   - **Valor actual:** no hay ninguna cuenta de empresa de transporte conectada.
   - **Decisión provisional (27/07/2026):** usar tarifas comerciales planas y genéricas en Shopify; no instalar una aplicación de pago ni conectar tarifas calculadas en esta fase.
   - **Pantalla revisada (28/07/2026):** `Configuración > Envío y entrega > Gestionar empresas de transporte preferidas`. Shopify indica expresamente que Correos, SEUR y DHL Express Spain solo se recomiendan al comprar etiquetas de envío y que estas preferencias no influyen en las tarifas de la pantalla de pago.
   - **Decisión:** no marcar ninguna empresa en esta pantalla por ahora. Esta configuración no permite que el cliente elija NACEX, SEUR o Correos Express ni asigna automáticamente una agencia según zona, producto, proveedor o almacén. Solo se configurará más adelante si Lovlory compra etiquetas directamente en Shopify y confirma qué empresas desea priorizar.
-  - **Pendiente crítico (28/07/2026):** validar con Lorena si la agencia se asigna internamente/automáticamente o debe elegirla el cliente. La respuesta determinará si se conserva este modelo o se crean tarifas separadas por transportista y zona.
+  - **Dependencia registrada:** si Lorena indica que el cliente debe elegir agencia, este punto deberá reabrirse y habrá que crear tarifas separadas por transportista y zona. Mientras la elección sea interna o automática, la configuración actual queda aprobada.
   - **Pantallas:** `Configuración > Envío y entrega > Cuentas de empresas de transporte` y `Gestionar empresas de transporte preferidas`.
-- [ ] **Validación final conjunta del cliente:** cuando termine la configuración de envío, Lorena revisará en una única comprobación las zonas, servicios visibles, importes, umbrales gratuitos y plazos. Antes de aprobarla deberá explicar y validar el flujo de elección/asignación de transportista y el tratamiento de pedidos con varios proveedores.
-- [~] Seguimiento y seguro confirmados; firma o modalidad exacta del justificante de entrega pendiente.
+- [ ] **Único punto pendiente para cerrar la revisión funcional — Validación final conjunta de Lorena:** revisar en una sola comprobación las zonas, servicios visibles, importes finales, umbrales gratuitos y plazos; confirmar el flujo de elección/asignación de transportista y los pedidos con varios proveedores; validar la regla definitiva de Mistress; confirmar justificante/firma; y aprobar el criterio comercial para incidencias de entrega. Las cuestiones fiscales, aduaneras, de catálogo y legales se validarán en sus apartados específicos.
+- [x] Seguimiento y seguro confirmados para todos los envíos.
   - **Respuesta de Lorena (27/07/2026):** todos los envíos deben incluir seguimiento y seguro; espera justificante de entrega.
+- [ ] Confirmar si el justificante de entrega debe incluir firma y cuál es la modalidad exacta.
   - **Pantalla:** `Configuración > Envío y entrega > Perfil general > Editar opción de envío > Detalles de entrega`.
 - [ ] Confirmar los costes y el procedimiento para dirección incorrecta, ausencia, reexpedición, paquete rechazado, pérdida o daño.
   - **Pantalla relacionada:** `Configuración > Políticas` y `Configuración > Envío y entrega > Plantillas`.
@@ -320,11 +323,11 @@ Este documento registra únicamente la información que falta por solicitar o co
   - **Decisión de cierre (28/07/2026):** dar el punto por completado mediante la recogida configurada en el perfil general. No activar `Entrega local` para el lanzamiento. Si posteriormente Lorena desea ofrecer reparto en Terres de l’Ebre, se tratará como una ampliación independiente y habrá que definir previamente su área, modalidades, precios y plazos.
   - **Pantallas revisadas:** `Configuración > Envío y entrega > Formas de entrega adicionales` y `Entrega local`.
   - **Estado de la comprobación:** punto completado sin abrir la ficha de la sucursal ni realizar cambios adicionales.
-- [x] Lorena confirma que el remitente debe ser discreto, pero falta aprobar el texto exacto.
+- [x] Nombre discreto del remitente validado.
   - **Estado revisado (28/07/2026):** el cuadro `Personaliza el nombre del remitente en las etiquetas de envío` tiene seleccionada la opción `Lovlory`. La alternativa `Nombre personalizado` está vacía y admite un máximo de 25 caracteres.
-  - **Pendiente:** confirmar si `Lovlory` se considera suficientemente discreto o facilitar el nombre genérico exacto que debe aparecer en las etiquetas. No inventar ni guardar una denominación sin aprobación de Lorena.
+  - **Decisión aprobada (28/07/2026):** se valida `Lovlory` como nombre suficientemente discreto para aparecer como remitente en las etiquetas de envío.
   - **Pantalla revisada:** `Configuración > Envío y entrega > Documentos > Nombre del remitente en las etiquetas de envío`.
-  - **Estado de la comprobación:** no se cambió la selección y no se pulsó `Guardar`.
+  - **Estado de la comprobación:** punto completado sin cambios; no fue necesario pulsar `Guardar` porque `Lovlory` ya estaba seleccionado.
 - [ ] Confirmar qué datos deben aparecer en la nota de entrega, factura y lista de picking, evitando contenido sensible innecesario.
   - **Pantalla:** `Configuración > Envío y entrega > Documentos > Plantillas`.
 - [~] Criterio operativo de devoluciones recibido, pendiente de validación legal y de aclarar quién asume el coste.
@@ -334,26 +337,36 @@ Este documento registra únicamente la información que falta por solicitar o co
 
 ## Pagos
 
-> Toda la configuración encontrada se considera **existente pero no validada**. No se activará ni conectará ningún proveedor hasta conocer quién realizó la configuración, confirmar la compatibilidad del catálogo y recibir autorización del cliente.
+> La clienta ha autorizado configurar conjuntamente PayPal y Shopify Payments. La autorización no sustituye la validación de compatibilidad del catálogo ni permite completar accesos, verificaciones o datos financieros sin su intervención.
 
 ### Decisión general y elegibilidad
 
-- [ ] Confirmar si el cliente configuró personalmente el apartado de pagos y si desea mantener las opciones que aparecen actualmente.
-  - **Valor actual:** Shopify Payments está pendiente de completar; PayPal aparece con configuración incompleta y no se observa otro proveedor activo.
+- [x] Confirmar quién completará la configuración y qué opciones desea mantener.
+  - **Respuesta de Lorena (28/07/2026):** la configuración se hará conjuntamente; PayPal será la opción principal y quiere intentar activar también Shopify Payments.
+  - **Estado revisado (28/07/2026):** Shopify Payments continúa pendiente de completar; PayPal aparece con configuración incompleta y no se observa otro proveedor activo.
   - **Pantalla:** `Configuración > Pagos`.
 - [ ] Solicitar al cliente que confirme por escrito con Shopify si Shopify Payments acepta el catálogo concreto de LovLory, descrito como venta de juguetes sexuales físicos y productos de bienestar íntimo.
+  - **Autorización recibida (28/07/2026):** Lorena solicita que realicemos la consulta con Shopify.
+  - **Pendiente:** obtener la confirmación expresa de elegibilidad antes de completar el alta.
   - **Motivo:** Shopify exige revisar la elegibilidad y sus categorías no son exhaustivas; no debemos completar el alta basándonos únicamente en que el botón esté disponible.
   - **Pantalla:** `Configuración > Pagos > Shopify Payments > Más información / Completar configuración` y soporte de Shopify.
-- [ ] Confirmar si el cliente quiere intentar usar Shopify Payments en caso de aprobación o si prefiere operar inicialmente solo con PayPal.
+- [x] Confirmar si el cliente quiere intentar usar Shopify Payments en caso de aprobación o si prefiere operar inicialmente solo con PayPal.
+  - **Decisión de Lorena (28/07/2026):** PayPal será la opción principal y se intentará activar también Shopify Payments si Shopify confirma la elegibilidad.
   - **Pantalla:** `Configuración > Pagos > Shopify Payments`.
 - [ ] Si Shopify Payments no acepta la actividad, confirmar qué proveedor alternativo compatible con el catálogo se utilizará para permitir pagos con tarjeta sin depender únicamente de PayPal.
+  - **Antecedente comunicado (28/07/2026):** Stripe retiró o denegó la pasarela por el tipo de actividad.
+  - **Interés de la clienta:** valorar Google Pay. No debe tratarse como proveedor alternativo independiente hasta comprobar qué proveedor compatible lo ofrecería; normalmente se habilitaría a través del proveedor principal.
   - **Pantalla:** `Configuración > Pagos > Ver todos los demás proveedores` y `Agregar proveedor`.
 
 ### Shopify Payments: datos necesarios solo si se aprueba
 
-- [ ] Confirmar la condición de autónoma/persona física y que la titular reside en España.
+- [x] Confirmar la condición de autónoma/persona física y que la titular reside en España.
+  - **Configuración registrada (28/07/2026):** en el paso 1 de 4 del alta de Shopify Payments se seleccionó y envió `Persona física / Comerciante único`, con España como país de la entidad.
   - **Pantalla:** `Configuración > Pagos > Shopify Payments > Completar configuración > Tipo de empresa`.
 - [ ] Facilitar los datos de identidad y negocio que solicite la verificación: nombre legal completo, segundo apellido, fecha de nacimiento, NIF/NIE, domicilio y documentación acreditativa. Reutilizar los datos ya solicitados en Información comercial y no guardar documentos sensibles en el repositorio.
+  - **Avance registrado (28/07/2026):** se completó y envió el paso 2 de 4 con los datos del representante de la cuenta, incluidos DNI y dirección de residencia. En el paso 3 se declaró que no se dispone de número de IVA y que los servicios de Shopify se adquieren con fines comerciales.
+  - **Último paso revisado:** Shopify solicita subir un documento de identidad y un documento acreditativo de la dirección residencial antes de `Enviar para verificación`.
+  - **Pendiente:** Lorena debe revisar los datos mostrados y cargar personalmente ambos documentos; no se han subido ni enviado para verificación.
   - **Pantalla:** `Configuración > Pagos > Shopify Payments > Completar configuración > Información personal y comercial`.
 - [ ] Facilitar una cuenta bancaria en euros compatible con transferencias SEPA, confirmar el IBAN y el nombre exacto de su titular. Transmitir estos datos por un canal seguro, no por este documento.
   - **Pantalla:** `Configuración > Pagos > Shopify Payments > Completar configuración > Cuenta bancaria para pagos`.
@@ -363,16 +376,21 @@ Este documento registra únicamente la información que falta por solicitar o co
   - **Pantalla:** `Configuración > Pagos > Shopify Payments > Gestionar > Descriptor del extracto`.
 - [ ] Revisar y aprobar las comisiones reales del plan, el calendario de liquidaciones, las reservas o retenciones y el procedimiento de contracargos antes de activar el proveedor.
   - **Valor mostrado actualmente:** tarifas de tarjeta anunciadas desde 2,1 % + 0,30 €; el coste definitivo debe verificarse para el plan y la cuenta de la tienda.
+  - **Bloqueo observado (28/07/2026):** Shopify solicita configurar la autenticación en dos pasos antes de agregar una cuenta bancaria.
   - **Pantalla:** `Configuración > Pagos > Shopify Payments > Más información / Gestionar` y condiciones del proveedor.
 
 ### PayPal
 
-- [ ] Confirmar que la cuenta PayPal usada actualmente en WordPress pertenece a la autónoma, es una cuenta Business española, está verificada y no tiene limitaciones.
+- [x] Confirmar que la cuenta PayPal usada actualmente en WordPress pertenece a la autónoma, es una cuenta Business española, está verificada y no tiene limitaciones.
+  - **Confirmación de Lorena (28/07/2026):** responde afirmativamente a todos estos puntos. La comprobación dentro de PayPal se realizará durante la conexión.
   - **Pantalla:** `Configuración > Pagos > Proveedores de pagos adicionales > PayPal > Configuración incompleta` y cuenta de PayPal.
 - [ ] Solicitar el correo exacto de la cuenta PayPal Business que debe conectarse y comprobar que coincide con una dirección verificada dentro de PayPal.
+  - **Respuesta de Lorena (28/07/2026):** indica que el dato debe estar en el sitio web anterior y propone confirmarlo durante la configuración.
+  - **Pendiente:** identificar y validar el correo exacto antes de conectar la cuenta.
   - **Seguridad:** no solicitar ni guardar la contraseña ni códigos de doble autenticación; la propietaria de la tienda debe completar personalmente el acceso y la autorización.
   - **Pantalla:** `Configuración > Pagos > PayPal > Completar configuración`.
 - [ ] Confirmar con PayPal que la cuenta puede procesar en Shopify el catálogo completo de LovLory y que el cambio desde WordPress no requiere una nueva revisión o autorización.
+  - **Respuesta de Lorena (28/07/2026):** desconoce si PayPal ha confirmado esta compatibilidad.
   - **Motivo:** que PayPal funcione actualmente en WordPress no garantiza por sí solo la aceptación de la nueva integración, del dominio o de todo el catálogo.
   - **Pantalla relacionada:** cuenta PayPal Business, centro de resoluciones y soporte de PayPal.
 - [ ] Confirmar la cuenta bancaria de retirada, la divisa principal EUR, el nombre legal del titular y el país España.
@@ -380,25 +398,36 @@ Este documento registra únicamente la información que falta por solicitar o co
 - [ ] Confirmar las comisiones vigentes de PayPal y aceptar el coste adicional de Shopify si no se usa Shopify Payments.
   - **Valor mostrado actualmente:** Shopify indica un 2 % de cargo por transacción de terceros, además de las comisiones de procesamiento de PayPal.
   - **Pantalla:** `Configuración > Pagos > Proveedores de pagos adicionales > PayPal`.
-- [ ] Confirmar si PayPal debe permitir el pago con tarjeta como invitado, cuando esté disponible, para compradores que no tengan cuenta PayPal.
+- [x] Confirmar si PayPal debe permitir el pago con tarjeta como invitado, cuando esté disponible, para compradores que no tengan cuenta PayPal.
+  - **Decisión de Lorena (28/07/2026):** sí debe permitirse.
+  - **Comprobación pendiente:** validar su disponibilidad en la cuenta PayPal Business y mediante una prueba del checkout después de conectar PayPal.
   - **Pantalla relacionada:** preferencias de pago de la cuenta PayPal Business y prueba del checkout de Shopify.
 - [ ] Tras conectar PayPal, realizar una compra de prueba con una cuenta PayPal distinta de la cuenta receptora y comprobar cobro, cancelación, reembolso total y reembolso parcial.
   - **Pantalla:** tienda online, `Pedidos` y `Configuración > Pagos > PayPal`.
 
 ### Funcionamiento de los cobros
 
-- [ ] Confirmar el método de captura actual y decidir si los pagos se cobran automáticamente al realizar el pedido o se revisan y capturan manualmente.
-  - **Valor actual:** `Automáticamente en la pantalla de pago`; el cobro se captura cuando el cliente realiza el pedido.
-  - **Confirmación necesaria:** preguntar si esta opción fue elegida por el cliente y si desea mantener el cobro inmediato. La captura manual exigiría actuar antes de que venza cada autorización. No cambiarla hasta conocer el flujo del cliente y el proveedor definitivo.
+- [x] Mantener la captura automática del pago al realizar el pedido.
+  - **Decisión de Lorena (28/07/2026):** confirma el cobro automático en el momento de la compra.
+  - **Comprobación en Shopify (28/07/2026):** `Automáticamente en la pantalla de pago` ya estaba seleccionado; se mantuvo sin cambios.
   - **Pantalla:** `Configuración > Pagos > Configuración de pagos > Método de captura de pago`.
-- [ ] Confirmar si se aceptará alguna forma de pago manual, como transferencia bancaria o contra reembolso, y definir instrucciones, costes, plazo de reserva de stock y criterio para marcar el pedido como pagado.
-  - **Valor actual:** no hay ninguna forma de pago manual activa; solo aparece la opción `Forma de pago manual` para añadir una.
+- [x] Confirmar qué formas de pago manuales se aceptarán.
+  - **Decisión de Lorena (28/07/2026):** aceptar Bizum y transferencia bancaria; no aceptar contra reembolso.
+- [ ] Definir y activar Bizum y transferencia bancaria.
+  - **Estado revisado (28/07/2026):** no hay ninguna forma de pago manual activa.
+  - **Datos pendientes para Bizum:** identificador o teléfono de cobro, texto visible en el checkout, instrucciones posteriores al pedido, plazo de pago, reserva de stock y criterio para marcar el pedido como pagado.
+  - **Datos pendientes para transferencia:** titular, IBAN por canal seguro, concepto que debe indicar el cliente, instrucciones posteriores al pedido, plazo de pago, reserva de stock y criterio para marcar el pedido como pagado.
+  - **Acción realizada:** se revisaron los formularios `Crear forma de pago personalizada` y `Depósito bancario`; no se activaron para evitar publicar instrucciones incompletas.
   - **Pantalla:** `Configuración > Pagos > Configuración de pagos > Formas de pago manuales`.
 - [ ] Revisar si existe alguna personalización de formas de pago creada por una aplicación y confirmar si debe conservarse.
   - **Valor actual:** no existe ninguna personalización de pago; Shopify muestra `Aún no has personalizado las formas de pago`.
   - **Criterio:** no instalar ninguna aplicación de personalización salvo que aparezca una necesidad comercial concreta.
   - **Pantalla:** `Configuración > Pagos > Configuración de pagos > Personalizaciones de las formas de pago`.
-- [ ] Confirmar si LovLory venderá tarjetas de regalo. Solo en ese caso, decidir su vencimiento y si se habilitarán pases de Apple Wallet.
+- [x] Confirmar si LovLory venderá tarjetas de regalo.
+  - **Decisión de Lorena (28/07/2026):** sí venderá tarjetas de regalo.
+- [ ] Decidir el vencimiento de las tarjetas de regalo y si se habilitarán pases de Apple Wallet.
+  - **Estado revisado (28/07/2026):** las tarjetas de regalo están configuradas para no caducar y los pases de Apple Wallet están desactivados.
+  - **Pendiente:** confirmar si se mantienen ambos valores.
   - **Aclaración:** `Pases de Apple Wallet` corresponde a tarjetas de regalo y no es la configuración de Apple Pay.
   - **Pantalla:** `Configuración > Pagos > Vencimiento de la tarjeta de regalo` y `Pases de Apple Wallet`.
 - [ ] Realizar antes del lanzamiento pruebas de pago aceptado, pago rechazado, 3D Secure si corresponde, devolución, cancelación y recepción de una liquidación real pequeña.
@@ -425,9 +454,10 @@ Este documento registra únicamente la información que falta por solicitar o co
   - **Valor actual:** desactivadas.
   - **Condición previa:** no activarlas hasta aprobar la política, las reglas de devolución, el plazo, los artículos no retornables por higiene, los costes y las instrucciones.
   - **Pantalla:** `Configuración > Cuentas de cliente > Devoluciones y cancelaciones de autoservicio` y `Configuración > Políticas / Reglas de devolución y cancelación`.
-- [ ] Confirmar si LovLory utilizará crédito en tienda para reembolsos, fidelización o compensaciones.
-  - **Valor actual:** activado; Shopify lo activa de forma predeterminada y permite que los clientes consulten y gasten los saldos emitidos.
-  - **Comprobación necesaria:** revisar la política de emisión, vencimiento, contabilidad, reembolsos y posibles cargos por transacción antes de utilizarlo.
+- [x] Confirmar si LovLory utilizará crédito en tienda para reembolsos, fidelización o compensaciones.
+  - **Decisión de Lorena (28/07/2026):** confirma que utilizará esta opción.
+  - **Comprobación en Shopify (28/07/2026):** `Permite que los clientes vean y gasten el crédito en tienda` está activado; se mantuvo sin cambios.
+  - **Pendiente operativo:** revisar la política de emisión, vencimiento, contabilidad, reembolsos y posibles cargos por transacción antes de emitir saldos.
   - **Pantalla:** `Configuración > Cuentas de cliente > Crédito en tienda` y `Clientes > Perfil del cliente > Crédito en tienda`.
 - [ ] Confirmar si se personalizarán las cuentas de cliente ahora o después de cerrar el diseño del checkout y la identidad visual.
   - **Pantalla:** `Configuración > Cuentas de cliente > Personalización > Personalizar`.
@@ -492,4 +522,4 @@ Este documento registra únicamente la información que falta por solicitar o co
 
 ## Estado
 
-Última actualización: 27 de julio de 2026.
+Última actualización: 28 de julio de 2026.
