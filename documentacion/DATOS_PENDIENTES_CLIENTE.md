@@ -139,17 +139,75 @@ Este documento registra únicamente la información que falta por solicitar o co
   - **Respuesta de Lorena (27/07/2026):** el lanzamiento nacional se limita a Península y Baleares.
   - **Pantalla:** `Configuración > Envío y entrega > Perfil general > Zonas de envío` y `Mercados > España`.
 - [~] Lorena solicita vender en la Unión Europea y activar la zona cuando esté preparada.
-  - **Valor actual:** existe una zona `UE (Unión Europea)` con 26 países/regiones y una tarifa de 8,99 €, pero no está habilitada porque esos países no pertenecen a un mercado activo.
+  - **Valor actual:** todos los países de la antigua zona `UE (Unión Europea)` se han distribuido en mercados y zonas tarifarias específicas. La zona general se eliminó al configurar los dos últimos destinos, Chequia y Polonia.
   - **Respuesta de Lorena (27/07/2026):** solicita un plazo de 3–7 días laborables y envío gratuito desde 150 €, y ha facilitado costes orientativos por grupos de países sin IVA.
   - **Pendiente:** concretar países, convertir los costes en precios finales con IVA y cerrar OSS con la gestoría. No activar todavía.
   - **Pantalla:** `Configuración > Envío y entrega > Perfil general > UE (Unión Europea)` y `Mercados`.
-  - **Estado revisado (27/07/2026):** la zona contiene 26 países/regiones y una tarifa `Estándar Internacional` de 8,99 € por importe del pedido. Shopify indica que la zona no puede vender hasta incluir esos países en un mercado. Se mantuvo inactiva y no se abrió la tarifa.
-- [~] Confirmar si habrá destinos europeos no pertenecientes a la UE.
-  - **Valor actual:** existe una zona `Internacional` con 14 países/regiones y una tarifa de 12,99 €, pero no está habilitada porque esos países no pertenecen a un mercado activo.
-  - **Incidencia:** Lorena limita verbalmente el alcance a Península, Baleares y UE, pero la tabla recibida incluye Andorra, Liechtenstein, Islandia, Moldavia, Noruega, San Marino, Suiza y Ucrania. No activar ni eliminar la zona hasta aclararlo.
-  - **Aclaración (27/07/2026):** Andorra es un destino europeo, pero no pertenece a la Unión Europea. No debe incorporarse a la zona `UE`; si se aprueba vender allí, se configurará como destino internacional no comunitario y se validarán por separado transporte, aduanas y tratamiento fiscal.
-  - **Pantalla:** `Configuración > Envío y entrega > Perfil general > Internacional` y `Mercados`.
-  - **Estado revisado (27/07/2026):** la zona contiene 14 países/regiones y una tarifa `Estándar` de 12,99 € por importe del pedido. Shopify indica que esos países no pertenecen a un mercado activo. No se realizó ningún cambio.
+  - **Estado revisado (28/07/2026):** la zona general se sustituyó por grupos específicos según las tablas recibidas y ya no existe en el perfil. Todos sus países tienen una zona de envío y un mercado activo. La configuración logística no resuelve IVA/OSS, que continúa pendiente de confirmación de la gestoría; no se modificó fiscalidad.
+- [~] Separar Portugal de la zona general UE y configurarlo como destino propio.
+  - **Valor actual (28/07/2026):** Portugal ya no pertenece a la zona general UE. Existe un mercado independiente `Portugal` en estado `Activo`, con moneda EUR, y una zona de envío propia.
+  - **Tarifas facilitadas:** NACEX desde 4,06 € en oficina y 5,20 € a domicilio, con 24–48 horas; Correos Express desde 4,93 € a domicilio, con 24–48 horas; NACEX urgente desde 15,01 € antes de las 12:00; SEUR urgente desde 7,79 € antes de las 13:30. Son importes `Desde` y sin IVA.
+  - **Propuesta de configuración:** zona independiente `Portugal`; `Estándar Portugal` a domicilio por 5,20 € entre 0,00 € y 149,99 €, con 1–2 días laborables; `Envío gratuito` desde 150 € con el mismo plazo; y `Urgente Portugal` por 15,01 €, con 1 día laborable. Mantener nombres genéricos y asignar la agencia internamente.
+  - **Diferencia pendiente de confirmar:** la captura específica de Portugal indica 24–48 horas, mientras que Lorena indicó 3–7 días laborables para la UE en general. La propuesta trata Portugal como excepción específica.
+  - **Configuración aplicada:** `Estándar Portugal`, 5,20 € entre 0,00 € y 149,99 €, con 1–2 días laborables; `Envío gratuito` desde 150 €, con 1–2 días laborables; y `Urgente Portugal`, 15,01 €, con 1 día laborable.
+  - **Mercados y fiscalidad:** el mercado `Portugal` se activó por autorización expresa el 28/07/2026. La configuración fiscal continúa heredada como `Sin recaudación`; no se abrió ni se modificó IVA/OSS.
+  - **Pantallas revisadas:** `Configuración > Envío y entrega > Perfil general > UE (Unión Europea)` y `Mercados > Portugal`.
+  - **Estado revisado (28/07/2026):** Portugal se retiró de `UE (Unión Europea)`, se creó la zona independiente y se guardaron las tres tarifas sin huecos en el tramo estándar/gratuito. Tras activar el mercado, Shopify muestra `Portugal — Activo` y `3 tarifas • Envío a Portugal`.
+  - **Pendiente:** ejecutar QA de checkout para un pedido inferior a 150 €, otro igual o superior y la opción urgente. La activación comercial no resuelve el tratamiento fiscal; IVA/OSS continúa bloqueado hasta indicación de la gestoría.
+- [x] Separar Francia de la zona general UE y configurarla como destino propio.
+  - **Tarifas facilitadas:** DPD a domicilio desde 7,88 € y UPS a domicilio desde 8,08 €, ambas con plazo de 48–72 horas. Los importes son `Desde` y sin IVA.
+  - **Decisión aprobada (28/07/2026):** mantener una opción genérica a domicilio y utilizar 8,08 €, la referencia más alta disponible, sin mostrar DPD ni UPS al cliente. Aplicar también la regla europea de envío gratuito desde 150 €.
+  - **Configuración aplicada:** mercado independiente `Francia` activo y en EUR; zona de envío `Francia`; `Estándar Francia` por 8,08 € entre 0,00 € y 149,99 €; y `Envío gratuito` desde 150,00 €. Ambas opciones muestran `Entrega en 2–3 días hábiles`.
+  - **Comprobación:** Francia se eliminó de `UE (Unión Europea)` y la revisión posterior del perfil confirmó los dos tramos sin hueco ni solapamiento: 0,00–149,99 € y desde 150,00 €.
+  - **Fiscalidad:** el mercado mantiene la configuración heredada `Sin recaudación`. No se abrió ni se modificó IVA, OSS ni ninguna opción fiscal.
+  - **Pantallas revisadas:** `Mercados > Francia` y `Configuración > Envío y entrega > Perfil general > Francia`.
+  - **Pendiente:** ejecutar QA de checkout con un pedido inferior a 150 € y otro igual o superior. La validación fiscal continúa bloqueada hasta indicación de la gestoría.
+- [x] Separar Italia y Alemania de la zona general UE y configurarlas como un grupo propio.
+  - **Tarifas facilitadas:** DPD a domicilio desde 8,33 € y UPS a domicilio desde 11,83 €, ambas con plazo de 48–72 horas; DHL a domicilio desde 15,88 €, con plazo de 24 horas. Los importes son `Desde` y sin IVA.
+  - **Decisión aplicada (28/07/2026):** agrupar Italia y Alemania porque comparten exactamente la misma tabla. Mostrar servicios genéricos: estándar por 11,83 €, tomando la referencia ordinaria más alta; urgente por 15,88 €; y envío gratuito desde 150 €. No mostrar DPD, UPS ni DHL al cliente.
+  - **Configuración aplicada:** mercado `Italia y Alemania` activo y en EUR; zona de envío con Alemania e Italia; `Estándar Italia y Alemania` por 11,83 € entre 0,00 € y 149,99 €, con `Entrega en 2–3 días hábiles`; `Envío gratuito` desde 150,00 €, con el mismo plazo; y `Urgente Italia y Alemania` por 15,88 €, con `Entrega en 1 día hábil`.
+  - **Comprobación:** Italia y Alemania se eliminaron de `UE (Unión Europea)`. La revisión posterior confirmó ambos países dentro de la nueva zona, los tres servicios activos y los dos tramos estándar/gratuito sin hueco ni solapamiento.
+  - **Fiscalidad:** el mercado mantiene la configuración heredada. No se abrió ni se modificó IVA, OSS ni ninguna opción fiscal.
+  - **Pantallas revisadas:** `Mercados > Italia y Alemania` y `Configuración > Envío y entrega > Perfil general > Italia y Alemania`.
+  - **Pendiente:** QA de checkout para estándar, gratuito y urgente; validar costes reales y margen porque las referencias recibidas son importes `Desde` sin IVA.
+- [x] Configurar el grupo europeo de Países Bajos, Bélgica, Luxemburgo, Austria, Bulgaria, Croacia, Dinamarca, Eslovaquia, Eslovenia, Estonia, Finlandia, Grecia, Hungría, Irlanda, Letonia, Lituania, Rumanía y Suecia.
+  - **Tarifas facilitadas:** DPD a domicilio desde 11,31 € y UPS a domicilio desde 10,38 €, ambas con plazo de 48–72 horas; DHL a domicilio desde 16,25 €, con plazo de 24 horas. Los importes son `Desde` y sin IVA.
+  - **Decisión aplicada (28/07/2026):** agrupar los 18 países porque comparten exactamente la misma tabla. Mostrar servicios genéricos: estándar por 11,31 €, tomando la referencia ordinaria más alta; urgente por 16,25 €; y envío gratuito desde 150 €. No mostrar DPD, UPS ni DHL al cliente.
+  - **Configuración aplicada:** mercado y zona `UE — Grupo 11,31 €`, activos y en EUR; `Estándar Europa grupo 11,31 €` por 11,31 € entre 0,00 € y 149,99 €, con `Entrega en 2–3 días hábiles`; `Envío gratuito` desde 150,00 €, con el mismo plazo; y `Urgente Europa grupo 11,31 €` por 16,25 €, con `Entrega en 1 día hábil`.
+  - **Comprobación:** la revisión posterior confirmó los 18 países, los tres servicios activos y los tramos estándar/gratuito sin huecos ni solapamientos. Estos países se retiraron de la zona UE general.
+  - **Fiscalidad:** el mercado mantiene la configuración heredada. No se abrió ni se modificó IVA, OSS ni ninguna opción fiscal.
+  - **Pantallas revisadas:** `Mercados > UE — Grupo 11,31 €` y `Configuración > Envío y entrega > Perfil general > UE — Grupo 11,31 €`.
+  - **Pendiente:** QA de checkout para estándar, gratuito y urgente; validar costes reales y margen porque las referencias recibidas son importes `Desde` sin IVA.
+- [x] Configurar el grupo de Chipre, Malta, Liechtenstein, Islandia, Moldavia, Noruega, San Marino, Suiza y Ucrania.
+  - **Tarifa facilitada:** DHL a domicilio desde 21,75 €, con plazo indicado de 48 horas. El importe es `Desde` y sin IVA.
+  - **Decisión aplicada (28/07/2026):** agrupar los nueve países porque comparten la misma tarifa. Mostrar una opción genérica de 21,75 € y aplicar también el envío gratuito desde 150 €, sin mostrar DHL al cliente.
+  - **Configuración aplicada:** mercado y zona `Europa — Grupo 21,75 €`, activos y en EUR; `Estándar Europa grupo 21,75 €` por 21,75 € entre 0,00 € y 149,99 €, con `Entrega en 2 días hábiles`; y `Envío gratuito` desde 150,00 €, con el mismo plazo.
+  - **Comprobación:** la revisión posterior confirmó los nueve países, las dos opciones activas y los tramos sin huecos ni solapamientos. Chipre y Malta se retiraron de la zona UE general; Noruega y Suiza se retiraron de `Internacional`.
+  - **Fiscalidad:** el grupo mezcla países comunitarios y no comunitarios. No se abrió ni se modificó IVA, OSS, aranceles ni ninguna opción fiscal; su tratamiento sigue pendiente de Lorena o de la gestoría.
+  - **Pantallas revisadas:** `Mercados > Europa — Grupo 21,75 €` y `Configuración > Envío y entrega > Perfil general > Europa — Grupo 21,75 €`.
+  - **Pendiente:** QA de checkout para ambos tramos, validación de costes reales y margen, y confirmación fiscal/aduanera para los destinos no comunitarios.
+- [x] Configurar Polonia y Chequia como último grupo de la antigua zona UE general.
+  - **Tarifas facilitadas:** DPD a domicilio desde 11,28 €, con plazo de 4–6 días; UPS a domicilio desde 11,83 €, con plazo de 3–5 días. Los importes son `Desde` y sin IVA.
+  - **Decisión aplicada (28/07/2026):** utilizar 11,83 €, la referencia ordinaria más alta, y una promesa genérica conservadora de 4–6 días hábiles mientras no se confirme qué agencia se asignará. Aplicar envío gratuito desde 150 € y no mostrar DPD ni UPS.
+  - **Configuración aplicada:** mercado y zona `Polonia y Chequia`, activos y en EUR; `Estándar Polonia y Chequia` por 11,83 € entre 0,00 € y 149,99 €, con `Entrega en 4–6 días hábiles`; y `Envío gratuito` desde 150,00 €, con el mismo plazo.
+  - **Comprobación:** la revisión posterior confirmó Chequia y Polonia, las dos opciones activas y los tramos sin huecos ni solapamientos. La antigua zona `UE (Unión Europea)` se eliminó porque ya no contenía otros países.
+  - **Fiscalidad:** no se abrió ni se modificó IVA, OSS ni ninguna opción fiscal.
+  - **Pantallas revisadas:** `Mercados > Polonia y Chequia` y `Configuración > Envío y entrega > Perfil general > Polonia y Chequia`.
+  - **Pendiente:** QA de checkout para ambos tramos y validación conjunta de costes reales y margen.
+- [x] Configurar Andorra como destino internacional no perteneciente a la UE.
+  - **Tarifa facilitada:** Correos Express a domicilio desde 17,27 €, con plazo indicado de 24–48 horas. Correos no muestra una tarifa disponible.
+  - **Aprobación (28/07/2026):** se autoriza crear y activar un mercado independiente para Andorra y utilizar 17,27 € como tarifa mostrada en Shopify.
+  - **Configuración aplicada:** mercado `Andorra` activo, moneda EUR; zona de envío independiente `Andorra`; opción `Envío a domicilio` de 17,27 € con tránsito de 1–2 días laborables; y `Envío gratuito` desde 150 € con el mismo tránsito de 1–2 días laborables.
+  - **Fiscalidad:** el mercado conserva la configuración heredada `Sin recaudación`. No se abrió ni modificó `Impuestos y aranceles`.
+  - **Pantallas revisadas:** `Mercados > Andorra` y `Configuración > Envío y entrega > Perfil general > Andorra`.
+  - **Estado revisado (28/07/2026):** Shopify muestra el mercado `Andorra` como `Activo`. El perfil general muestra las dos opciones de Andorra y confirmó `Perfil actualizado`.
+- [x] Excluir los restantes destinos internacionales no validados.
+  - **Valor anterior:** tras retirar Noruega y Suiza, la zona `Internacional` mantenía 12 países/regiones y una tarifa de 12,99 €, pero no estaba habilitada porque esos países no pertenecían a un mercado activo.
+  - **Destinos excluidos:** Emiratos Árabes Unidos, Australia, Canadá, Reino Unido, Hong Kong, Israel, Japón, Corea del Sur, Malasia, Nueva Zelanda, Singapur y Estados Unidos.
+  - **Pantalla revisada (28/07/2026):** `Configuración > Envío y entrega > Perfil general > Internacional` muestra el aviso de que los 12 países deben incluirse en un mercado para poder vender y conserva una única opción `Estándar` de 12,99 €.
+  - **Conclusión:** la zona puede eliminarse sin afectar a los mercados ni destinos activos. Su eliminación retiraría únicamente esta cobertura y tarifa antiguas; si Lovlory decide vender posteriormente en alguno de esos países, deberá crearse una zona nueva con precios, plazos y condiciones validados.
+  - **Aplicación confirmada (28/07/2026):** por confirmación expresa se eliminó la zona `Internacional` y su tarifa antigua de 12,99 €. La comprobación posterior confirma que la zona ya no existe y que permanecen intactas las nueve zonas válidas del perfil.
+  - **Criterio futuro:** si Lovlory decide vender posteriormente en alguno de los 12 destinos excluidos, deberá crearse una zona nueva con mercado, tarifas, plazos y tratamiento fiscal/aduanero previamente validados.
 
 ### Tarifas nacionales encontradas
 
@@ -177,21 +235,29 @@ Este documento registra únicamente la información que falta por solicitar o co
   - **Pendiente:** probar ambos importes en el checkout. Shopify seguirá tratando administrativamente los pedidos como envíos y mostrará la opción a clientes con dirección de España peninsular; esta limitación deberá explicarse y verificarse durante el QA. La disponibilidad para Baleares deberá decidirse al crear esa zona.
   - **Pantalla:** `Configuración > Envío y entrega > Perfil general > España > Recogida en Lovlory` y `Formas de entrega adicionales`.
   - **Resumen revisado (27/07/2026):** se pulsó `Listo`, se guardó el perfil y Shopify conservó el nuevo nombre, los dos tramos y el plazo. No se instaló ninguna aplicación ni se inició ninguna suscripción.
-- [~] Servicio urgente confirmado para España, con especial interés en la zona local.
-  - **Valor actual:** `Urgente`, 9,50 €, sin plazo visible en el resumen.
+- [x] Servicio urgente configurado para España peninsular.
+  - **Valor final configurado:** `Urgente`, 15,01 €, con tránsito de 1–2 días laborables.
   - **Respuesta de Lorena (27/07/2026):** solicita mostrar 24/48 horas e indica entregas en sábado.
-  - **Pendiente:** confirmar si 9,50 € es el precio final para toda España, qué códigos postales cubre y cómo encaja con las tarifas urgentes orientativas recibidas.
+  - **Tarifas contrastadas (28/07/2026):** NACEX a domicilio desde 15,01 €, entrega garantizada antes de las 12:00; SEUR desde 7,79 €, antes de las 13:30; Correos Express desde 7,68 €, antes de las 14:00. SEUR antes de las 10:00 no muestra precio. Son costes `Desde` facilitados sin IVA.
+  - **Decisión aprobada (28/07/2026):** mantener una única opción genérica, sin mostrar transportista ni prometer una hora concreta, utilizando la referencia disponible más alta a domicilio para permitir que el almacén seleccione la agencia.
+  - **Advertencia comercial:** la referencia original continúa siendo `Desde` y sin IVA; revisar margen, pesos y recargos en la validación conjunta, sin modificar opciones fiscales.
   - **Pantalla:** `Configuración > Envío y entrega > Perfil general > España > Urgente > Editar opción de envío`.
-  - **Resumen revisado (27/07/2026):** aparece por 9,50 € sin plazo visible. No se abrió ni se modificó.
+  - **Estado aplicado (28/07/2026):** se sustituyeron los 9,50 € por 15,01 € y se añadió el tránsito de 1–2 días laborables. Shopify confirmó `Perfil actualizado`.
 - [~] Lorena confirma que los precios cobrados al cliente deben incluir IVA; la tabla de costes de almacén recibida está expresada sin IVA.
   - **Aclaración revisada (27/07/2026):** la tabla recibida refleja costes orientativos de compra que los transportistas o almacenes cobran a Lovlory; las tarifas fijas de Shopify son precios comerciales de venta que paga el cliente. No es necesario crear en el checkout una tarifa por cada transportista si el cliente verá un único servicio estándar.
   - **Decisión aplicada (27/07/2026):** se fija provisionalmente en Shopify un precio comercial de 5,20 € para el servicio estándar peninsular de pedidos inferiores a 50 €. La cifra coincide con la referencia más alta de entrega a domicilio mostrada en las capturas, pero esa referencia es `Desde` y está expresada sin IVA.
-  - **Riesgo pendiente:** los 5,20 € guardados pueden no cubrir el coste real según peso, volumen, origen, código postal y recargos. Falta validar margen y composición fiscal con Lorena o su gestoría; no se abrió ni se modificó ninguna opción fiscal.
+  - **Respuesta adicional de Lorena (28/07/2026):** confirma expresamente que los importes cobrados al cliente por el envío deben incluir IVA y que las tarifas facilitadas por el almacén están expresadas sin IVA.
+  - **Estado revisado (28/07/2026):** los importes de pago configurados hasta ahora reproducen provisionalmente referencias netas `Desde` del almacén. Por tanto, no deben considerarse precios finales aprobados: deben convertirse en precios comerciales finales con IVA incluido y margen suficiente antes del cierre.
+  - **Pendiente fiscal bloqueante:** la gestoría debe confirmar el tipo y método aplicable al transporte y validar el funcionamiento de Shopify cuando se complete el registro fiscal. No multiplicar automáticamente todas las tarifas por el 21 %, ni activar o modificar opciones fiscales, hasta recibir esa confirmación. La casilla global para incluir el impuesto en el precio del producto y la tarifa de envío ya estaba activada; actualmente Shopify muestra recaudación al 0 % por falta de registro fiscal configurado.
+  - **Riesgo pendiente:** los importes guardados pueden no cubrir el coste real según peso, volumen, origen, código postal y recargos. Tras la confirmación fiscal se recalcularán todas las tarifas de pago y se probará en checkout que el cliente ve el total final y que Shopify separa correctamente la parte impositiva.
   - **Pantalla:** `Configuración > Envío y entrega > Perfil general > Zonas y tarifas` y `Configuración > Impuestos y aranceles`.
 - [~] Existen condiciones especiales que requieren perfiles o tarifas específicas.
-  - **Respuesta de Lorena (27/07/2026):** los envíos habituales pesan aproximadamente entre 1 y 5 kg; los productos Mistress de tamaño real tienen un coste fijo de envío de 45 €.
-  - **Pendiente:** identificar exactamente productos/variantes Mistress afectados y decidir el mecanismo de exclusión o perfil específico.
-  - **Pantalla:** `Configuración > Envío y entrega > Perfil general > Editar opción de envío > Condiciones`.
+  - **Respuesta de Lorena (27–28/07/2026):** los envíos habituales pesan aproximadamente entre 1 y 5 kg; las muñecas Mistress de tamaño real tienen un coste fijo de envío de 45 € y Mistress se gestiona como colección.
+  - **Solución nativa prevista:** crear un perfil de envío personalizado para los productos o variantes Mistress afectados y configurar en él la tarifa fija correspondiente por cada zona autorizada. La pertenencia a la colección sirve para identificar el catálogo, pero deben asignarse al perfil los productos o variantes concretos y mantener esa asignación cuando se incorporen nuevos artículos.
+  - **Riesgo de pedidos mixtos:** Shopify combina las tarifas de perfiles distintos. Un carrito con una Mistress y un producto del perfil general podría mostrar 45 € más la tarifa ordinaria. No crear el perfil hasta confirmar la regla comercial deseada para esos carritos.
+  - **Pendiente de Lorena o gestoría:** confirmar si los 45 € son el precio final con IVA incluido o un coste neto; si se cobran por pedido, por muñeca o por expedición; los destinos a los que se aplica; si sustituye o queda excluido del envío gratuito; y qué porte debe cobrarse al mezclar Mistress con productos normales.
+  - **Estado revisado (28/07/2026):** no se creó ningún perfil ni se modificó ninguna tarifa. La siguiente pantalla será `Configuración > Envío y entrega > Perfiles de envío > Crear nuevo perfil` cuando se confirmen las reglas anteriores.
+  - **Pantalla:** `Configuración > Envío y entrega > Perfiles de envío` y `Crear nuevo perfil`.
 
 ### Transportista y condiciones del servicio
 
@@ -204,17 +270,24 @@ Este documento registra únicamente la información que falta por solicitar o co
     - Baleares 48–72 h: SEUR desde 7,74 € a domicilio; Correos Express desde 8,62 € en oficina o domicilio.
   - **Distinción operativa:** `En oficina` en estas capturas significa oficina o punto del transportista; no equivale a `Recogida en Lovlory` en el despacho de Amposta.
   - **Indicación adicional de Lorena (27/07/2026):** solicita crear todos los transportistas de la tabla para cubrir todas las necesidades.
-  - **Decisión confirmada (27/07/2026):** aplicar la opción 1: el cliente verá servicios genéricos y el almacén elegirá internamente NACEX, SEUR o Correos Express según disponibilidad y origen. No se crearán tarifas visibles separadas por agencia.
+  - **Hipótesis provisional aplicada (27/07/2026):** el cliente ve servicios genéricos y el almacén elige internamente NACEX, SEUR o Correos Express según disponibilidad y origen. Las tarifas actuales se han configurado siguiendo esta hipótesis.
+  - **Nota crítica pendiente (28/07/2026):** Lorena debe explicar quién elige realmente el transportista cuando intervienen varios proveedores y almacenes: si lo asigna automáticamente el proveedor o su sistema después del pedido, si lo decide Lovlory durante la preparación, o si el cliente debe poder elegir agencia/servicio en el checkout.
+  - **Preguntas necesarias:** confirmar qué ocurre cuando un pedido contiene productos de distintos proveedores, si se divide en varios envíos, si se cobran o combinan varios portes, qué agencia y plazo se muestran al cliente y quién asume las diferencias de coste.
+  - **Consecuencia de la respuesta:** si la elección es interna o automática, el modelo genérico actual por zona y promesa es válido. Si el cliente elige transportista, habrá que desglosar cada zona por agencia y servicio, con sus precios, plazos y condiciones. Si la selección depende del producto, proveedor o ubicación de origen, habrá que revisar perfiles de envío, ubicaciones y posible combinación de tarifas antes de considerar la configuración terminada.
+  - **Estado:** no desglosar todavía las zonas ni eliminar las tarifas genéricas. Esta aclaración es bloqueante para la validación final del envío.
   - **Criterio para importes `Desde`:** no copiar el mínimo anunciado como tarifa fija. Para fijar un precio seguro se necesita, por agencia y servicio, la tabla completa para el intervalo habitual de 1–5 kg, reglas de peso volumétrico, destino/código postal, combustible, zonas remotas y demás recargos. El precio comercial se calculará sobre el coste aplicable máximo o representativo aprobado, más los conceptos que correspondan y menos la parte que Lovlory decida subvencionar; el tratamiento fiscal sigue pendiente de gestoría.
   - **Decisión para Península estándar (27/07/2026):** ofrecer entrega a domicilio y fijar provisionalmente el precio comercial en 5,20 €, tomando como referencia el coste más alto de las capturas para esa modalidad, NACEX desde 5,20 € sin IVA. No ofrecer por ahora `En oficina` del transportista.
   - **Aplicación en Shopify:** se editó la tarifa estándar existente, sin crear otra opción solapada. Quedó guardada en `España peninsular` por 5,20 €, de 0,00 € a 49,99 € y con 2–5 días hábiles.
-  - **Modelo confirmado sin aplicaciones:** mostrar al cliente nombres genéricos por promesa (`Estándar`, `Urgente`, `Baleares`) y elegir internamente la agencia disponible.
+  - **Modelo provisional sin aplicaciones:** mostrar al cliente nombres genéricos por promesa (`Estándar`, `Urgente`, `Baleares`) y elegir internamente la agencia disponible, sujeto a la aclaración crítica anterior.
   - **Pantalla:** `Configuración > Envío y entrega > Perfil general > Zonas y tarifas` y `Cuentas de empresas de transporte`.
-- [x] Confirmar si las tarifas deben ser planas, calculadas en tiempo real por el transportista o gestionadas mediante una aplicación.
+- [~] Confirmar si las tarifas deben ser planas, calculadas en tiempo real por el transportista o gestionadas mediante una aplicación.
   - **Valor actual:** no hay ninguna cuenta de empresa de transporte conectada.
-  - **Decisión (27/07/2026):** usar tarifas comerciales planas y genéricas en Shopify; la elección de agencia será operativa por almacén. No instalar una aplicación de pago ni conectar tarifas calculadas en esta fase.
-  - **Pantalla:** `Configuración > Envío y entrega > Cuentas de empresas de transporte`.
-- [ ] **Validación final conjunta del cliente:** cuando termine la configuración de envío, Lorena revisará en una única comprobación las zonas, servicios visibles, importes, umbrales gratuitos y plazos. Esta validación sustituye a las solicitudes de confirmación parciales ya resueltas durante la revisión.
+  - **Decisión provisional (27/07/2026):** usar tarifas comerciales planas y genéricas en Shopify; no instalar una aplicación de pago ni conectar tarifas calculadas en esta fase.
+  - **Pantalla revisada (28/07/2026):** `Configuración > Envío y entrega > Gestionar empresas de transporte preferidas`. Shopify indica expresamente que Correos, SEUR y DHL Express Spain solo se recomiendan al comprar etiquetas de envío y que estas preferencias no influyen en las tarifas de la pantalla de pago.
+  - **Decisión:** no marcar ninguna empresa en esta pantalla por ahora. Esta configuración no permite que el cliente elija NACEX, SEUR o Correos Express ni asigna automáticamente una agencia según zona, producto, proveedor o almacén. Solo se configurará más adelante si Lovlory compra etiquetas directamente en Shopify y confirma qué empresas desea priorizar.
+  - **Pendiente crítico (28/07/2026):** validar con Lorena si la agencia se asigna internamente/automáticamente o debe elegirla el cliente. La respuesta determinará si se conserva este modelo o se crean tarifas separadas por transportista y zona.
+  - **Pantallas:** `Configuración > Envío y entrega > Cuentas de empresas de transporte` y `Gestionar empresas de transporte preferidas`.
+- [ ] **Validación final conjunta del cliente:** cuando termine la configuración de envío, Lorena revisará en una única comprobación las zonas, servicios visibles, importes, umbrales gratuitos y plazos. Antes de aprobarla deberá explicar y validar el flujo de elección/asignación de transportista y el tratamiento de pedidos con varios proveedores.
 - [~] Seguimiento y seguro confirmados; firma o modalidad exacta del justificante de entrega pendiente.
   - **Respuesta de Lorena (27/07/2026):** todos los envíos deben incluir seguimiento y seguro; espera justificante de entrega.
   - **Pantalla:** `Configuración > Envío y entrega > Perfil general > Editar opción de envío > Detalles de entrega`.
@@ -223,26 +296,35 @@ Este documento registra únicamente la información que falta por solicitar o co
 
 ### Paquetes y pesos
 
-- [~] Recibidas dos referencias de embalaje, pendientes de distinguir peso total medio y tara.
-  - **Valor actual:** existe una caja, pero todavía no se han revisado sus medidas ni su tara.
+- [x] Paquetes habituales revisados para la configuración actual.
+  - **Valor actual revisado (28/07/2026):** Shopify muestra una única `Caja de muestra`, establecida como predeterminada de la tienda, con medidas 22 × 13,7 × 4,2 cm y peso del embalaje de 0 kg. No coincide con ninguna de las dos medidas facilitadas por Lorena.
   - **Respuesta de Lorena (27/07/2026):** caja grande de 40 × 30 × 15 cm con unos 3 kg de media y caja pequeña de 20 × 10 × 10 cm con 1 kg.
-  - **Pendiente:** confirmar el peso en vacío de cada embalaje, ya que los pesos indicados parecen corresponder al paquete medio.
+  - **Criterio revisado (28/07/2026):** las tarifas actuales del checkout son planas o dependen del importe del pedido, por lo que estas medidas y pesos no intervienen ahora en el precio mostrado al cliente. Sí son relevantes para etiquetas, tarifas calculadas futuras y control logístico.
+  - **Decisión aprobada (28/07/2026):** mantener la `Caja de muestra` sin cambios y conservar las medidas y pesos medios facilitados únicamente como referencia documental. No introducir 1 kg ni 3 kg como tara porque parecen corresponder al paquete completo.
+  - **Estado:** punto completado para el modelo actual de tarifas. Solo se reabrirá si Lovlory compra etiquetas o activa tarifas calculadas en Shopify; en ese caso habrá que sustituir la caja de muestra por los dos embalajes reales y obtener su peso en vacío.
   - **Pantalla:** `Configuración > Envío y entrega > Paquetes`.
-- [ ] Confirmar si se utilizan sobres, cajas adicionales o embalajes especiales y cuándo debe aplicarse cada uno.
-  - **Pantalla:** `Configuración > Envío y entrega > Paquetes`.
+- [x] No crear sobres, cajas adicionales ni embalajes especiales en Shopify para el lanzamiento.
+  - **Decisión (28/07/2026):** la configuración actual no los necesita porque el checkout no calcula las tarifas por peso, dimensiones o tipo de paquete. Se mantienen únicamente las dos referencias logísticas facilitadas por Lorena.
+  - **Pantalla revisada:** `Configuración > Envío y entrega > Paquetes`.
 - [x] Embalaje discreto confirmado: sin logotipos ni referencias al contenido.
   - **Pantalla relacionada:** `Configuración > Envío y entrega > Documentos > Nombre del remitente en las etiquetas de envío` y configuración de plantillas/etiquetas.
-- [ ] Confirmar que los pesos de los productos corresponden al artículo preparado para el envío y si deben incluir embalaje individual adicional.
-  - **Pantalla:** `Productos > Variante > Envío > Peso` y `Configuración > Envío y entrega > Paquetes`.
+- [ ] **Único pendiente del bloque:** confirmar que todos los productos físicos tienen su peso real en la variante. No incluir el peso medio del pedido ni la tara de la caja dentro del peso del producto. La tara solo se solicitará si posteriormente se utilizan etiquetas o tarifas calculadas en Shopify.
+  - **Pantalla:** `Productos > Variante > Envío > Peso`.
 
 ### Entrega, recogida y documentación
 
-- [~] Lorena solicita recogida en el despacho y entrega local en Terres de l’Ebre.
-  - **Valor actual:** las tres opciones están desactivadas.
+- [x] Recogida en el despacho resuelta para el alcance actual sin activar formas de entrega adicionales.
+  - **Valor actual revisado (28/07/2026):** `Entrega local`, `Retiro en tienda` y `Puntos de retiro` permanecen desactivados. La pantalla `Entrega local` muestra una única sucursal en Amposta con el estado `No ofrece entrega`.
   - **Respuesta de Lorena (27/07/2026):** para Terres de l’Ebre quiere entrega urgente, entrega normal y una modalidad de “momentos especiales”; esta última requiere definir el servicio y su contenido antes de configurarla como forma de entrega.
-  - **Pantalla:** `Configuración > Envío y entrega > Formas de entrega adicionales`.
-- [~] Lorena confirma que el remitente debe ser discreto, pero falta aprobar el texto exacto.
-  - **Pantalla:** `Configuración > Envío y entrega > Documentos > Nombre del remitente en las etiquetas de envío`.
+  - **Recogida resuelta:** mantener desactivado `Retiro en tienda` porque la recogida de Amposta ya está implementada mediante las tarifas del perfil general: 3,95 € por debajo de 100 € y gratuita desde 100 €. Mantener también `Puntos de retiro` desactivado.
+  - **Decisión de cierre (28/07/2026):** dar el punto por completado mediante la recogida configurada en el perfil general. No activar `Entrega local` para el lanzamiento. Si posteriormente Lorena desea ofrecer reparto en Terres de l’Ebre, se tratará como una ampliación independiente y habrá que definir previamente su área, modalidades, precios y plazos.
+  - **Pantallas revisadas:** `Configuración > Envío y entrega > Formas de entrega adicionales` y `Entrega local`.
+  - **Estado de la comprobación:** punto completado sin abrir la ficha de la sucursal ni realizar cambios adicionales.
+- [x] Lorena confirma que el remitente debe ser discreto, pero falta aprobar el texto exacto.
+  - **Estado revisado (28/07/2026):** el cuadro `Personaliza el nombre del remitente en las etiquetas de envío` tiene seleccionada la opción `Lovlory`. La alternativa `Nombre personalizado` está vacía y admite un máximo de 25 caracteres.
+  - **Pendiente:** confirmar si `Lovlory` se considera suficientemente discreto o facilitar el nombre genérico exacto que debe aparecer en las etiquetas. No inventar ni guardar una denominación sin aprobación de Lorena.
+  - **Pantalla revisada:** `Configuración > Envío y entrega > Documentos > Nombre del remitente en las etiquetas de envío`.
+  - **Estado de la comprobación:** no se cambió la selección y no se pulsó `Guardar`.
 - [ ] Confirmar qué datos deben aparecer en la nota de entrega, factura y lista de picking, evitando contenido sensible innecesario.
   - **Pantalla:** `Configuración > Envío y entrega > Documentos > Plantillas`.
 - [~] Criterio operativo de devoluciones recibido, pendiente de validación legal y de aclarar quién asume el coste.
