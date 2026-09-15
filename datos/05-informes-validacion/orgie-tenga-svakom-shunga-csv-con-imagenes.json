@@ -1,0 +1,23 @@
+{
+  "source_csv": "datos\\03-archivos-importacion-shopify\\orgie-tenga-svakom-shunga\\shopify-import-orgie-tenga-svakom-shunga-nuevos-sin-imagenes.csv",
+  "image_report": "datos\\05-informes-validacion\\orgie-tenga-svakom-shunga-imagenes.json",
+  "output_csv": "datos\\03-archivos-importacion-shopify\\orgie-tenga-svakom-shunga\\shopify-import-orgie-tenga-svakom-shunga-nuevos-con-imagenes.csv",
+  "image_base_url": "https://ilercavonia.info/lovlory/imagenes-para-subir-125-productos",
+  "products": 125,
+  "output_data_rows": 348,
+  "image_rows": 348,
+  "continuation_image_rows": 223,
+  "unique_image_urls": 348,
+  "public_image_urls_checked": 348,
+  "public_image_urls_valid": 348,
+  "public_image_url_failures": [],
+  "products_without_images": [],
+  "duplicate_source_skus": [],
+  "all_products_draft": true,
+  "images_by_brand": {
+    "ORGIE": 8,
+    "SHUNGA": 12,
+    "SVAKOM": 30,
+    "TENGA": 298
+  }
+}

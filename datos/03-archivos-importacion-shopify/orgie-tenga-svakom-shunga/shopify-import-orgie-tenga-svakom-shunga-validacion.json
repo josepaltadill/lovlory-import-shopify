@@ -1,0 +1,110 @@
+{
+  "source_file": "datos\\03-archivos-importacion-shopify\\orgie-tenga-svakom-shunga\\productos de Tenga, Shunga, Svakom i Orgie.xlsx",
+  "output_file": "datos\\03-archivos-importacion-shopify\\orgie-tenga-svakom-shunga\\shopify-import-orgie-tenga-svakom-shunga-nuevos-sin-imagenes.csv",
+  "generated_at": "2026-09-15T13:56:50.085Z",
+  "source_products": 443,
+  "duplicate_analysis": {
+    "ORGIE": {
+      "source": 90,
+      "new": 3,
+      "duplicates": 87,
+      "duplicate_reasons": {
+        "sku": 87,
+        "ean": 0,
+        "title": 0,
+        "tenga_model": 0
+      }
+    },
+    "SHUNGA": {
+      "source": 170,
+      "new": 42,
+      "duplicates": 128,
+      "duplicate_reasons": {
+        "sku": 0,
+        "ean": 128,
+        "title": 0,
+        "tenga_model": 0
+      }
+    },
+    "SVAKOM": {
+      "source": 61,
+      "new": 8,
+      "duplicates": 53,
+      "duplicate_reasons": {
+        "sku": 53,
+        "ean": 0,
+        "title": 0,
+        "tenga_model": 0
+      }
+    },
+    "TENGA": {
+      "source": 122,
+      "new": 108,
+      "duplicates": 14,
+      "duplicate_reasons": {
+        "sku": 0,
+        "ean": 0,
+        "title": 0,
+        "tenga_model": 14
+      }
+    }
+  },
+  "new_candidates_before_exclusions": 161,
+  "exclusions": {
+    "material_pos": 10,
+    "testers_and_displays_outside_material_pos": 26,
+    "total_non_sale_items": 36
+  },
+  "output_products": 125,
+  "output_products_by_brand": {
+    "ORGIE": 3,
+    "SHUNGA": 7,
+    "SVAKOM": 8,
+    "TENGA": 107
+  },
+  "field_mapping": {
+    "Variant Price": "PVP Recomendado",
+    "Cost per item": "Precio",
+    "Variant SKU": "SKU",
+    "Variant Barcode": "EAN",
+    "Variant Inventory Qty": "Cantidad",
+    "Variant Grams": "Peso del Producto, convertido a gramos cuando es interpretable"
+  },
+  "publication": {
+    "status": "draft",
+    "published": false,
+    "reason": "Las URL del proveedor no son HTTPS y las imágenes se han omitido."
+  },
+  "images": {
+    "urls_declared_for_output_products": 350,
+    "urls_checked": 350,
+    "accessible_over_http": 345,
+    "failed": 5,
+    "https_compatible": 0,
+    "omitted_from_csv": true,
+    "failed_urls": [
+      "http://dilted.es/dwn/Productos/25338773e.jpg",
+      "http://dilted.es/dwn/Productos/25338774e.jpg",
+      "http://dilted.es/dwn/Productos/1304921.jpg",
+      "http://dilted.es/dwn/Productos/1304921b.jpg",
+      "http://dilted.es/dwn/Productos/1304921c.jpg"
+    ]
+  },
+  "completeness": {
+    "missing_source_image_urls": 0,
+    "missing_variant_price": 1,
+    "missing_variant_weight": 47,
+    "zero_or_missing_stock": 39,
+    "missing_description": 0
+  },
+  "validation": {
+    "duplicate_handles": 0,
+    "duplicate_skus": 0,
+    "duplicate_barcodes": 0,
+    "blank_skus": 0,
+    "invalid_prices": 0,
+    "all_rows_draft": true,
+    "image_columns_blank": true
+  },
+  "tenga_deduplication_note": "Se excluyeron 14 coincidencias claras por modelo. 3DX ZEN y 3D Pile se conservaron porque no son equivalencias inequívocas con los productos 3D Zen y 3D Module actuales."
+}

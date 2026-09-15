@@ -1,0 +1,61 @@
+{
+  "imported_at": "2026-09-15T16:52:11+02:00",
+  "store": "sdu0jd-pu",
+  "method": "Shopify Admin CSV importer",
+  "source_csv": "datos/03-archivos-importacion-shopify/orgie-tenga-svakom-shunga/shopify-import-orgie-tenga-svakom-shunga-nuevos-con-imagenes.csv",
+  "preview": {
+    "products": 125,
+    "skus": 125,
+    "images": 348,
+    "overwrite_matching_handles": false,
+    "publish_to_all_sales_channels": false,
+    "product_status": "draft"
+  },
+  "result": {
+    "status": "completed",
+    "products_visible_in_admin": true,
+    "publication": "not published",
+    "sample_checks": [
+      {
+        "brand": "ORGIE",
+        "sku": "1418028",
+        "shopify_product_id": "11183297429847",
+        "status": "draft",
+        "inventory": 9,
+        "images_visible": 2,
+        "collections_visible": ["Cosmética íntima", "Novedades", "ORGIE"]
+      },
+      {
+        "brand": "SHUNGA",
+        "sku": "5759-1023",
+        "shopify_product_id": "11183297560919",
+        "status": "draft",
+        "inventory": 10,
+        "type": "Cosmética íntima"
+      },
+      {
+        "brand": "SVAKOM",
+        "sku": "25338777",
+        "shopify_product_id": "11183297855831",
+        "status": "draft",
+        "inventory": 46,
+        "type": "Juguetes eróticos"
+      },
+      {
+        "brand": "TENGA",
+        "sku": "130315",
+        "shopify_product_id": "11183298249047",
+        "status": "draft",
+        "inventory": 9,
+        "images_visible": 2,
+        "collections_visible": ["Juguetes Eróticos", "Novedades", "TENGA"]
+      }
+    ]
+  },
+  "known_source_limitations": {
+    "products_missing_price": 1,
+    "products_missing_weight": 47,
+    "products_with_zero_or_missing_stock": 39,
+    "optional_images_omitted": ["svakom/25338773e.jpg", "svakom/25338774e.jpg"]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "generated_at_utc": "2026-09-15T09:36:57.181965+00:00",
+  "source_files": {
+    "debranet-products-0000-2000.xml": 2000,
+    "debranet-products-2000-4000.xml": 2000,
+    "debranet-products-4000-6000.xml": 2000,
+    "debranet-products-6000-8000.xml": 376
+  },
+  "source_rows": 6376,
+  "source_unique_product_ids": 6376,
+  "source_duplicate_product_ids": 0,
+  "selected_brands": [
+    {
+      "brand_id": "202",
+      "brand_name": "Lelo",
+      "products": 86
+    },
+    {
+      "brand_id": "8949",
+      "brand_name": "Mistress",
+      "products": 199
+    }
+  ],
+  "selected_products": 285,
+  "duplicate_selected_product_ids": [],
+  "duplicate_selected_product_codes": [],
+  "missing_or_invalid_fields": {
+    "product_id": 0,
+    "product_code": 0,
+    "ean": 0,
+    "weight": 0,
+    "stock": 0,
+    "price_eur": 0,
+    "names": 0,
+    "descriptions": 0,
+    "pictures": 0
+  },
+  "weight_kg": {
+    "valid_products": 285,
+    "minimum": "0.02",
+    "maximum": "69.1"
+  },
+  "language_coverage": {
+    "names": {
+      "EN": 285,
+      "HU": 285,
+      "RO": 285
+    },
+    "descriptions": {
+      "EN": 285,
+      "HU": 285
+    }
+  },
+  "output_file": "debranet-products-mistress-lelo.xml"
+}

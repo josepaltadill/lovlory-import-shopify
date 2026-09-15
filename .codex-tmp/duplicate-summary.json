@@ -1,0 +1,46 @@
+{
+  "ORGIE": {
+    "source": 90,
+    "new": 3,
+    "duplicates": 87,
+    "duplicate_reasons": {
+      "sku": 87,
+      "ean": 0,
+      "title": 0,
+      "tenga_model": 0
+    }
+  },
+  "SHUNGA": {
+    "source": 170,
+    "new": 42,
+    "duplicates": 128,
+    "duplicate_reasons": {
+      "sku": 0,
+      "ean": 128,
+      "title": 0,
+      "tenga_model": 0
+    }
+  },
+  "SVAKOM": {
+    "source": 61,
+    "new": 8,
+    "duplicates": 53,
+    "duplicate_reasons": {
+      "sku": 53,
+      "ean": 0,
+      "title": 0,
+      "tenga_model": 0
+    }
+  },
+  "TENGA": {
+    "source": 122,
+    "new": 108,
+    "duplicates": 14,
+    "duplicate_reasons": {
+      "sku": 0,
+      "ean": 0,
+      "title": 0,
+      "tenga_model": 14
+    }
+  }
+}
