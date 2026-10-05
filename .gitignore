@@ -3,3 +3,4 @@ __pycache__/
 *.py[cod]
 .lo_profile_*/
 qa_*/
+design/
