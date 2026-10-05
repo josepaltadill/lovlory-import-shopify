@@ -1,0 +1,3701 @@
+{
+  "source_rows": 117,
+  "prepared_inputs": 114,
+  "skipped_unsubscribed": 1,
+  "skipped_duplicates_or_already_imported": 2,
+  "batch_size": 20,
+  "batches": [
+    [
+      {
+        "email": "mroyo224@xtec.cat",
+        "firstName": "",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      },
+      {
+        "email": "noemasden@gmail.com",
+        "firstName": "",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      },
+      {
+        "email": "maigis@hotmail.com",
+        "firstName": "",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      },
+      {
+        "email": "nuriasorianosabate@gmail.com",
+        "firstName": "",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      },
+      {
+        "email": "jennibalague22@gmail.com",
+        "firstName": "",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      },
+      {
+        "email": "estherescu_7@hotmail.com",
+        "firstName": "",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      },
+      {
+        "email": "sonia.masden@gmail.com",
+        "firstName": "",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      },
+      {
+        "email": "yolanda.meca.blanch@hotmail.com",
+        "firstName": "",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      },
+      {
+        "email": "arkanum.la@gmail.com",
+        "firstName": "",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      },
+      {
+        "email": "vanemik@hotmail.es",
+        "firstName": "",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      },
+      {
+        "email": "erika_ferrate@hotmail.com",
+        "firstName": "",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      },
+      {
+        "email": "immaventurarullo@gmail.com",
+        "firstName": "",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      },
+      {
+        "email": "jtomasl@advocatstortosa.org",
+        "firstName": "",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      },
+      {
+        "email": "naomi0821@hotmail.com",
+        "firstName": "",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      },
+      {
+        "email": "ariadnareverte@gmail.com",
+        "firstName": "",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      },
+      {
+        "email": "marta15_41@hotmail.com",
+        "firstName": "",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      },
+      {
+        "email": "mariajesusmasia@gmail.com",
+        "firstName": "",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      },
+      {
+        "email": "lolycardoso1972@gmail.com",
+        "firstName": "",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      },
+      {
+        "email": "vmartineznavarrete@gmail.com",
+        "firstName": "",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      },
+      {
+        "email": "manualitats.lluna@gmail.com",
+        "firstName": "",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      }
+    ],
+    [
+      {
+        "email": "terecapella2010@hotmail.com",
+        "firstName": "",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      },
+      {
+        "email": "asuncaal77@gmail.com",
+        "firstName": "",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      },
+      {
+        "email": "yolandamorellocordero@gmail.com",
+        "firstName": "",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      },
+      {
+        "email": "teredias84@gmail.com",
+        "firstName": "",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      },
+      {
+        "email": "amanda.aguilera1302@gmail.com",
+        "firstName": "",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      },
+      {
+        "email": "iagarriga00@gmail.com",
+        "firstName": "",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      },
+      {
+        "email": "monigarolera@gmail.com",
+        "firstName": "",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      },
+      {
+        "email": "erola.garriga@gmail.com",
+        "firstName": "",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      },
+      {
+        "email": "isaura.roura@gmail.com",
+        "firstName": "",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      },
+      {
+        "email": "vaneseta.pr@gmail.com",
+        "firstName": "",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      },
+      {
+        "email": "maritpb.mtp@gmail.com",
+        "firstName": "",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      },
+      {
+        "email": "rmrallo84@gmail.com",
+        "firstName": "",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      },
+      {
+        "email": "roal.tere@gmail.com",
+        "firstName": "",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      },
+      {
+        "email": "rakel.rodriguez.1977@gmail.com",
+        "firstName": "",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      },
+      {
+        "email": "abrilmartia@gmail.com",
+        "firstName": "",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      },
+      {
+        "email": "salomerobu@gmail.com",
+        "firstName": "",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      },
+      {
+        "email": "mireia_24@hotmail.es",
+        "firstName": "",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      },
+      {
+        "email": "neusbc83@gmail.com",
+        "firstName": "",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      },
+      {
+        "email": "martaobiol@hotmail.com",
+        "firstName": "",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      },
+      {
+        "email": "mgil2244@xtec.cat",
+        "firstName": "",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      }
+    ],
+    [
+      {
+        "email": "samper23@hotmail.com",
+        "firstName": "",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      },
+      {
+        "email": "ainhoacg82@hotmail.com",
+        "firstName": "",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      },
+      {
+        "email": "spainatura@hotmail.com",
+        "firstName": "",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      },
+      {
+        "email": "manel.zaragoza1979@gmail.com",
+        "firstName": "",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      },
+      {
+        "email": "cris_cal@hotmail.com",
+        "firstName": "",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      },
+      {
+        "email": "marinaroviraiboix@gmail.com",
+        "firstName": "",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      },
+      {
+        "email": "marinsugus@gmail.com",
+        "firstName": "",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      },
+      {
+        "email": "dayan_recio@hotmail.com",
+        "firstName": "",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      },
+      {
+        "email": "gatxetophon@hotmail.com",
+        "firstName": "",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      },
+      {
+        "email": "gatereta@hotmail.com",
+        "firstName": "",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      },
+      {
+        "email": "cristinamarinbaz@gmail.com",
+        "firstName": "",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      },
+      {
+        "email": "sonia_galan@hotmail.es",
+        "firstName": "",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      },
+      {
+        "email": "quimjuanc@gmail.com",
+        "firstName": "",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      },
+      {
+        "email": "avidalpepiol@gmail.com",
+        "firstName": "",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      },
+      {
+        "email": "jdtmorascabanes@gmail.com",
+        "firstName": "",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      },
+      {
+        "email": "kristimumo@gmail.com",
+        "firstName": "",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      },
+      {
+        "email": "javimartinmartin82@gmail.com",
+        "firstName": "Javi",
+        "lastName": "Martin Martin",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Double Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "CONFIRMED_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      },
+      {
+        "email": "planeraldeana@gmail.com",
+        "firstName": "",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      },
+      {
+        "email": "vilampi@gmail.com",
+        "firstName": "",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      },
+      {
+        "email": "neuspepio3@gmail.com",
+        "firstName": "",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      }
+    ],
+    [
+      {
+        "email": "anacarmenrodera74@gmail.com",
+        "firstName": "Ana Carmen",
+        "lastName": "Rodera",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Double Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "CONFIRMED_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      },
+      {
+        "email": "fran.moyota15@gmail.com",
+        "firstName": "",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      },
+      {
+        "email": "carlos.italeri.carlos.italeri@gmail.com",
+        "firstName": "",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+        }
+      },
+      {
+        "email": "marigarciasalvador@gmail.com",
+        "firstName": "Mari Carmen",
+        "lastName": "García salvador",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Nuevo subscriptor. Tipo aceptación: Double Opt-In. Fecha origen: 2025-03-07 23:08:49.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "CONFIRMED_OPT_IN",
+          "consentUpdatedAt": "2025-03-07T23:08:49+02:00"
+        }
+      },
+      {
+        "email": "mcarolinalimabarros@gmail.com",
+        "firstName": "Carol",
+        "lastName": "Lima",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Nuevo subscriptor. Tipo aceptación: Double Opt-In. Fecha origen: 2025-03-08 10:36:33.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "CONFIRMED_OPT_IN",
+          "consentUpdatedAt": "2025-03-08T10:36:33+02:00"
+        }
+      },
+      {
+        "email": "cristianmoralespaez96@gmail.com",
+        "firstName": "Cristian Morales",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+        }
+      },
+      {
+        "email": "raducu8073@gmail.com",
+        "firstName": "Radu Moldovan",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+        }
+      },
+      {
+        "email": "silvia.cuella@hotmail.com",
+        "firstName": "Silvia Cuella",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+        }
+      },
+      {
+        "email": "cjosep88@gmail.com",
+        "firstName": "Rosa Gilabert espinos",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+        }
+      },
+      {
+        "email": "alexutzaa08@hotmail.com",
+        "firstName": "alexandra kusma",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+        }
+      },
+      {
+        "email": "britter.castro1988@gmail.com",
+        "firstName": "Holman Castro",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+        }
+      },
+      {
+        "email": "donesquartera@gmail.com",
+        "firstName": "Associació Dones la Quartera de Falset",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+        }
+      },
+      {
+        "email": "maiteribot@gmail.com",
+        "firstName": "Maite Ribot",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+        }
+      },
+      {
+        "email": "holistiksaray@gmail.com",
+        "firstName": "Saray Ventura Mulet",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+        }
+      },
+      {
+        "email": "juansebastian2496@hotmail.com",
+        "firstName": "Juan Sebastián Beltran oicata",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+        }
+      },
+      {
+        "email": "albeta_0912@hotmail.com",
+        "firstName": "Alba Vaqué Farnós",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+        }
+      },
+      {
+        "email": "lestravauxdesophie@yahoo.fr",
+        "firstName": "Sophie Gautier",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+        }
+      },
+      {
+        "email": "csabate@bariperfil.es",
+        "firstName": "Carlos Sabate",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+        }
+      },
+      {
+        "email": "domenechsebastia3@gmail.com",
+        "firstName": "Sebastià Doménech Pons",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+        }
+      },
+      {
+        "email": "rmontserratb@gmail.com",
+        "firstName": "RAFAEL MONTSERRAT BARTRA",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+        }
+      }
+    ],
+    [
+      {
+        "email": "airaferreira71@gmail.com",
+        "firstName": "Aira Ferreira",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+        }
+      },
+      {
+        "email": "carolinacobos2001@gmail.com",
+        "firstName": "Carolina Cobos",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+        }
+      },
+      {
+        "email": "terecapella29@gmail.com",
+        "firstName": "Maria Teresa Capella Bertomeu",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+        }
+      },
+      {
+        "email": "jjavierr8.6@gmail.com",
+        "firstName": "Javier Gamboa",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+        }
+      },
+      {
+        "email": "ferreiralves61@gmail.com",
+        "firstName": "Alfredo Alves Ferreira",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+        }
+      },
+      {
+        "email": "jordipitart@gmail.com",
+        "firstName": "Jordi Pitart panisello",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+        }
+      },
+      {
+        "email": "a_abenchi@hotmail.com",
+        "firstName": "Antonio Abenza Belchi",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+        }
+      },
+      {
+        "email": "agusti.valldeperez@hotmail.com",
+        "firstName": "Agusti Valldeperez Chavarria",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+        }
+      },
+      {
+        "email": "rijr1@hotmail.com",
+        "firstName": "Jaquelin Bertomeu Mulet",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+        }
+      },
+      {
+        "email": "sergibateanet@hotmail.com",
+        "firstName": "Lorena Tomàs Alcoverro",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+        }
+      },
+      {
+        "email": "mariajose_felez@hotmail.com",
+        "firstName": "María jose Félez iborte",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+        }
+      },
+      {
+        "email": "izibaile@hotmail.com",
+        "firstName": "Lassana Diaby",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+        }
+      },
+      {
+        "email": "vlasshichkin@gmail.com",
+        "firstName": "rinato gonsales",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+        }
+      },
+      {
+        "email": "neus_1985@hotmail.es",
+        "firstName": "Neus Pepio",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+        }
+      },
+      {
+        "email": "maikabedos16@gmail.com",
+        "firstName": "Maika Bedos Beltran",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+        }
+      },
+      {
+        "email": "anton.yurkou@gmail.com",
+        "firstName": "Anton Yurkov",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+        }
+      },
+      {
+        "email": "deniisse48@gmail.com",
+        "firstName": "Denisse Lozano Lopez",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+        }
+      },
+      {
+        "email": "jecacopa@hotmail.com",
+        "firstName": "Jessica Copa Roca",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+        }
+      },
+      {
+        "email": "andreapovedar@gmail.com",
+        "firstName": "Andrea Poveda Romero",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+        }
+      },
+      {
+        "email": "joanazoraida19222600@gmail.com",
+        "firstName": "Joana zoraida Serrat.fatsini",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+        }
+      }
+    ],
+    [
+      {
+        "email": "eli@aktiu.com",
+        "firstName": "Elisabet Perpiña Pérez",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+        }
+      },
+      {
+        "email": "juanjogasulla74@gmail.com",
+        "firstName": "juanjo Gasulla villarroya",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+        }
+      },
+      {
+        "email": "assdonagandesana@gmail.com",
+        "firstName": "Associació de Dones de Gandesa La dona Gandesana",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+        }
+      },
+      {
+        "email": "ururita@hotmail.com",
+        "firstName": "Laura Aliaga",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+        }
+      },
+      {
+        "email": "pirvu.dorin96@gmail.com",
+        "firstName": "Dorin Pirvu",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+        }
+      },
+      {
+        "email": "ericabaires75@gmail.com",
+        "firstName": "Erica Baires",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+        }
+      },
+      {
+        "email": "ivanjo0618@hotmail.com",
+        "firstName": "Ivan Castro",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "SINGLE_OPT_IN",
+          "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+        }
+      },
+      {
+        "email": "mariajesus@apasa.org",
+        "firstName": "Maria Jerús",
+        "lastName": "Cervera Monllau",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Double Opt-In. Fecha origen: 2025-03-12 00:49:47.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "CONFIRMED_OPT_IN",
+          "consentUpdatedAt": "2025-03-12T00:49:47+02:00"
+        }
+      },
+      {
+        "email": "gatodeluna13@hotmail.com",
+        "firstName": "Juanjo",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Nuevo subscriptor. Tipo aceptación: Double Opt-In. Fecha origen: 2025-03-15 15:12:03.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "CONFIRMED_OPT_IN",
+          "consentUpdatedAt": "2025-03-15T15:12:03+02:00"
+        }
+      },
+      {
+        "email": "juanjose.rodriguez2017@gmail.com",
+        "firstName": "Juan",
+        "lastName": "Jose Rodríguez",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Double Opt-In. Fecha origen: 2025-06-16 00:23:32.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "CONFIRMED_OPT_IN",
+          "consentUpdatedAt": "2025-06-16T00:23:32+02:00"
+        }
+      },
+      {
+        "email": "adrian.zapata.barrera@gmail.com",
+        "firstName": "Adrián",
+        "lastName": "Zapata Barreta",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Double Opt-In. Fecha origen: 2025-10-16 11:59:33.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "CONFIRMED_OPT_IN",
+          "consentUpdatedAt": "2025-10-16T11:59:33+02:00"
+        }
+      },
+      {
+        "email": "miguelangelbarona187@gmail.com",
+        "firstName": "Miguel",
+        "lastName": "Barona",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Double Opt-In. Fecha origen: 2025-11-26 20:40:08.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "CONFIRMED_OPT_IN",
+          "consentUpdatedAt": "2025-11-26T20:40:08+02:00"
+        }
+      },
+      {
+        "email": "pirates@hotmail.com",
+        "firstName": "Jorge",
+        "lastName": "Juan Durán Rubiales",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Double Opt-In. Fecha origen: 2025-12-26 18:22:37.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "CONFIRMED_OPT_IN",
+          "consentUpdatedAt": "2025-12-26T18:22:37+02:00"
+        }
+      },
+      {
+        "email": "erka06tena@gmail.com",
+        "firstName": "erka06tena",
+        "lastName": "",
+        "tags": [
+          "newsletter",
+          "wordpress-import",
+          "clientes-import-2026-08-27"
+        ],
+        "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Double Opt-In. Fecha origen: 2026-05-27 21:38:35.",
+        "emailMarketingConsent": {
+          "marketingState": "SUBSCRIBED",
+          "marketingOptInLevel": "CONFIRMED_OPT_IN",
+          "consentUpdatedAt": "2026-05-27T21:38:35+02:00"
+        }
+      }
+    ]
+  ],
+  "graphql_batches": [
+    {
+      "query": "mutation ImportCustomersBatch0($input0: CustomerInput!, $input1: CustomerInput!, $input2: CustomerInput!, $input3: CustomerInput!, $input4: CustomerInput!, $input5: CustomerInput!, $input6: CustomerInput!, $input7: CustomerInput!, $input8: CustomerInput!, $input9: CustomerInput!, $input10: CustomerInput!, $input11: CustomerInput!, $input12: CustomerInput!, $input13: CustomerInput!, $input14: CustomerInput!, $input15: CustomerInput!, $input16: CustomerInput!, $input17: CustomerInput!, $input18: CustomerInput!, $input19: CustomerInput!) {\n  c0: customerCreate(input: $input0) { userErrors { field message } customer { id email } }\n  c1: customerCreate(input: $input1) { userErrors { field message } customer { id email } }\n  c2: customerCreate(input: $input2) { userErrors { field message } customer { id email } }\n  c3: customerCreate(input: $input3) { userErrors { field message } customer { id email } }\n  c4: customerCreate(input: $input4) { userErrors { field message } customer { id email } }\n  c5: customerCreate(input: $input5) { userErrors { field message } customer { id email } }\n  c6: customerCreate(input: $input6) { userErrors { field message } customer { id email } }\n  c7: customerCreate(input: $input7) { userErrors { field message } customer { id email } }\n  c8: customerCreate(input: $input8) { userErrors { field message } customer { id email } }\n  c9: customerCreate(input: $input9) { userErrors { field message } customer { id email } }\n  c10: customerCreate(input: $input10) { userErrors { field message } customer { id email } }\n  c11: customerCreate(input: $input11) { userErrors { field message } customer { id email } }\n  c12: customerCreate(input: $input12) { userErrors { field message } customer { id email } }\n  c13: customerCreate(input: $input13) { userErrors { field message } customer { id email } }\n  c14: customerCreate(input: $input14) { userErrors { field message } customer { id email } }\n  c15: customerCreate(input: $input15) { userErrors { field message } customer { id email } }\n  c16: customerCreate(input: $input16) { userErrors { field message } customer { id email } }\n  c17: customerCreate(input: $input17) { userErrors { field message } customer { id email } }\n  c18: customerCreate(input: $input18) { userErrors { field message } customer { id email } }\n  c19: customerCreate(input: $input19) { userErrors { field message } customer { id email } }\n}",
+      "variables": {
+        "input0": {
+          "email": "mroyo224@xtec.cat",
+          "firstName": "",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        },
+        "input1": {
+          "email": "noemasden@gmail.com",
+          "firstName": "",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        },
+        "input2": {
+          "email": "maigis@hotmail.com",
+          "firstName": "",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        },
+        "input3": {
+          "email": "nuriasorianosabate@gmail.com",
+          "firstName": "",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        },
+        "input4": {
+          "email": "jennibalague22@gmail.com",
+          "firstName": "",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        },
+        "input5": {
+          "email": "estherescu_7@hotmail.com",
+          "firstName": "",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        },
+        "input6": {
+          "email": "sonia.masden@gmail.com",
+          "firstName": "",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        },
+        "input7": {
+          "email": "yolanda.meca.blanch@hotmail.com",
+          "firstName": "",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        },
+        "input8": {
+          "email": "arkanum.la@gmail.com",
+          "firstName": "",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        },
+        "input9": {
+          "email": "vanemik@hotmail.es",
+          "firstName": "",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        },
+        "input10": {
+          "email": "erika_ferrate@hotmail.com",
+          "firstName": "",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        },
+        "input11": {
+          "email": "immaventurarullo@gmail.com",
+          "firstName": "",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        },
+        "input12": {
+          "email": "jtomasl@advocatstortosa.org",
+          "firstName": "",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        },
+        "input13": {
+          "email": "naomi0821@hotmail.com",
+          "firstName": "",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        },
+        "input14": {
+          "email": "ariadnareverte@gmail.com",
+          "firstName": "",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        },
+        "input15": {
+          "email": "marta15_41@hotmail.com",
+          "firstName": "",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        },
+        "input16": {
+          "email": "mariajesusmasia@gmail.com",
+          "firstName": "",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        },
+        "input17": {
+          "email": "lolycardoso1972@gmail.com",
+          "firstName": "",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        },
+        "input18": {
+          "email": "vmartineznavarrete@gmail.com",
+          "firstName": "",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        },
+        "input19": {
+          "email": "manualitats.lluna@gmail.com",
+          "firstName": "",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        }
+      }
+    },
+    {
+      "query": "mutation ImportCustomersBatch1($input0: CustomerInput!, $input1: CustomerInput!, $input2: CustomerInput!, $input3: CustomerInput!, $input4: CustomerInput!, $input5: CustomerInput!, $input6: CustomerInput!, $input7: CustomerInput!, $input8: CustomerInput!, $input9: CustomerInput!, $input10: CustomerInput!, $input11: CustomerInput!, $input12: CustomerInput!, $input13: CustomerInput!, $input14: CustomerInput!, $input15: CustomerInput!, $input16: CustomerInput!, $input17: CustomerInput!, $input18: CustomerInput!, $input19: CustomerInput!) {\n  c0: customerCreate(input: $input0) { userErrors { field message } customer { id email } }\n  c1: customerCreate(input: $input1) { userErrors { field message } customer { id email } }\n  c2: customerCreate(input: $input2) { userErrors { field message } customer { id email } }\n  c3: customerCreate(input: $input3) { userErrors { field message } customer { id email } }\n  c4: customerCreate(input: $input4) { userErrors { field message } customer { id email } }\n  c5: customerCreate(input: $input5) { userErrors { field message } customer { id email } }\n  c6: customerCreate(input: $input6) { userErrors { field message } customer { id email } }\n  c7: customerCreate(input: $input7) { userErrors { field message } customer { id email } }\n  c8: customerCreate(input: $input8) { userErrors { field message } customer { id email } }\n  c9: customerCreate(input: $input9) { userErrors { field message } customer { id email } }\n  c10: customerCreate(input: $input10) { userErrors { field message } customer { id email } }\n  c11: customerCreate(input: $input11) { userErrors { field message } customer { id email } }\n  c12: customerCreate(input: $input12) { userErrors { field message } customer { id email } }\n  c13: customerCreate(input: $input13) { userErrors { field message } customer { id email } }\n  c14: customerCreate(input: $input14) { userErrors { field message } customer { id email } }\n  c15: customerCreate(input: $input15) { userErrors { field message } customer { id email } }\n  c16: customerCreate(input: $input16) { userErrors { field message } customer { id email } }\n  c17: customerCreate(input: $input17) { userErrors { field message } customer { id email } }\n  c18: customerCreate(input: $input18) { userErrors { field message } customer { id email } }\n  c19: customerCreate(input: $input19) { userErrors { field message } customer { id email } }\n}",
+      "variables": {
+        "input0": {
+          "email": "terecapella2010@hotmail.com",
+          "firstName": "",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        },
+        "input1": {
+          "email": "asuncaal77@gmail.com",
+          "firstName": "",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        },
+        "input2": {
+          "email": "yolandamorellocordero@gmail.com",
+          "firstName": "",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        },
+        "input3": {
+          "email": "teredias84@gmail.com",
+          "firstName": "",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        },
+        "input4": {
+          "email": "amanda.aguilera1302@gmail.com",
+          "firstName": "",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        },
+        "input5": {
+          "email": "iagarriga00@gmail.com",
+          "firstName": "",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        },
+        "input6": {
+          "email": "monigarolera@gmail.com",
+          "firstName": "",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        },
+        "input7": {
+          "email": "erola.garriga@gmail.com",
+          "firstName": "",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        },
+        "input8": {
+          "email": "isaura.roura@gmail.com",
+          "firstName": "",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        },
+        "input9": {
+          "email": "vaneseta.pr@gmail.com",
+          "firstName": "",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        },
+        "input10": {
+          "email": "maritpb.mtp@gmail.com",
+          "firstName": "",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        },
+        "input11": {
+          "email": "rmrallo84@gmail.com",
+          "firstName": "",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        },
+        "input12": {
+          "email": "roal.tere@gmail.com",
+          "firstName": "",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        },
+        "input13": {
+          "email": "rakel.rodriguez.1977@gmail.com",
+          "firstName": "",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        },
+        "input14": {
+          "email": "abrilmartia@gmail.com",
+          "firstName": "",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        },
+        "input15": {
+          "email": "salomerobu@gmail.com",
+          "firstName": "",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        },
+        "input16": {
+          "email": "mireia_24@hotmail.es",
+          "firstName": "",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        },
+        "input17": {
+          "email": "neusbc83@gmail.com",
+          "firstName": "",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        },
+        "input18": {
+          "email": "martaobiol@hotmail.com",
+          "firstName": "",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        },
+        "input19": {
+          "email": "mgil2244@xtec.cat",
+          "firstName": "",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        }
+      }
+    },
+    {
+      "query": "mutation ImportCustomersBatch2($input0: CustomerInput!, $input1: CustomerInput!, $input2: CustomerInput!, $input3: CustomerInput!, $input4: CustomerInput!, $input5: CustomerInput!, $input6: CustomerInput!, $input7: CustomerInput!, $input8: CustomerInput!, $input9: CustomerInput!, $input10: CustomerInput!, $input11: CustomerInput!, $input12: CustomerInput!, $input13: CustomerInput!, $input14: CustomerInput!, $input15: CustomerInput!, $input16: CustomerInput!, $input17: CustomerInput!, $input18: CustomerInput!, $input19: CustomerInput!) {\n  c0: customerCreate(input: $input0) { userErrors { field message } customer { id email } }\n  c1: customerCreate(input: $input1) { userErrors { field message } customer { id email } }\n  c2: customerCreate(input: $input2) { userErrors { field message } customer { id email } }\n  c3: customerCreate(input: $input3) { userErrors { field message } customer { id email } }\n  c4: customerCreate(input: $input4) { userErrors { field message } customer { id email } }\n  c5: customerCreate(input: $input5) { userErrors { field message } customer { id email } }\n  c6: customerCreate(input: $input6) { userErrors { field message } customer { id email } }\n  c7: customerCreate(input: $input7) { userErrors { field message } customer { id email } }\n  c8: customerCreate(input: $input8) { userErrors { field message } customer { id email } }\n  c9: customerCreate(input: $input9) { userErrors { field message } customer { id email } }\n  c10: customerCreate(input: $input10) { userErrors { field message } customer { id email } }\n  c11: customerCreate(input: $input11) { userErrors { field message } customer { id email } }\n  c12: customerCreate(input: $input12) { userErrors { field message } customer { id email } }\n  c13: customerCreate(input: $input13) { userErrors { field message } customer { id email } }\n  c14: customerCreate(input: $input14) { userErrors { field message } customer { id email } }\n  c15: customerCreate(input: $input15) { userErrors { field message } customer { id email } }\n  c16: customerCreate(input: $input16) { userErrors { field message } customer { id email } }\n  c17: customerCreate(input: $input17) { userErrors { field message } customer { id email } }\n  c18: customerCreate(input: $input18) { userErrors { field message } customer { id email } }\n  c19: customerCreate(input: $input19) { userErrors { field message } customer { id email } }\n}",
+      "variables": {
+        "input0": {
+          "email": "samper23@hotmail.com",
+          "firstName": "",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        },
+        "input1": {
+          "email": "ainhoacg82@hotmail.com",
+          "firstName": "",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        },
+        "input2": {
+          "email": "spainatura@hotmail.com",
+          "firstName": "",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        },
+        "input3": {
+          "email": "manel.zaragoza1979@gmail.com",
+          "firstName": "",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        },
+        "input4": {
+          "email": "cris_cal@hotmail.com",
+          "firstName": "",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        },
+        "input5": {
+          "email": "marinaroviraiboix@gmail.com",
+          "firstName": "",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        },
+        "input6": {
+          "email": "marinsugus@gmail.com",
+          "firstName": "",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        },
+        "input7": {
+          "email": "dayan_recio@hotmail.com",
+          "firstName": "",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        },
+        "input8": {
+          "email": "gatxetophon@hotmail.com",
+          "firstName": "",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        },
+        "input9": {
+          "email": "gatereta@hotmail.com",
+          "firstName": "",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        },
+        "input10": {
+          "email": "cristinamarinbaz@gmail.com",
+          "firstName": "",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        },
+        "input11": {
+          "email": "sonia_galan@hotmail.es",
+          "firstName": "",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        },
+        "input12": {
+          "email": "quimjuanc@gmail.com",
+          "firstName": "",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        },
+        "input13": {
+          "email": "avidalpepiol@gmail.com",
+          "firstName": "",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        },
+        "input14": {
+          "email": "jdtmorascabanes@gmail.com",
+          "firstName": "",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        },
+        "input15": {
+          "email": "kristimumo@gmail.com",
+          "firstName": "",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        },
+        "input16": {
+          "email": "javimartinmartin82@gmail.com",
+          "firstName": "Javi",
+          "lastName": "Martin Martin",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Double Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "CONFIRMED_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        },
+        "input17": {
+          "email": "planeraldeana@gmail.com",
+          "firstName": "",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        },
+        "input18": {
+          "email": "vilampi@gmail.com",
+          "firstName": "",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        },
+        "input19": {
+          "email": "neuspepio3@gmail.com",
+          "firstName": "",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        }
+      }
+    },
+    {
+      "query": "mutation ImportCustomersBatch3($input0: CustomerInput!, $input1: CustomerInput!, $input2: CustomerInput!, $input3: CustomerInput!, $input4: CustomerInput!, $input5: CustomerInput!, $input6: CustomerInput!, $input7: CustomerInput!, $input8: CustomerInput!, $input9: CustomerInput!, $input10: CustomerInput!, $input11: CustomerInput!, $input12: CustomerInput!, $input13: CustomerInput!, $input14: CustomerInput!, $input15: CustomerInput!, $input16: CustomerInput!, $input17: CustomerInput!, $input18: CustomerInput!, $input19: CustomerInput!) {\n  c0: customerCreate(input: $input0) { userErrors { field message } customer { id email } }\n  c1: customerCreate(input: $input1) { userErrors { field message } customer { id email } }\n  c2: customerCreate(input: $input2) { userErrors { field message } customer { id email } }\n  c3: customerCreate(input: $input3) { userErrors { field message } customer { id email } }\n  c4: customerCreate(input: $input4) { userErrors { field message } customer { id email } }\n  c5: customerCreate(input: $input5) { userErrors { field message } customer { id email } }\n  c6: customerCreate(input: $input6) { userErrors { field message } customer { id email } }\n  c7: customerCreate(input: $input7) { userErrors { field message } customer { id email } }\n  c8: customerCreate(input: $input8) { userErrors { field message } customer { id email } }\n  c9: customerCreate(input: $input9) { userErrors { field message } customer { id email } }\n  c10: customerCreate(input: $input10) { userErrors { field message } customer { id email } }\n  c11: customerCreate(input: $input11) { userErrors { field message } customer { id email } }\n  c12: customerCreate(input: $input12) { userErrors { field message } customer { id email } }\n  c13: customerCreate(input: $input13) { userErrors { field message } customer { id email } }\n  c14: customerCreate(input: $input14) { userErrors { field message } customer { id email } }\n  c15: customerCreate(input: $input15) { userErrors { field message } customer { id email } }\n  c16: customerCreate(input: $input16) { userErrors { field message } customer { id email } }\n  c17: customerCreate(input: $input17) { userErrors { field message } customer { id email } }\n  c18: customerCreate(input: $input18) { userErrors { field message } customer { id email } }\n  c19: customerCreate(input: $input19) { userErrors { field message } customer { id email } }\n}",
+      "variables": {
+        "input0": {
+          "email": "anacarmenrodera74@gmail.com",
+          "firstName": "Ana Carmen",
+          "lastName": "Rodera",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Double Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "CONFIRMED_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        },
+        "input1": {
+          "email": "fran.moyota15@gmail.com",
+          "firstName": "",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        },
+        "input2": {
+          "email": "carlos.italeri.carlos.italeri@gmail.com",
+          "firstName": "",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Single Opt-In. Fecha origen: 2024-08-15 18:29:59.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2024-08-15T18:29:59+02:00"
+          }
+        },
+        "input3": {
+          "email": "marigarciasalvador@gmail.com",
+          "firstName": "Mari Carmen",
+          "lastName": "García salvador",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Nuevo subscriptor. Tipo aceptación: Double Opt-In. Fecha origen: 2025-03-07 23:08:49.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "CONFIRMED_OPT_IN",
+            "consentUpdatedAt": "2025-03-07T23:08:49+02:00"
+          }
+        },
+        "input4": {
+          "email": "mcarolinalimabarros@gmail.com",
+          "firstName": "Carol",
+          "lastName": "Lima",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Nuevo subscriptor. Tipo aceptación: Double Opt-In. Fecha origen: 2025-03-08 10:36:33.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "CONFIRMED_OPT_IN",
+            "consentUpdatedAt": "2025-03-08T10:36:33+02:00"
+          }
+        },
+        "input5": {
+          "email": "cristianmoralespaez96@gmail.com",
+          "firstName": "Cristian Morales",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+          }
+        },
+        "input6": {
+          "email": "raducu8073@gmail.com",
+          "firstName": "Radu Moldovan",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+          }
+        },
+        "input7": {
+          "email": "silvia.cuella@hotmail.com",
+          "firstName": "Silvia Cuella",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+          }
+        },
+        "input8": {
+          "email": "cjosep88@gmail.com",
+          "firstName": "Rosa Gilabert espinos",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+          }
+        },
+        "input9": {
+          "email": "alexutzaa08@hotmail.com",
+          "firstName": "alexandra kusma",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+          }
+        },
+        "input10": {
+          "email": "britter.castro1988@gmail.com",
+          "firstName": "Holman Castro",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+          }
+        },
+        "input11": {
+          "email": "donesquartera@gmail.com",
+          "firstName": "Associació Dones la Quartera de Falset",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+          }
+        },
+        "input12": {
+          "email": "maiteribot@gmail.com",
+          "firstName": "Maite Ribot",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+          }
+        },
+        "input13": {
+          "email": "holistiksaray@gmail.com",
+          "firstName": "Saray Ventura Mulet",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+          }
+        },
+        "input14": {
+          "email": "juansebastian2496@hotmail.com",
+          "firstName": "Juan Sebastián Beltran oicata",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+          }
+        },
+        "input15": {
+          "email": "albeta_0912@hotmail.com",
+          "firstName": "Alba Vaqué Farnós",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+          }
+        },
+        "input16": {
+          "email": "lestravauxdesophie@yahoo.fr",
+          "firstName": "Sophie Gautier",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+          }
+        },
+        "input17": {
+          "email": "csabate@bariperfil.es",
+          "firstName": "Carlos Sabate",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+          }
+        },
+        "input18": {
+          "email": "domenechsebastia3@gmail.com",
+          "firstName": "Sebastià Doménech Pons",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+          }
+        },
+        "input19": {
+          "email": "rmontserratb@gmail.com",
+          "firstName": "RAFAEL MONTSERRAT BARTRA",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+          }
+        }
+      }
+    },
+    {
+      "query": "mutation ImportCustomersBatch4($input0: CustomerInput!, $input1: CustomerInput!, $input2: CustomerInput!, $input3: CustomerInput!, $input4: CustomerInput!, $input5: CustomerInput!, $input6: CustomerInput!, $input7: CustomerInput!, $input8: CustomerInput!, $input9: CustomerInput!, $input10: CustomerInput!, $input11: CustomerInput!, $input12: CustomerInput!, $input13: CustomerInput!, $input14: CustomerInput!, $input15: CustomerInput!, $input16: CustomerInput!, $input17: CustomerInput!, $input18: CustomerInput!, $input19: CustomerInput!) {\n  c0: customerCreate(input: $input0) { userErrors { field message } customer { id email } }\n  c1: customerCreate(input: $input1) { userErrors { field message } customer { id email } }\n  c2: customerCreate(input: $input2) { userErrors { field message } customer { id email } }\n  c3: customerCreate(input: $input3) { userErrors { field message } customer { id email } }\n  c4: customerCreate(input: $input4) { userErrors { field message } customer { id email } }\n  c5: customerCreate(input: $input5) { userErrors { field message } customer { id email } }\n  c6: customerCreate(input: $input6) { userErrors { field message } customer { id email } }\n  c7: customerCreate(input: $input7) { userErrors { field message } customer { id email } }\n  c8: customerCreate(input: $input8) { userErrors { field message } customer { id email } }\n  c9: customerCreate(input: $input9) { userErrors { field message } customer { id email } }\n  c10: customerCreate(input: $input10) { userErrors { field message } customer { id email } }\n  c11: customerCreate(input: $input11) { userErrors { field message } customer { id email } }\n  c12: customerCreate(input: $input12) { userErrors { field message } customer { id email } }\n  c13: customerCreate(input: $input13) { userErrors { field message } customer { id email } }\n  c14: customerCreate(input: $input14) { userErrors { field message } customer { id email } }\n  c15: customerCreate(input: $input15) { userErrors { field message } customer { id email } }\n  c16: customerCreate(input: $input16) { userErrors { field message } customer { id email } }\n  c17: customerCreate(input: $input17) { userErrors { field message } customer { id email } }\n  c18: customerCreate(input: $input18) { userErrors { field message } customer { id email } }\n  c19: customerCreate(input: $input19) { userErrors { field message } customer { id email } }\n}",
+      "variables": {
+        "input0": {
+          "email": "airaferreira71@gmail.com",
+          "firstName": "Aira Ferreira",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+          }
+        },
+        "input1": {
+          "email": "carolinacobos2001@gmail.com",
+          "firstName": "Carolina Cobos",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+          }
+        },
+        "input2": {
+          "email": "terecapella29@gmail.com",
+          "firstName": "Maria Teresa Capella Bertomeu",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+          }
+        },
+        "input3": {
+          "email": "jjavierr8.6@gmail.com",
+          "firstName": "Javier Gamboa",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+          }
+        },
+        "input4": {
+          "email": "ferreiralves61@gmail.com",
+          "firstName": "Alfredo Alves Ferreira",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+          }
+        },
+        "input5": {
+          "email": "jordipitart@gmail.com",
+          "firstName": "Jordi Pitart panisello",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+          }
+        },
+        "input6": {
+          "email": "a_abenchi@hotmail.com",
+          "firstName": "Antonio Abenza Belchi",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+          }
+        },
+        "input7": {
+          "email": "agusti.valldeperez@hotmail.com",
+          "firstName": "Agusti Valldeperez Chavarria",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+          }
+        },
+        "input8": {
+          "email": "rijr1@hotmail.com",
+          "firstName": "Jaquelin Bertomeu Mulet",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+          }
+        },
+        "input9": {
+          "email": "sergibateanet@hotmail.com",
+          "firstName": "Lorena Tomàs Alcoverro",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+          }
+        },
+        "input10": {
+          "email": "mariajose_felez@hotmail.com",
+          "firstName": "María jose Félez iborte",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+          }
+        },
+        "input11": {
+          "email": "izibaile@hotmail.com",
+          "firstName": "Lassana Diaby",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+          }
+        },
+        "input12": {
+          "email": "vlasshichkin@gmail.com",
+          "firstName": "rinato gonsales",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+          }
+        },
+        "input13": {
+          "email": "neus_1985@hotmail.es",
+          "firstName": "Neus Pepio",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+          }
+        },
+        "input14": {
+          "email": "maikabedos16@gmail.com",
+          "firstName": "Maika Bedos Beltran",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+          }
+        },
+        "input15": {
+          "email": "anton.yurkou@gmail.com",
+          "firstName": "Anton Yurkov",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+          }
+        },
+        "input16": {
+          "email": "deniisse48@gmail.com",
+          "firstName": "Denisse Lozano Lopez",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+          }
+        },
+        "input17": {
+          "email": "jecacopa@hotmail.com",
+          "firstName": "Jessica Copa Roca",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+          }
+        },
+        "input18": {
+          "email": "andreapovedar@gmail.com",
+          "firstName": "Andrea Poveda Romero",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+          }
+        },
+        "input19": {
+          "email": "joanazoraida19222600@gmail.com",
+          "firstName": "Joana zoraida Serrat.fatsini",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+          }
+        }
+      }
+    },
+    {
+      "query": "mutation ImportCustomersBatch5($input0: CustomerInput!, $input1: CustomerInput!, $input2: CustomerInput!, $input3: CustomerInput!, $input4: CustomerInput!, $input5: CustomerInput!, $input6: CustomerInput!, $input7: CustomerInput!, $input8: CustomerInput!, $input9: CustomerInput!, $input10: CustomerInput!, $input11: CustomerInput!, $input12: CustomerInput!, $input13: CustomerInput!) {\n  c0: customerCreate(input: $input0) { userErrors { field message } customer { id email } }\n  c1: customerCreate(input: $input1) { userErrors { field message } customer { id email } }\n  c2: customerCreate(input: $input2) { userErrors { field message } customer { id email } }\n  c3: customerCreate(input: $input3) { userErrors { field message } customer { id email } }\n  c4: customerCreate(input: $input4) { userErrors { field message } customer { id email } }\n  c5: customerCreate(input: $input5) { userErrors { field message } customer { id email } }\n  c6: customerCreate(input: $input6) { userErrors { field message } customer { id email } }\n  c7: customerCreate(input: $input7) { userErrors { field message } customer { id email } }\n  c8: customerCreate(input: $input8) { userErrors { field message } customer { id email } }\n  c9: customerCreate(input: $input9) { userErrors { field message } customer { id email } }\n  c10: customerCreate(input: $input10) { userErrors { field message } customer { id email } }\n  c11: customerCreate(input: $input11) { userErrors { field message } customer { id email } }\n  c12: customerCreate(input: $input12) { userErrors { field message } customer { id email } }\n  c13: customerCreate(input: $input13) { userErrors { field message } customer { id email } }\n}",
+      "variables": {
+        "input0": {
+          "email": "eli@aktiu.com",
+          "firstName": "Elisabet Perpiña Pérez",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+          }
+        },
+        "input1": {
+          "email": "juanjogasulla74@gmail.com",
+          "firstName": "juanjo Gasulla villarroya",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+          }
+        },
+        "input2": {
+          "email": "assdonagandesana@gmail.com",
+          "firstName": "Associació de Dones de Gandesa La dona Gandesana",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+          }
+        },
+        "input3": {
+          "email": "ururita@hotmail.com",
+          "firstName": "Laura Aliaga",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+          }
+        },
+        "input4": {
+          "email": "pirvu.dorin96@gmail.com",
+          "firstName": "Dorin Pirvu",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+          }
+        },
+        "input5": {
+          "email": "ericabaires75@gmail.com",
+          "firstName": "Erica Baires",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+          }
+        },
+        "input6": {
+          "email": "ivanjo0618@hotmail.com",
+          "firstName": "Ivan Castro",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Single Opt-In. Fecha origen: 2025-03-12 00:25:58.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "SINGLE_OPT_IN",
+            "consentUpdatedAt": "2025-03-12T00:25:58+02:00"
+          }
+        },
+        "input7": {
+          "email": "mariajesus@apasa.org",
+          "firstName": "Maria Jerús",
+          "lastName": "Cervera Monllau",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Nuevo registro. Tipo aceptación: Double Opt-In. Fecha origen: 2025-03-12 00:49:47.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "CONFIRMED_OPT_IN",
+            "consentUpdatedAt": "2025-03-12T00:49:47+02:00"
+          }
+        },
+        "input8": {
+          "email": "gatodeluna13@hotmail.com",
+          "firstName": "Juanjo",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Nuevo subscriptor. Tipo aceptación: Double Opt-In. Fecha origen: 2025-03-15 15:12:03.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "CONFIRMED_OPT_IN",
+            "consentUpdatedAt": "2025-03-15T15:12:03+02:00"
+          }
+        },
+        "input9": {
+          "email": "juanjose.rodriguez2017@gmail.com",
+          "firstName": "Juan",
+          "lastName": "Jose Rodríguez",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Double Opt-In. Fecha origen: 2025-06-16 00:23:32.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "CONFIRMED_OPT_IN",
+            "consentUpdatedAt": "2025-06-16T00:23:32+02:00"
+          }
+        },
+        "input10": {
+          "email": "adrian.zapata.barrera@gmail.com",
+          "firstName": "Adrián",
+          "lastName": "Zapata Barreta",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Double Opt-In. Fecha origen: 2025-10-16 11:59:33.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "CONFIRMED_OPT_IN",
+            "consentUpdatedAt": "2025-10-16T11:59:33+02:00"
+          }
+        },
+        "input11": {
+          "email": "miguelangelbarona187@gmail.com",
+          "firstName": "Miguel",
+          "lastName": "Barona",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Double Opt-In. Fecha origen: 2025-11-26 20:40:08.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "CONFIRMED_OPT_IN",
+            "consentUpdatedAt": "2025-11-26T20:40:08+02:00"
+          }
+        },
+        "input12": {
+          "email": "pirates@hotmail.com",
+          "firstName": "Jorge",
+          "lastName": "Juan Durán Rubiales",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Double Opt-In. Fecha origen: 2025-12-26 18:22:37.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "CONFIRMED_OPT_IN",
+            "consentUpdatedAt": "2025-12-26T18:22:37+02:00"
+          }
+        },
+        "input13": {
+          "email": "erka06tena@gmail.com",
+          "firstName": "erka06tena",
+          "lastName": "",
+          "tags": [
+            "newsletter",
+            "wordpress-import",
+            "clientes-import-2026-08-27"
+          ],
+          "note": "Importado desde CSV original LovLory. Lista: Subscriptos al blog. Tipo aceptación: Double Opt-In. Fecha origen: 2026-05-27 21:38:35.",
+          "emailMarketingConsent": {
+            "marketingState": "SUBSCRIBED",
+            "marketingOptInLevel": "CONFIRMED_OPT_IN",
+            "consentUpdatedAt": "2026-05-27T21:38:35+02:00"
+          }
+        }
+      }
+    }
+  ]
+}

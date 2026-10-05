@@ -1,0 +1,25 @@
+{
+  "date": "2026-08-27",
+  "source_file": "clientes/selected-lists-contacts.csv",
+  "prepared_import_file": "clientes/shopify_customers_import_subscribed.csv",
+  "graphql_batches_file": "clientes/shopify_customer_import_batches.json",
+  "source_rows": 117,
+  "source_subscribed_rows": 116,
+  "excluded_unsubscribed": 1,
+  "excluded_duplicate_emails": 1,
+  "customers_imported_as_subscribed": 115,
+  "marketing_state": "SUBSCRIBED",
+  "sms_marketing": "not imported",
+  "tags": [
+    "newsletter",
+    "wordpress-import",
+    "clientes-import-2026-08-27"
+  ],
+  "notes": [
+    "El primer contacto se importo como prueba antes de los lotes masivos.",
+    "Los 114 contactos restantes se importaron con 6 mutaciones GraphQL por lotes: 5 lotes de 20 y 1 lote de 14.",
+    "Todas las mutaciones customerCreate devolvieron userErrors vacio.",
+    "El contacto marcado como Unsubscribed en el CSV original no se importo.",
+    "El email duplicado del CSV original se importo una sola vez."
+  ]
+}
