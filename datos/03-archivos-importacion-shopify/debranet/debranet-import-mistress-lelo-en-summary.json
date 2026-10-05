@@ -1,0 +1,31 @@
+{
+  "source": "debranet-products-mistress-lelo.xml",
+  "output": "debranet-import-mistress-lelo-en.csv",
+  "language": "EN",
+  "price_mapping": "EUR retail price",
+  "cost_mapping": "EUR own price",
+  "products": 285,
+  "rows": 2748,
+  "image_rows": 2748,
+  "brands": {
+    "LELO": 86,
+    "MISTRESS": 199
+  },
+  "out_of_stock_products": 39,
+  "duplicate_handles": [],
+  "duplicate_skus": [],
+  "missing_required_product_fields": {
+    "Title": 0,
+    "URL handle": 0,
+    "SKU": 0,
+    "Price": 0,
+    "Weight value (grams)": 0,
+    "Product image URL": 0
+  },
+  "invalid_image_urls": 0,
+  "validation": {
+    "inspected_range": "Shopify import!A1:Z8",
+    "inspection": "{\"kind\":\"table\",\"sheet\":\"Shopify import\",\"address\":\"A1:Z8\",\"rows\":8,\"cols\":26,\"values\":[[\"Title\",\"URL handle\",\"Description\",\"Vendor\",\"Type\",\"Tags\",\"Published on online store\",\"Status\",\"SKU\",\"Barcode\",\"Option1 name\",\"Option1 value\",\"Price\",\"Cost per item\",\"Charge tax\",\"Inventory tracker\",\"Inventory quantity\",\"Continue selling when out of stock\",\"Weight value (grams)\",\"Weight unit for display\",\"Requires shipping\",\"Fulfillment service\",\"Product image URL\",\"Image position\",\"Image alt text\",\"Gift card\"],[\"Emily Sexy Ass\",\"emily-sexy-ass\",\"High-quality erotic toy made of soft, leather-like material with anus and vagina shaping body cavities for men, with realistic body dimensions. It can be used to greatly improve self-control during intercourse, thus significantly increasing its duration. Wash with lukewarm soapy water and a utensil cleaner before and after each use. A water-based lubricant is recommended.&nbsp;Weight of the product is 4,7 kg.<br>\",\"MISTRESS\",\"\",\"vendor-mistress\",\"FALSE\",\"draft\",\"MSTRS00018\",\"5999560514773\",\"Title\",\"Default Title\",\"107.9\",\"35.08\",\"TRUE\",\"shopify\",\"28\",\"DENY\",\"4660\",\"kg\",\"TRUE\",\"manual\",\"https://debranet.com/img/kepek/1340/36404.jpg?t=bigwm&w=1000&h=1000\",\"1\",\"Emily Sexy Ass\",\"FALSE\"],[\"\",\"emily-sexy-ass\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"https://debranet.com/img/kepek/1914/43101.jpg?t=bigwm&w=1000&h=1000\",\"2\",\"Emily Sexy Ass\",\"\"],[\"\",\"emily-sexy-ass\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"https://debranet.com/img/kepek/1783/41498.jpg?t=bigwm&w=1000&h=1000\",\"3\",\"Emily Sexy Ass\",\"\"],[\"\",\"emily-sexy-ass\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"https://debranet.com/img/kepek/1032/45826.jpg?t=bigwm&w=1000&h=1000\",\"4\",\"Emily Sexy Ass\",\"\"],[\"\",\"emily-sexy-ass\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"https://debranet.com/img/kepek/666/44958.jpg?t=bigwm&w=1000&h=1000\",\"5\",\"Emily Sexy Ass\",\"\"],[\"\",\"emily-sexy-ass\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"https://debranet.com/img/kepek/1182/45827.jpg?t=bigwm&w=1000&h=1000\",\"6\",\"Emily Sexy Ass\",\"\"],[\"\",\"emily-sexy-ass\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"https://debranet.com/img/kepek/8/46777.jpg?t=bigwm&w=1000&h=1000\",\"7\",\"Emily Sexy Ass\",\"\"]]}",
+    "formula_error_scan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+  }
+}

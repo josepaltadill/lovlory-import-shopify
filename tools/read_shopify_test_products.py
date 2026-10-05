@@ -4,7 +4,7 @@ from pathlib import Path
 
 
 BASE = Path(__file__).resolve().parents[1]
-INPUT = BASE / "shopify_import_lovlory_mvp_test.csv"
+INPUT = BASE / "datos" / "03-archivos-importacion-shopify" / "shopify_import_lovlory_mvp_test.csv"
 
 
 def main() -> None:

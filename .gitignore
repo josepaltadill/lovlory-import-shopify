@@ -1,2 +1,5 @@
 node_modules
-design/
+__pycache__/
+*.py[cod]
+.lo_profile_*/
+qa_*/

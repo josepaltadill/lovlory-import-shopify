@@ -8,9 +8,9 @@ from pathlib import Path
 
 
 BASE = Path(__file__).resolve().parents[1]
-INPUT = BASE / "wc-product-export-29-6-2026-marcas-mvp_shopify_taxonomia.csv"
-OUTPUT = BASE / "shopify_import_lovlory_mvp_productos.csv"
-REPORT = BASE / "shopify_import_lovlory_mvp_productos_resumen.json"
+INPUT = BASE / "datos" / "02-datos-intermedios" / "wc-product-export-29-6-2026-marcas-mvp_shopify_taxonomia.csv"
+OUTPUT = BASE / "datos" / "03-archivos-importacion-shopify" / "shopify_import_lovlory_mvp_productos.csv"
+REPORT = BASE / "datos" / "05-informes-validacion" / "shopify_import_lovlory_mvp_productos_resumen.json"
 
 SHOPIFY_COLUMNS = [
     "Handle",

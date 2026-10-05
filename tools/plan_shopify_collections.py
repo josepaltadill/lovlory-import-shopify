@@ -7,9 +7,9 @@ import openpyxl
 
 
 BASE = Path(__file__).resolve().parents[1]
-WORKBOOK = BASE / "LovLory_estructura_colecciones_shopify_MVP_v1.xlsx"
-TAXONOMY = BASE / "wc-product-export-29-6-2026-marcas-mvp_shopify_taxonomia.csv"
-OUTPUT = BASE / "shopify_collections_creation_plan.json"
+WORKBOOK = BASE / "datos" / "07-colecciones" / "LovLory_estructura_colecciones_shopify_MVP_v1.xlsx"
+TAXONOMY = BASE / "datos" / "02-datos-intermedios" / "wc-product-export-29-6-2026-marcas-mvp_shopify_taxonomia.csv"
+OUTPUT = BASE / "datos" / "06-registros-shopify" / "shopify_collections_creation_plan.json"
 
 
 def sheet_rows(wb, sheet_name: str) -> list[dict[str, object]]:
@@ -21,6 +21,16 @@ def sheet_rows(wb, sheet_name: str) -> list[dict[str, object]]:
         if any(value not in (None, "") for value in values):
             rows.append(dict(zip(headers, values)))
     return rows
+
+
+def collection_copy(row: dict[str, object], title_field: str, handle_field: str, rule_field: str) -> dict[str, object]:
+    return {
+        "title": row.get(title_field),
+        "handle": row.get(handle_field),
+        "header_eyebrow": row.get("Subtítulo superior cabecera"),
+        "header_short_description": row.get("Descripción corta cabecera"),
+        "rule": row.get(rule_field),
+    }
 
 
 def main() -> None:
@@ -47,28 +57,18 @@ def main() -> None:
     plan = {
         "principal_from_excel": [
             {
-                "title": row.get("Colección principal"),
+                **collection_copy(row, "Colección principal", "Handle sugerido", "Regla de inclusión"),
                 "level": row.get("Nivel menú"),
                 "block": row.get("Bloque menú"),
-                "handle": row.get("Handle sugerido"),
-                "rule": row.get("Regla de inclusión"),
             }
             for row in principal
         ],
         "secondary_from_excel": [
-            {
-                "title": row.get("Colección secundaria"),
-                "handle": row.get("Handle sugerido"),
-                "rule": row.get("Regla / alimentación"),
-            }
+            collection_copy(row, "Colección secundaria", "Handle sugerido", "Regla / alimentación")
             for row in secondary
         ],
         "brands_from_excel": [
-            {
-                "title": row.get("Marca / Vendor"),
-                "handle": row.get("Handle colección marca"),
-                "rule": row.get("Regla automática"),
-            }
+            collection_copy(row, "Marca / Vendor", "Handle colección marca", "Regla automática")
             for row in brands
         ],
         "product_taxonomy_counts": {

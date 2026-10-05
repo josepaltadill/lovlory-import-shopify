@@ -1,0 +1,46 @@
+{
+  "source": "datos/03-archivos-importacion-shopify/saintsual/saintsual.csv",
+  "output": "datos/03-archivos-importacion-shopify/saintsual/saintsual-import-silexd-mapale-shunga.csv",
+  "status": "validated",
+  "products": 300,
+  "csv_data_rows": 936,
+  "image_rows": 936,
+  "columns": 24,
+  "product_status": "draft",
+  "published_on_online_store": false,
+  "price_source": "PVR",
+  "products_with_blank_pvr": 84,
+  "brands": {
+    "SILEXD": {
+      "products": 55,
+      "tags": [
+        "juguetes eroticos",
+        "realisticos"
+      ],
+      "products_with_blank_pvr": 55
+    },
+    "MAPALÉ": {
+      "products": 94,
+      "tags": [
+        "llenceria"
+      ],
+      "products_with_blank_pvr": 0
+    },
+    "SHUNGA": {
+      "products": 151,
+      "tags": [
+        "cosmetica intima"
+      ],
+      "products_with_blank_pvr": 29
+    }
+  },
+  "checks": {
+    "all_selected_products_present": true,
+    "unique_skus": true,
+    "unique_handles": true,
+    "prices_equal_source_pvr": true,
+    "tags_equal_requested_mapping": true,
+    "all_products_are_drafts": true,
+    "all_rows_have_expected_column_count": true
+  }
+}

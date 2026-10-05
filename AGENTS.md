@@ -1,9 +1,17 @@
 # Repository Guidelines
 
 ## Estructura del Proyecto y Organización
-Este repositorio es un workspace de migración de catálogo de WooCommerce a Shopify para LovLory, no una aplicación web. En la raíz están los artefactos de trabajo: exportaciones `*.csv`, workbooks `*.xlsx`, resúmenes `*.json` y lotes preparados para importación.
+Este repositorio es un workspace de migración de catálogo de WooCommerce a Shopify para LovLory, no una aplicación web. Los artefactos de trabajo están organizados por fase dentro de `datos/`:
 
-Los scripts reutilizables están en `tools/`. Cubren filtrado de marcas, limpieza de columnas, enriquecimiento de taxonomía Shopify, generación de CSV final, extracción de payloads de prueba y verificación. Los recursos visuales y referencias de diseño están en `design/`.
+- `datos/01-fuentes-originales/`: exportaciones sin modificar y referencias de origen.
+- `datos/02-datos-intermedios/`: CSV filtrados, limpios y enriquecidos.
+- `datos/03-archivos-importacion-shopify/`: CSV preparados para Shopify.
+- `datos/04-lotes-importacion/`: lotes operativos preparados o importados.
+- `datos/05-informes-validacion/`: resúmenes JSON y comprobaciones reproducibles.
+- `datos/06-registros-shopify/`: planes y registros de recursos creados en Shopify.
+- `datos/07-colecciones/`: workbooks de arquitectura y colecciones.
+
+Los scripts reutilizables están en `tools/`. Cubren filtrado de marcas, limpieza de columnas, enriquecimiento de taxonomía Shopify, generación de CSV final, extracción de payloads de prueba y verificación. La documentación de trabajo está en `documentacion/`, los recursos visuales en `recursos-visuales/` y los entregables generados en `output/`.
 
 Los scripts calculan la raíz del repositorio desde su propia ubicación, por lo que deben funcionar igual al clonar el proyecto en otro PC.
 
@@ -40,7 +48,7 @@ Cada transformación debe dejar un JSON de resumen o una comprobación reproduci
 Para importaciones directas en Shopify, verifica después de cada lote: estado, inventario, peso, número de imágenes y estado de media.
 
 ## Seguridad de Datos
-No reemplaces exportaciones fuente sin una razón clara. Prefiere generar un nuevo archivo, validarlo y conservar el resumen. Los archivos de lotes (`shopify_import_lovlory_mvp_batch*.json`) sirven como registro operativo de qué se ha preparado/importado.
+No reemplaces exportaciones fuente sin una razón clara. Prefiere generar un nuevo archivo, validarlo y conservar el resumen. Los archivos de lotes (`datos/04-lotes-importacion/shopify_import_lovlory_mvp_batch*.json`) sirven como registro operativo de qué se ha preparado/importado.
 
 ## Commits y PRs
 El historial aún es mínimo, así que usa commits cortos e imperativos, por ejemplo `update shopify import guide` o `fix weight extraction`. En PRs, incluye archivos afectados, recuentos antes/después y cualquier incidencia de importación relevante.

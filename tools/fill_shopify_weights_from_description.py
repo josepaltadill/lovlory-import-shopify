@@ -5,10 +5,10 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE_TAXONOMY = ROOT / "wc-product-export-29-6-2026-marcas-mvp_shopify_taxonomia.csv"
-SOURCE_IMPORT = ROOT / "shopify_import_lovlory_mvp_productos.csv"
-OUTPUT_IMPORT = ROOT / "shopify_import_lovlory_mvp_productos_con_pesos.csv"
-SUMMARY = ROOT / "shopify_import_lovlory_mvp_productos_con_pesos_resumen.json"
+SOURCE_TAXONOMY = ROOT / "datos" / "02-datos-intermedios" / "wc-product-export-29-6-2026-marcas-mvp_shopify_taxonomia.csv"
+SOURCE_IMPORT = ROOT / "datos" / "03-archivos-importacion-shopify" / "shopify_import_lovlory_mvp_productos.csv"
+OUTPUT_IMPORT = ROOT / "datos" / "03-archivos-importacion-shopify" / "shopify_import_lovlory_mvp_productos_con_pesos.csv"
+SUMMARY = ROOT / "datos" / "05-informes-validacion" / "shopify_import_lovlory_mvp_productos_con_pesos_resumen.json"
 
 
 WEIGHT_PATTERNS = [
